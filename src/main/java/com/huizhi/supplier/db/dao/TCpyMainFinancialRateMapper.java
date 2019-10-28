@@ -125,4 +125,6 @@ public interface TCpyMainFinancialRateMapper {
      * @mbg.generated
      */
     int updateByPrimaryKey(TCpyMainFinancialRate record);
+
+    TCpyMainFinancialRate selectByCompanyIdAndYear(String companyId, String year);
 }

@@ -1578,4 +1578,267 @@
     </if>
     limit 1
   </select>
+
+
+
+
+    <select id="selectByCompanyId" resultMap="BaseResultMap">
+      select * from t_cpy_assets_liabilities where company_id = #{companyId,jdbcType=VARCHAR}
+
+    </select>
+  <select id="selectByCompanyIdAndYear" resultMap="BaseResultMap">
+    select  * from t_cpy_assets_liabilities where company_id = #{companyId,jdbcType=VARCHAR}
+    AND `year` = #{year,jdbcType=CHAR}
+
+  </select>
+  <update id="updateByCompanyIdAndYear">
+    update t_cpy_assets_liabilities
+    <set>
+      <if test="companyId != null">
+        company_id = #{companyId,jdbcType=VARCHAR},
+      </if>
+      <if test="year != null">
+        `year` = #{year,jdbcType=CHAR},
+      </if>
+      <if test="currentAssets != null">
+        current_assets = #{currentAssets,jdbcType=DECIMAL},
+      </if>
+      <if test="monetaryFunds != null">
+        monetary_funds = #{monetaryFunds,jdbcType=DECIMAL},
+      </if>
+      <if test="transactionalFinancialAssets != null">
+        transactional_financial_assets = #{transactionalFinancialAssets,jdbcType=DECIMAL},
+      </if>
+      <if test="derivativeFinancialAssets != null">
+        derivative_financial_assets = #{derivativeFinancialAssets,jdbcType=DECIMAL},
+      </if>
+      <if test="receivableNotesAccounts != null">
+        receivable_notes_accounts = #{receivableNotesAccounts,jdbcType=DECIMAL},
+      </if>
+      <if test="accountsReceivable != null">
+        accounts_receivable = #{accountsReceivable,jdbcType=DECIMAL},
+      </if>
+      <if test="advanceCharge != null">
+        advance_charge = #{advanceCharge,jdbcType=DECIMAL},
+      </if>
+      <if test="otherReceipts != null">
+        other_receipts = #{otherReceipts,jdbcType=DECIMAL},
+      </if>
+      <if test="contractAssets != null">
+        contract_assets = #{contractAssets,jdbcType=DECIMAL},
+      </if>
+      <if test="inventory != null">
+        inventory = #{inventory,jdbcType=DECIMAL},
+      </if>
+      <if test="saleAssets != null">
+        sale_assets = #{saleAssets,jdbcType=DECIMAL},
+      </if>
+      <if test="oneYearAssets != null">
+        one_year_assets = #{oneYearAssets,jdbcType=DECIMAL},
+      </if>
+      <if test="otherCurrentAssets != null">
+        other_current_assets = #{otherCurrentAssets,jdbcType=DECIMAL},
+      </if>
+      <if test="otherTotalCurrentAssets != null">
+        other_total_current_assets = #{otherTotalCurrentAssets,jdbcType=DECIMAL},
+      </if>
+      <if test="nonCurrentAssets != null">
+        non_current_assets = #{nonCurrentAssets,jdbcType=DECIMAL},
+      </if>
+      <if test="obligatoryRightInvestment != null">
+        obligatory_right_investment = #{obligatoryRightInvestment,jdbcType=DECIMAL},
+      </if>
+      <if test="otherObligatoryRightInvestment != null">
+        other_obligatory_right_investment = #{otherObligatoryRightInvestment,jdbcType=DECIMAL},
+      </if>
+      <if test="longTermReceivables != null">
+        long_term_receivables = #{longTermReceivables,jdbcType=DECIMAL},
+      </if>
+      <if test="longTermInvestment != null">
+        long_term_investment = #{longTermInvestment,jdbcType=DECIMAL},
+      </if>
+      <if test="otherEquityInvestment != null">
+        other_equity_investment = #{otherEquityInvestment,jdbcType=DECIMAL},
+      </if>
+      <if test="otherNonCurrentFinancialAssets != null">
+        other_non_current_financial_assets = #{otherNonCurrentFinancialAssets,jdbcType=DECIMAL},
+      </if>
+      <if test="investmentProperty != null">
+        investment_property = #{investmentProperty,jdbcType=DECIMAL},
+      </if>
+      <if test="fixedAssets != null">
+        fixed_assets = #{fixedAssets,jdbcType=DECIMAL},
+      </if>
+      <if test="constructionInProgress != null">
+        construction_in_progress = #{constructionInProgress,jdbcType=DECIMAL},
+      </if>
+      <if test="productiveBiologicalAssets != null">
+        productive_biological_assets = #{productiveBiologicalAssets,jdbcType=DECIMAL},
+      </if>
+      <if test="oilGasAssets != null">
+        oil_gas_assets = #{oilGasAssets,jdbcType=DECIMAL},
+      </if>
+      <if test="fiveStarAssets != null">
+        five_star_assets = #{fiveStarAssets,jdbcType=DECIMAL},
+      </if>
+      <if test="developmentExpenditure != null">
+        development_expenditure = #{developmentExpenditure,jdbcType=DECIMAL},
+      </if>
+      <if test="goodwill != null">
+        goodwill = #{goodwill,jdbcType=DECIMAL},
+      </if>
+      <if test="longExpectedContribution != null">
+        long_expected_contribution = #{longExpectedContribution,jdbcType=DECIMAL},
+      </if>
+      <if test="deferredincomeTaxcharges != null">
+        deferredincome_taxcharges = #{deferredincomeTaxcharges,jdbcType=DECIMAL},
+      </if>
+      <if test="otherNonCurrentAssets != null">
+        other_non_current_assets = #{otherNonCurrentAssets,jdbcType=DECIMAL},
+      </if>
+      <if test="otherTotalNonCurrentAssets != null">
+        other_total_non_current_assets = #{otherTotalNonCurrentAssets,jdbcType=DECIMAL},
+      </if>
+      <if test="otherNonCurrentAssetsTotalAssets != null">
+        other_non_current_assets_total_assets = #{otherNonCurrentAssetsTotalAssets,jdbcType=DECIMAL},
+      </if>
+      <if test="currentLiabilities != null">
+        current_liabilities = #{currentLiabilities,jdbcType=DECIMAL},
+      </if>
+      <if test="shortTermBorrowing != null">
+        short_term_borrowing = #{shortTermBorrowing,jdbcType=DECIMAL},
+      </if>
+      <if test="transactionalFinancialLiabilities != null">
+        transactional_financial_liabilities = #{transactionalFinancialLiabilities,jdbcType=DECIMAL},
+      </if>
+      <if test="derivativeFinancialLiabilities != null">
+        derivative_financial_liabilities = #{derivativeFinancialLiabilities,jdbcType=DECIMAL},
+      </if>
+      <if test="payableAccountsNotes != null">
+        payable_accounts_notes = #{payableAccountsNotes,jdbcType=DECIMAL},
+      </if>
+      <if test="accountsPayable != null">
+        accounts_payable = #{accountsPayable,jdbcType=DECIMAL},
+      </if>
+      <if test="advanceReceipts != null">
+        advance_receipts = #{advanceReceipts,jdbcType=DECIMAL},
+      </if>
+      <if test="contractLiabilities != null">
+        contract_liabilities = #{contractLiabilities,jdbcType=DECIMAL},
+      </if>
+      <if test="paidWorkersSalary != null">
+        paid_workers_salary = #{paidWorkersSalary,jdbcType=DECIMAL},
+      </if>
+      <if test="taxPayable != null">
+        tax_payable = #{taxPayable,jdbcType=DECIMAL},
+      </if>
+      <if test="otherAccountsPayable != null">
+        other_accounts_payable = #{otherAccountsPayable,jdbcType=DECIMAL},
+      </if>
+      <if test="saleLiabilities != null">
+        sale_liabilities = #{saleLiabilities,jdbcType=DECIMAL},
+      </if>
+      <if test="oneyearNonCurrentLiability != null">
+        oneYear_non_current_liability = #{oneyearNonCurrentLiability,jdbcType=DECIMAL},
+      </if>
+      <if test="otherCurrentLiabilities != null">
+        other_current_liabilities = #{otherCurrentLiabilities,jdbcType=DECIMAL},
+      </if>
+      <if test="totalCurrentLiabilities != null">
+        total_current_liabilities = #{totalCurrentLiabilities,jdbcType=DECIMAL},
+      </if>
+      <if test="nonCurrentLiabilities != null">
+        non_current_liabilities = #{nonCurrentLiabilities,jdbcType=DECIMAL},
+      </if>
+      <if test="longTermBorrowing != null">
+        long_term_borrowing = #{longTermBorrowing,jdbcType=DECIMAL},
+      </if>
+      <if test="payBond != null">
+        pay_bond = #{payBond,jdbcType=DECIMAL},
+      </if>
+      <if test="payBondPreferredStock != null">
+        pay_bond_preferred_stock = #{payBondPreferredStock,jdbcType=DECIMAL},
+      </if>
+      <if test="payBondSustainableDebts != null">
+        pay_bond_sustainable_debts = #{payBondSustainableDebts,jdbcType=DECIMAL},
+      </if>
+      <if test="longTermAccountsPayable != null">
+        long_term_accounts_payable = #{longTermAccountsPayable,jdbcType=DECIMAL},
+      </if>
+      <if test="projectedLiabilities != null">
+        projected_liabilities = #{projectedLiabilities,jdbcType=DECIMAL},
+      </if>
+      <if test="deferredIncome != null">
+        deferred_income = #{deferredIncome,jdbcType=DECIMAL},
+      </if>
+      <if test="deferredIncomeTaxLiabilities != null">
+        deferred_income_tax_liabilities = #{deferredIncomeTaxLiabilities,jdbcType=DECIMAL},
+      </if>
+      <if test="otherNonCurrentLiabilities != null">
+        other_non_current_liabilities = #{otherNonCurrentLiabilities,jdbcType=DECIMAL},
+      </if>
+      <if test="otherTotalNonCurrentLiabilities != null">
+        other_total_non_current_liabilities = #{otherTotalNonCurrentLiabilities,jdbcType=DECIMAL},
+      </if>
+      <if test="otherNonCurrentLiabilitiesTotalLiabilities != null">
+        other_non_current_liabilities_total_liabilities = #{otherNonCurrentLiabilitiesTotalLiabilities,jdbcType=DECIMAL},
+      </if>
+      <if test="ownersEquity != null">
+        owners_equity = #{ownersEquity,jdbcType=DECIMAL},
+      </if>
+      <if test="paidInCapital != null">
+        paid_in_capital = #{paidInCapital,jdbcType=DECIMAL},
+      </if>
+      <if test="otherEquityInstruments != null">
+        other_equity_instruments = #{otherEquityInstruments,jdbcType=DECIMAL},
+      </if>
+      <if test="otherPreferredStock != null">
+        other_preferred_stock = #{otherPreferredStock,jdbcType=DECIMAL},
+      </if>
+      <if test="otherSustainableDebts != null">
+        other_sustainable_debts = #{otherSustainableDebts,jdbcType=DECIMAL},
+      </if>
+      <if test="capitalReserve != null">
+        capital_reserve = #{capitalReserve,jdbcType=DECIMAL},
+      </if>
+      <if test="treasuryStock != null">
+        treasury_stock = #{treasuryStock,jdbcType=DECIMAL},
+      </if>
+      <if test="surplusReserve != null">
+        surplus_reserve = #{surplusReserve,jdbcType=DECIMAL},
+      </if>
+      <if test="otherComprehensiveIncome != null">
+        other_comprehensive_income = #{otherComprehensiveIncome,jdbcType=DECIMAL},
+      </if>
+      <if test="undistributedProfits != null">
+        undistributed_profits = #{undistributedProfits,jdbcType=DECIMAL},
+      </if>
+      <if test="totalOwnersEquity != null">
+        total_owners_equity = #{totalOwnersEquity,jdbcType=DECIMAL},
+      </if>
+      <if test="totalLiabilityOwnersEquity != null">
+        total_liability_owners_equity = #{totalLiabilityOwnersEquity,jdbcType=DECIMAL},
+      </if>
+      <if test="createPerson != null">
+        create_person = #{createPerson,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null">
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="modifyPerson != null">
+        modify_person = #{modifyPerson,jdbcType=VARCHAR},
+      </if>
+      <if test="modifyTime != null">
+        modify_time = #{modifyTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="dataResource != null">
+        data_resource = #{dataResource,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where company_id = #{companyId,jdbcType=VARCHAR}
+    AND `year` = #{year,jdbcType=CHAR}
+
+
+
+  </update>
 </mapper>

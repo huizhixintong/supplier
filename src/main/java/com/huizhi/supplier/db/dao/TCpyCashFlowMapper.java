@@ -125,4 +125,11 @@ public interface TCpyCashFlowMapper {
      * @mbg.generated
      */
     int updateByPrimaryKey(TCpyCashFlow record);
+
+    List<TCpyCashFlow> selectByCompanyId(@Param("companyId") String companyId);
+
+
+    TCpyCashFlow selectByCompanyIdAndYear(@Param("companyId") String companyId, @Param("year") String year);
+
+    int updateByCompanyIdAndYear(TCpyCashFlow cashFlow);
 }

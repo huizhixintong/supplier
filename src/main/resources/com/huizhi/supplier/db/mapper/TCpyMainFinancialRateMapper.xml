@@ -742,4 +742,13 @@
     </if>
     limit 1
   </select>
+
+
+  <select id="selectByCompanyIdAndYear" resultMap="BaseResultMap">
+
+    select * from t_cpy_main_financial_rate where company_id = #{companyId,jdbcType=VARCHAR} and `year` = #{year,jdbcType=VARCHAR}
+
+  </select>
+
+
 </mapper>

@@ -125,4 +125,11 @@ public interface TCpyProfitLossMapper {
      * @mbg.generated
      */
     int updateByPrimaryKey(TCpyProfitLoss record);
+
+
+    int updateByCompanyIdAndYear(TCpyProfitLoss profitLoss);
+
+    TCpyProfitLoss selectByCompanyIdAndYear(@Param("companyId") String companyId, @Param("year") String year);
+
+    List<TCpyProfitLoss> selectByCompanyId(@Param("companyId") String companyId);
 }

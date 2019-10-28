@@ -24,4 +24,4 @@ db:
       password: Roma87tk
       host: 42.62.114.15
       database: evplat1
-      port: 5432
+      port: 3306

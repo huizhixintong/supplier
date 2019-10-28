@@ -1017,4 +1017,165 @@
     </if>
     limit 1
   </select>
+
+
+  <select id="selectByCompanyId" resultMap="BaseResultMap">
+      select  * from t_cpy_cash_flow where company_id = #{companyId,jdbcType=VARCHAR}
+
+
+    </select>
+  <select id="selectByCompanyIdAndYear" resultMap="BaseResultMap">
+    select  * from t_cpy_cash_flow where company_id = #{companyId,jdbcType=VARCHAR}
+    <if test="year != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+
+
+  </select>
+  <update id="updateByCompanyIdAndYear">
+    update t_cpy_cash_flow
+    <set>
+      <if test="record.id != null">
+        id = #{record.id,jdbcType=VARCHAR},
+      </if>
+      <if test="record.companyId != null">
+        company_id = #{record.companyId,jdbcType=VARCHAR},
+      </if>
+      <if test="record.year != null">
+        `year` = #{record.year,jdbcType=CHAR},
+      </if>
+      <if test="record.businessActivitiesCash != null">
+        business_activities_cash = #{record.businessActivitiesCash,jdbcType=DECIMAL},
+      </if>
+      <if test="record.cashReceivedSales != null">
+        cash_received_sales = #{record.cashReceivedSales,jdbcType=DECIMAL},
+      </if>
+      <if test="record.taxRefundsReceived != null">
+        tax_refunds_received = #{record.taxRefundsReceived,jdbcType=DECIMAL},
+      </if>
+      <if test="record.otherRelatedCash != null">
+        other_related_cash = #{record.otherRelatedCash,jdbcType=DECIMAL},
+      </if>
+      <if test="record.cashInflows != null">
+        cash_inflows = #{record.cashInflows,jdbcType=DECIMAL},
+      </if>
+      <if test="record.cashPaidGoods != null">
+        cash_paid_goods = #{record.cashPaidGoods,jdbcType=DECIMAL},
+      </if>
+      <if test="record.cashPaidEmployees != null">
+        cash_paid_employees = #{record.cashPaidEmployees,jdbcType=DECIMAL},
+      </if>
+      <if test="record.payVariousTaxes != null">
+        pay_various_taxes = #{record.payVariousTaxes,jdbcType=DECIMAL},
+      </if>
+      <if test="record.payOperatingCash != null">
+        pay_operating_cash = #{record.payOperatingCash,jdbcType=DECIMAL},
+      </if>
+      <if test="record.cashOutflowsSubtotal != null">
+        cash_outflows_subtotal = #{record.cashOutflowsSubtotal,jdbcType=DECIMAL},
+      </if>
+      <if test="record.operatingCash != null">
+        operating_cash = #{record.operatingCash,jdbcType=DECIMAL},
+      </if>
+      <if test="record.investmentActivitiesProduceCash != null">
+        investment_activities_produce_cash = #{record.investmentActivitiesProduceCash,jdbcType=DECIMAL},
+      </if>
+      <if test="record.collectCashReceived != null">
+        collect_cash_received = #{record.collectCashReceived,jdbcType=DECIMAL},
+      </if>
+      <if test="record.cashFromInvestmentIncome != null">
+        cash_from_investment_income = #{record.cashFromInvestmentIncome,jdbcType=DECIMAL},
+      </if>
+      <if test="record.netRecoveredCash != null">
+        net_recovered_cash = #{record.netRecoveredCash,jdbcType=DECIMAL},
+      </if>
+      <if test="record.otherUnitsNetCashReceived != null">
+        other_units_net_cash_received = #{record.otherUnitsNetCashReceived,jdbcType=DECIMAL},
+      </if>
+      <if test="record.cashInvestmentActivities != null">
+        cash_investment_activities = #{record.cashInvestmentActivities,jdbcType=DECIMAL},
+      </if>
+      <if test="record.subtotalInvestmentActivities != null">
+        subtotal_investment_activities = #{record.subtotalInvestmentActivities,jdbcType=DECIMAL},
+      </if>
+      <if test="record.cashPaidFixedAssets != null">
+        cash_paid_fixed_assets = #{record.cashPaidFixedAssets,jdbcType=DECIMAL},
+      </if>
+      <if test="record.cashPaidInvestment != null">
+        cash_paid_investment = #{record.cashPaidInvestment,jdbcType=DECIMAL},
+      </if>
+      <if test="record.netCashPaidUnit != null">
+        net_cash_paid_unit = #{record.netCashPaidUnit,jdbcType=DECIMAL},
+      </if>
+      <if test="record.cashRelatedInvestmentActivities != null">
+        cash_related_investment_activities = #{record.cashRelatedInvestmentActivities,jdbcType=DECIMAL},
+      </if>
+      <if test="record.investmentActivitiesSubtotal != null">
+        investment_activities_subtotal = #{record.investmentActivitiesSubtotal,jdbcType=DECIMAL},
+      </if>
+      <if test="record.investmentActivitiesCash != null">
+        Investment_activities_cash = #{record.investmentActivitiesCash,jdbcType=DECIMAL},
+      </if>
+      <if test="record.financingActivitiesCash != null">
+        financing_activities_cash = #{record.financingActivitiesCash,jdbcType=DECIMAL},
+      </if>
+      <if test="record.receiveCashInvestments != null">
+        receive_cash_investments = #{record.receiveCashInvestments,jdbcType=DECIMAL},
+      </if>
+      <if test="record.cashReceivedFromLoan != null">
+        cash_received_from_loan = #{record.cashReceivedFromLoan,jdbcType=DECIMAL},
+      </if>
+      <if test="record.cashFinancingActivities != null">
+        cash_financing_activities = #{record.cashFinancingActivities,jdbcType=DECIMAL},
+      </if>
+      <if test="record.financingActivitiesSubtotal != null">
+        financing_activities_subtotal = #{record.financingActivitiesSubtotal,jdbcType=DECIMAL},
+      </if>
+      <if test="record.paymentForDebt != null">
+        payment_for_debt = #{record.paymentForDebt,jdbcType=DECIMAL},
+      </if>
+      <if test="record.forInterestPayments != null">
+        for_interest_payments = #{record.forInterestPayments,jdbcType=DECIMAL},
+      </if>
+      <if test="record.payOtherRelatedCash != null">
+        pay_other_related_cash = #{record.payOtherRelatedCash,jdbcType=DECIMAL},
+      </if>
+      <if test="record.outflowFinancingActivities != null">
+        outflow_financing_activities = #{record.outflowFinancingActivities,jdbcType=DECIMAL},
+      </if>
+      <if test="record.mobilizationActivitiesCash != null">
+        mobilization_activities_cash = #{record.mobilizationActivitiesCash,jdbcType=DECIMAL},
+      </if>
+      <if test="record.effectCashEquivalents != null">
+        effect_cash_equivalents = #{record.effectCashEquivalents,jdbcType=DECIMAL},
+      </if>
+      <if test="record.netIncreaseInCashEquivalents != null">
+        net_increase_in_cash_equivalents = #{record.netIncreaseInCashEquivalents,jdbcType=DECIMAL},
+      </if>
+      <if test="record.cashEquivalentBalance != null">
+        cash_equivalent_balance = #{record.cashEquivalentBalance,jdbcType=DECIMAL},
+      </if>
+      <if test="record.closingCashBalance != null">
+        closing_cash_balance = #{record.closingCashBalance,jdbcType=DECIMAL},
+      </if>
+      <if test="record.createPerson != null">
+        create_person = #{record.createPerson,jdbcType=VARCHAR},
+      </if>
+      <if test="record.createTime != null">
+        create_time = #{record.createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.modifyPerson != null">
+        modify_person = #{record.modifyPerson,jdbcType=VARCHAR},
+      </if>
+      <if test="record.modifyTime != null">
+        modify_time = #{record.modifyTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.dataResource != null">
+        data_resource = #{record.dataResource,jdbcType=VARCHAR},
+      </if>
+    </set>
+     where company_id = #{companyId,jdbcType=VARCHAR}
+    AND `year` = #{year,jdbcType=CHAR}
+
+  </update>
 </mapper>

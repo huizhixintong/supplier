@@ -125,4 +125,10 @@ public interface TCpyAssetsLiabilitiesMapper {
      * @mbg.generated
      */
     int updateByPrimaryKey(TCpyAssetsLiabilities record);
+
+    List<TCpyAssetsLiabilities> selectByCompanyId(@Param("companyId") String companyId);
+
+    TCpyAssetsLiabilities selectByCompanyIdAndYear(@Param("companyId") String companyId, @Param("year") String year);
+
+    int updateByCompanyIdAndYear(TCpyAssetsLiabilities assetsLiabilities);
 }
