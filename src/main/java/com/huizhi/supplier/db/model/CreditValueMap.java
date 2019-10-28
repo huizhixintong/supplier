@@ -20,6 +20,7 @@ public class CreditValueMap implements Serializable {
     private String mapType;  //映射类型
 
     private String threshold;  //阈值
+    private String value;  //阈值
 
     private String fieldSource; // 指标来源
 
@@ -27,7 +28,6 @@ public class CreditValueMap implements Serializable {
 
     public CreditValueMap() {
     }
-
 
 
     public CreditValueMap(Integer id, String industry, String field, String mapType, String threshold, String fieldSource, String orientation) {
