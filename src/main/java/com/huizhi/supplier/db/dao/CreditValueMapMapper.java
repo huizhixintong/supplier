@@ -1,6 +1,7 @@
 package com.huizhi.supplier.db.dao;
 
 import com.huizhi.supplier.db.model.CreditValueMap;
+import com.huizhi.supplier.db.model.TCreditValueMap;
 
 import java.util.List;
 
@@ -14,5 +15,5 @@ import java.util.List;
 public interface CreditValueMapMapper {
 
 
-    List<CreditValueMap> selectByIndustry(String industry);
+    List<TCreditValueMap> selectByIndustry(String industry);
 }

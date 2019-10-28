@@ -1,7 +1,9 @@
 package com.huizhi.supplier.service.credit.impl;
 
 import com.huizhi.supplier.db.dao.CreditValueMapMapper;
+import com.huizhi.supplier.db.dao.TCreditValueMapMapper;
 import com.huizhi.supplier.db.model.CreditValueMap;
+import com.huizhi.supplier.db.model.TCreditValueMap;
 import com.huizhi.supplier.service.credit.CommonCreditService;
 import org.omg.CORBA.PRIVATE_MEMBER;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,10 +22,10 @@ import java.util.List;
 public class CommonCreditServiceImpl implements CommonCreditService {
 
     @Autowired
-    private CreditValueMapMapper creditValueMapMapper;
+    private TCreditValueMapMapper creditValueMapMapper;
 
     @Override
-    public List<CreditValueMap> findByIndustry(String industry) {
+    public List<TCreditValueMap> findByIndustry(String industry) {
 
         return creditValueMapMapper.selectByIndustry(industry);
     }

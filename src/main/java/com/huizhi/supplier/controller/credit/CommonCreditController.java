@@ -1,6 +1,7 @@
 package com.huizhi.supplier.controller.credit;
 
 import com.huizhi.supplier.db.model.CreditValueMap;
+import com.huizhi.supplier.db.model.TCreditValueMap;
 import com.huizhi.supplier.service.credit.CommonCreditService;
 import org.apache.http.client.utils.DateUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,7 +29,7 @@ public class CommonCreditController {
 
 
     @RequestMapping(value = "listbyind")
-    public List<CreditValueMap> getCreditValueMapListByIndustry(String industry){
+    public List<TCreditValueMap> getCreditValueMapListByIndustry(String industry){
 
         if(StringUtils.isEmpty(industry)){
             return null;
@@ -57,9 +58,9 @@ public class CommonCreditController {
         // industry  从企业的信息中获取
 
 
-        List<CreditValueMap> creditList = getCreditValueMapListByIndustry(industry);
+        List<TCreditValueMap> creditList = getCreditValueMapListByIndustry(industry);
 
-        List<String> sourceList = creditList.stream().map(CreditValueMap::getFieldSource).collect(Collectors.toList());
+        List<String> sourceList = creditList.stream().map(TCreditValueMap::getFieldsource).collect(Collectors.toList());
 
         for (String sou: sourceList) {
 
@@ -82,14 +83,14 @@ public class CommonCreditController {
         }
 
 
-        Map<String, List<CreditValueMap>> collect = creditList.stream().collect(Collectors.groupingBy(CreditValueMap::getFieldSource));
+        Map<String, List<TCreditValueMap>> collect = creditList.stream().collect(Collectors.groupingBy(TCreditValueMap::getFieldsource));
 
         Iterator itr = collect.entrySet().iterator();
         Map.Entry entry = null;
         while (itr.hasNext()){
             entry = (Map.Entry)itr.next();
 
-            List<CreditValueMap> value = (List<CreditValueMap>) entry.getValue();
+            List<TCreditValueMap> value = (List<TCreditValueMap>) entry.getValue();
 
         }
 
