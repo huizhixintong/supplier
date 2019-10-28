@@ -32,7 +32,7 @@ public class DefaultDaoConfig extends DaoConfigBase {
     @Value("${db.mysql.supplier.password}")
     private String password;
 
-    @Value("jdbc:mysql://${db.mysql.supplier.host}:${db.mysql.supplier.port}/${db.mysql.supplier.database}?useUnicode=true&amp;characterEncoding=utf-8")
+    @Value("jdbc:mysql://${db.mysql.supplier.host}:${db.mysql.supplier.port}/${db.mysql.supplier.database}?useUnicode=true&characterEncoding=utf-8")
     private String url;
 
     public DefaultDaoConfig() {

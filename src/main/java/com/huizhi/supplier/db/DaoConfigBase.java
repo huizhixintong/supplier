@@ -49,7 +49,8 @@ public abstract class DaoConfigBase {
             
             log.info("Init datasource: url: {}", getUrl());
             dataSource = new DruidDataSource();
-            dataSource.setDriverClassName("org.postgresql.Driver");
+            dataSource.setDriverClassName("com.mysql.jdbc.Driver");
+            System.out.println("url:" + getUrl());
             dataSource.setUrl(getUrl());
             dataSource.setUsername(getUsername());
             dataSource.setPassword(getPassword());
