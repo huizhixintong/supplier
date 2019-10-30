@@ -14,7 +14,7 @@ public class TCpyBackPayRecord {
      *
      * @mbg.generated
      */
-    private String id;
+    private Integer id;
 
     /**
      *
@@ -123,7 +123,7 @@ public class TCpyBackPayRecord {
      *
      * @mbg.generated
      */
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -135,7 +135,7 @@ public class TCpyBackPayRecord {
      *
      * @mbg.generated
      */
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -495,7 +495,7 @@ public class TCpyBackPayRecord {
      * @mbg.generated
      */
     public enum Column {
-        id("id", "id", "VARCHAR", false),
+        id("id", "id", "INTEGER", false),
         companyId("company_id", "companyId", "VARCHAR", false),
         arrearsStrTime("arrears_str_time", "arrearsStrTime", "DATE", false),
         arrearsEndTime("arrears_end_time", "arrearsEndTime", "DATE", false),

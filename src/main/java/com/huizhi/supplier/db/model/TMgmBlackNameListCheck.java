@@ -12,7 +12,7 @@ public class TMgmBlackNameListCheck {
      *
      * @mbg.generated
      */
-    private String id;
+    private Integer id;
 
     /**
      *
@@ -184,7 +184,7 @@ public class TMgmBlackNameListCheck {
      *
      * @mbg.generated
      */
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -196,7 +196,7 @@ public class TMgmBlackNameListCheck {
      *
      * @mbg.generated
      */
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -745,7 +745,7 @@ public class TMgmBlackNameListCheck {
      * @mbg.generated
      */
     public enum Column {
-        id("id", "id", "VARCHAR", false),
+        id("id", "id", "INTEGER", false),
         blackId("black_id", "blackId", "VARCHAR", false),
         name("name", "name", "VARCHAR", true),
         creditCode("credit_code", "creditCode", "VARCHAR", false),

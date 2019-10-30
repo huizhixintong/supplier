@@ -2,36 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbc0ef0f-2f12-481a-9211-038fde35c727" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowExecute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowExecutePoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowExecuteStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowExecuteStatusLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowGenerate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/impl/FlowGenerateImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/impl/FlowModelImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/supplier/imp/SupplierImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/huizhi/supplier/test/TestGenerate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_56.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_56.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_0_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_0_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_0_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_0_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_0_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-generator/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/DaoConfigBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/DaoConfigBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/DefaultDaoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/DefaultDaoConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TCpyAbnormalOperationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TCpyAbnormalOperationMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TCpyAfterSaleManagementMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TCpyAfterSaleManagementMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TCpyAnnualReportMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TCpyAnnualReportMapper.java" afterDir="false" />
@@ -149,6 +119,13 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TCpyWinningMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TCpyWinningMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TCpyYearCheckMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TCpyYearCheckMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TCpyYearFixedAssetsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TCpyYearFixedAssetsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TFlowExecuteMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TFlowExecuteMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TFlowExecutePointMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TFlowExecutePointMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TFlowExecuteStatusLogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TFlowExecuteStatusLogMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TFlowExecuteStatusMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TFlowExecuteStatusMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TFlowModelMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TFlowModelMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TFlowPointOperatePersonnelMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TFlowPointOperatePersonnelMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TFlowStepDefineMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TFlowStepDefineMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TMgmBlackNameListCheckMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TMgmBlackNameListCheckMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TMgmBlackNameListMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TMgmBlackNameListMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TMgmDefaultNameListCheckMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TMgmDefaultNameListCheckMapper.java" afterDir="false" />
@@ -164,142 +141,410 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TSysIndustrySortMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TSysIndustrySortMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TSysMaterialTpyeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TSysMaterialTpyeMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TVcsCompanyEvaluateScoreMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TVcsCompanyEvaluateScoreMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyAbnormalOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyAbnormalOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyAbnormalOperationExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyAbnormalOperationExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyAfterSaleManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyAfterSaleManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyAfterSaleManagementExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyAfterSaleManagementExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyAnnualReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyAnnualReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyAnnualReportExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyAnnualReportExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyArrears.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyArrears.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyArrearsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyArrearsExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyAssetsLiabilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyAssetsLiabilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyAssetsLiabilitiesExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyAssetsLiabilitiesExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyAuthentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyAuthentication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyAuthenticationExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyAuthenticationExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyBackPayRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyBackPayRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyBackPayRecordExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyBackPayRecordExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyBankCredit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyBankCredit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyBankCreditExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyBankCreditExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyBankExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyBankExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyBankFinance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyBankFinance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyBankFinanceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyBankFinanceExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyBankLoan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyBankLoan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyBankLoanExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyBankLoanExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyBranch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyBranch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyBranchExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyBranchExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyBrand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyBrand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyBrandExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyBrandExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyCashFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyCashFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyCashFlowExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyCashFlowExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyCheckExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyCheckExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyContractPerformance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyContractPerformance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyContractPerformanceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyContractPerformanceExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyCopyRight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyCopyRight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyCopyRightExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyCopyRightExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyCorporateAssets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyCorporateAssets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyCorporateAssetsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyCorporateAssetsExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyCorporateWelfare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyCorporateWelfare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyCorporateWelfareExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyCorporateWelfareExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyCourtAnnouncement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyCourtAnnouncement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyCourtAnnouncementExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyCourtAnnouncementExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyCreditGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyCreditGrade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyCreditGradeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyCreditGradeExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyCustomerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyCustomerExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyDepartmentInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyDepartmentInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyDepartmentInfoExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyDepartmentInfoExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyDiscreditExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyDiscreditExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyDiscreditExecutorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyDiscreditExecutorExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyElectricityHeatingGasWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyElectricityHeatingGasWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyElectricityHeatingGasWaterExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyElectricityHeatingGasWaterExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEmployeeQualification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEmployeeQualification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEmployeeQualificationExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEmployeeQualificationExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEmployeesStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEmployeesStatistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEmployeesStatisticsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEmployeesStatisticsExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEnforcement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEnforcement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEnforcementExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEnforcementExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEnterpriseInfoChangeWarning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEnterpriseInfoChangeWarning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEnterpriseInfoChangeWarningExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEnterpriseInfoChangeWarningExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEnterpriseProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEnterpriseProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEnterpriseProfileExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEnterpriseProfileExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEnterprisePropertiesTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEnterprisePropertiesTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEnterprisePropertiesTreeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEnterprisePropertiesTreeExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEnvironmentalPenalties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEnvironmentalPenalties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEnvironmentalPenaltiesExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEnvironmentalPenaltiesExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEquityPledge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEquityPledge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEquityPledgeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEquityPledgeExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEstateFinancing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEstateFinancing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEstateFinancingExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyEstateFinancingExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyExecutionRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyExecutionRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyExecutionRecordExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyExecutionRecordExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyExecutives.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyExecutives.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyExecutivesExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyExecutivesExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyExternalBorrowing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyExternalBorrowing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyExternalBorrowingExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyExternalBorrowingExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyExternalGuaranteeRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyExternalGuaranteeRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyExternalGuaranteeRecordExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyExternalGuaranteeRecordExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFinancialNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFinancialNote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFinancialNoteExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFinancialNoteExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFinancialStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFinancialStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFinancialStatementExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFinancialStatementExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFixed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFixed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFixedAssets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFixedAssets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFixedAssetsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFixedAssetsExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFixedExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFixedExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFlangingRegulationAttachement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFlangingRegulationAttachement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFlangingRegulationAttachementExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFlangingRegulationAttachementExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFlangingRegulationCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFlangingRegulationCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFlangingRegulationCheckExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFlangingRegulationCheckExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFlangingRegulationDownload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFlangingRegulationDownload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFlangingRegulationDownloadExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFlangingRegulationDownloadExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFlangingRegulationReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFlangingRegulationReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFlangingRegulationReportExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFlangingRegulationReportExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFlangingRegulationTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFlangingRegulationTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFlangingRegulationTreeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyFlangingRegulationTreeExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyForeignInvest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyForeignInvest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyForeignInvestExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyForeignInvestExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyForeignInvestment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyForeignInvestment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyForeignInvestmentExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyForeignInvestmentExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyHealthAndSocialWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyHealthAndSocialWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyHealthAndSocialWorkExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyHealthAndSocialWorkExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyHistoryChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyHistoryChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyHistoryChangeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyHistoryChangeExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyHonor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyHonor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyHonorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyHonorExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyHotelRestaurants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyHotelRestaurants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyHotelRestaurantsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyHotelRestaurantsExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyIcp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyIcp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyIcpExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyIcpExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyImportExport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyImportExport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyImportExportExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyImportExportExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyIndustryBreakFaithRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyIndustryBreakFaithRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyIndustryBreakFaithRecordExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyIndustryBreakFaithRecordExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyInventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyInventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyInventoryExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyInventoryExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyJudgment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyJudgment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyJudgmentExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyJudgmentExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyLandinfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyLandinfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyLandinfoExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyLandinfoExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyLawAnnouncement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyLawAnnouncement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyLawAnnouncementExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyLawAnnouncementExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyLegal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyLegal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyLegalCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyLegalCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyLegalCarExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyLegalCarExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyLegalCredit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyLegalCredit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyLegalCreditExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyLegalCreditExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyLegalExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyLegalExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyLegalLive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyLegalLive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyLegalLiveExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyLegalLiveExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyLegalRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyLegalRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyLegalRoomExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyLegalRoomExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyLoanCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyLoanCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyLoanCardExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyLoanCardExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyMainFinancialRate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyMainFinancialRate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyMainFinancialRateExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyMainFinancialRateExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyNewsPublicOpinion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyNewsPublicOpinion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyNewsPublicOpinionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyNewsPublicOpinionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyNonBankFinancing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyNonBankFinancing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyNonBankFinancingExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyNonBankFinancingExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyOperateCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyOperateCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyOperateCondition2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyOperateCondition2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyOperateCondition2Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyOperateCondition2Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyOperateConditionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyOperateConditionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyOtherCreditors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyOtherCreditors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyOtherCreditorsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyOtherCreditorsExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyOtherDebt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyOtherDebt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyOtherDebtExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyOtherDebtExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyPartyBuilding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyPartyBuilding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyPartyBuildingExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyPartyBuildingExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyPatent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyPatent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyPatentExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyPatentExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyPenalty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyPenalty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyPenaltyExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyPenaltyExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyPermanentInvestment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyPermanentInvestment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyPermanentInvestmentExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyPermanentInvestmentExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyPermission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyPermission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyPermissionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyPermissionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyPermissionUpdateRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyPermissionUpdateRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyPermissionUpdateRecordExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyPermissionUpdateRecordExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyPollutionLicense.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyPollutionLicense.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyPollutionLicenseExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyPollutionLicenseExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyProducts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyProducts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyProductsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyProductsExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyProfitLoss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyProfitLoss.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyProfitLossExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyProfitLossExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyQualification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyQualification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyQualificationExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyQualificationExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyQualificationUpdateRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyQualificationUpdateRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyQualificationUpdateRecordExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyQualificationUpdateRecordExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyRealtyRent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyRealtyRent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyRealtyRentExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyRealtyRentExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyReceiveAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyReceiveAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyReceiveAccountExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyReceiveAccountExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyRecruitment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyRecruitment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyRecruitmentExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyRecruitmentExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyRegistrationRecords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyRegistrationRecords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyRegistrationRecordsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyRegistrationRecordsExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyRegulationAttachement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyRegulationAttachement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyRegulationAttachementExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyRegulationAttachementExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyRegulationTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyRegulationTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyRegulationTreeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyRegulationTreeExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyRepairReportAttachement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyRepairReportAttachement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyRepairReportAttachementExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyRepairReportAttachementExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyScienceInnovation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyScienceInnovation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyScienceInnovationExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyScienceInnovationExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyScientificResearchTechnicalServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyScientificResearchTechnicalServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyScientificResearchTechnicalServicesExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyScientificResearchTechnicalServicesExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySecurities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySecurities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySecuritiesExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySecuritiesExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySeriousBlacklist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySeriousBlacklist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySeriousBlacklistExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySeriousBlacklistExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySeriousViolationOfLaw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySeriousViolationOfLaw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySeriousViolationOfLawExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySeriousViolationOfLawExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyShareholdersCapital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyShareholdersCapital.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyShareholdersCapitalExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyShareholdersCapitalExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyShareholdersConstitute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyShareholdersConstitute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyShareholdersConstituteExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyShareholdersConstituteExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyShortBorrowing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyShortBorrowing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyShortBorrowingExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyShortBorrowingExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySocialCharitable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySocialCharitable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySocialCharitableExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySocialCharitableExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySoftwareCopyright.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySoftwareCopyright.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySoftwareCopyrightExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySoftwareCopyrightExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySoftwareInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySoftwareInformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySoftwareInformationExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySoftwareInformationExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySpouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySpouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySpouseExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySpouseExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyStandardSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyStandardSetting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyStandardSettingExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyStandardSettingExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySupervisionCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySupervisionCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySupervisionCheckExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySupervisionCheckExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySupplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySupplier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySupplierExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpySupplierExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyTaxArrear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyTaxArrear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyTaxArrearExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyTaxArrearExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyTaxLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyTaxLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyTaxLevelExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyTaxLevelExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyTaxationOffences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyTaxationOffences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyTaxationOffencesExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyTaxationOffencesExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyThreeYearAuditReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyThreeYearAuditReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyThreeYearAuditReportExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyThreeYearAuditReportExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyTrademark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyTrademark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyTrademarkExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyTrademarkExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyWarrandice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyWarrandice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyWarrandiceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyWarrandiceExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyWebsite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyWebsite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyWebsiteExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyWebsiteExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyWholesaleRetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyWholesaleRetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyWholesaleRetailExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyWholesaleRetailExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyWinning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyWinning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyWinningExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyWinningExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyYearCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyYearCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyYearCheckExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyYearCheckExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyYearFixedAssets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyYearFixedAssets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyYearFixedAssetsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyYearFixedAssetsExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmBlackNameList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmBlackNameList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmBlackNameListCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmBlackNameListCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmBlackNameListCheckExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmBlackNameListCheckExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmBlackNameListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmBlackNameListExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmDefaultNameList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmDefaultNameList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmDefaultNameListCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmDefaultNameListCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmDefaultNameListCheckExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmDefaultNameListCheckExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmDefaultNameListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmDefaultNameListExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmNameList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmNameList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmNameListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmNameListExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmObjectionHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmObjectionHandling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmObjectionHandlingExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmObjectionHandlingExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmSupplierBaseInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmSupplierBaseInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmSupplierBaseInfoExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmSupplierBaseInfoExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmSupplierSynthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmSupplierSynthesis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmSupplierSynthesisCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmSupplierSynthesisCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmSupplierSynthesisCheckExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmSupplierSynthesisCheckExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmSupplierSynthesisExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmSupplierSynthesisExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmSupplierSynthesisRating.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmSupplierSynthesisRating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmSupplierSynthesisRatingExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TMgmSupplierSynthesisRatingExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TPerContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TPerContract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/supplierApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/SupplierApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyAbnormalOperationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyAbnormalOperationMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyAfterSaleManagementMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyAfterSaleManagementMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyAnnualReportMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyAnnualReportMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyArrearsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyArrearsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyAssetsLiabilitiesMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyAssetsLiabilitiesMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyAuthenticationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyAuthenticationMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyBackPayRecordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyBackPayRecordMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyBankCreditMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyBankCreditMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyBankFinanceMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyBankFinanceMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyBankLoanMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyBankLoanMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyBankMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyBankMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyBranchMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyBranchMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyBrandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyBrandMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyCashFlowMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyCashFlowMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyCheckMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyCheckMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyContractPerformanceMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyContractPerformanceMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyCopyRightMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyCopyRightMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyCorporateAssetsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyCorporateAssetsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyCorporateWelfareMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyCorporateWelfareMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyCourtAnnouncementMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyCourtAnnouncementMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyCreditGradeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyCreditGradeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyCustomerMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyCustomerMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyDepartmentInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyDepartmentInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyDiscreditExecutorMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyDiscreditExecutorMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyElectricityHeatingGasWaterMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyElectricityHeatingGasWaterMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyEmployeeQualificationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyEmployeeQualificationMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyEmployeesStatisticsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyEmployeesStatisticsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyEnforcementMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyEnforcementMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyEnterpriseInfoChangeWarningMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyEnterpriseInfoChangeWarningMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyEnterpriseProfileMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyEnterpriseProfileMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyEnterprisePropertiesTreeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyEnterprisePropertiesTreeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyEnvironmentalPenaltiesMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyEnvironmentalPenaltiesMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyEquityPledgeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyEquityPledgeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyEstateFinancingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyEstateFinancingMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyExecutionRecordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyExecutionRecordMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyExecutivesMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyExecutivesMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyExternalBorrowingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyExternalBorrowingMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyExternalGuaranteeRecordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyExternalGuaranteeRecordMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyFinancialNoteMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyFinancialNoteMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyFinancialStatementMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyFinancialStatementMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyFixedAssetsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyFixedAssetsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyFixedMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyFixedMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyFlangingRegulationAttachementMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyFlangingRegulationAttachementMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyFlangingRegulationCheckMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyFlangingRegulationCheckMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyFlangingRegulationDownloadMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyFlangingRegulationDownloadMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyFlangingRegulationReportMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyFlangingRegulationReportMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyFlangingRegulationTreeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyFlangingRegulationTreeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyForeignInvestMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyForeignInvestMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyForeignInvestmentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyForeignInvestmentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyHealthAndSocialWorkMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyHealthAndSocialWorkMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyHistoryChangeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyHistoryChangeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyHonorMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyHonorMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyHotelRestaurantsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyHotelRestaurantsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyIcpMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyIcpMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyImportExportMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyImportExportMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyIndustryBreakFaithRecordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyIndustryBreakFaithRecordMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyInventoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyInventoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyJudgmentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyJudgmentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyLandinfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyLandinfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyLawAnnouncementMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyLawAnnouncementMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyLegalCarMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyLegalCarMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyLegalCreditMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyLegalCreditMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyLegalLiveMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyLegalLiveMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyLegalMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyLegalMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyLegalRoomMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyLegalRoomMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyLoanCardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyLoanCardMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyMainFinancialRateMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyMainFinancialRateMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyNewsPublicOpinionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyNewsPublicOpinionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyNonBankFinancingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyNonBankFinancingMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyOperateCondition2Mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyOperateCondition2Mapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyOperateConditionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyOperateConditionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyOtherCreditorsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyOtherCreditorsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyOtherDebtMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyOtherDebtMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyPartyBuildingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyPartyBuildingMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyPatentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyPatentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyPenaltyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyPenaltyMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyPermanentInvestmentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyPermanentInvestmentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyPermissionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyPermissionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyPermissionUpdateRecordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyPermissionUpdateRecordMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyPollutionLicenseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyPollutionLicenseMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyProductsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyProductsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyProfitLossMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyProfitLossMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyQualificationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyQualificationMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyQualificationUpdateRecordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyQualificationUpdateRecordMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyRealtyRentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyRealtyRentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyReceiveAccountMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyReceiveAccountMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyRecruitmentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyRecruitmentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyRegistrationRecordsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyRegistrationRecordsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyRegulationAttachementMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyRegulationAttachementMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyRegulationTreeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyRegulationTreeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyRepairReportAttachementMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyRepairReportAttachementMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyScienceInnovationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyScienceInnovationMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyScientificResearchTechnicalServicesMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyScientificResearchTechnicalServicesMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpySecuritiesMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpySecuritiesMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpySeriousBlacklistMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpySeriousBlacklistMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpySeriousViolationOfLawMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpySeriousViolationOfLawMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyShareholdersCapitalMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyShareholdersCapitalMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyShareholdersConstituteMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyShareholdersConstituteMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyShortBorrowingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyShortBorrowingMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpySocialCharitableMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpySocialCharitableMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpySoftwareCopyrightMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpySoftwareCopyrightMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpySoftwareInformationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpySoftwareInformationMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpySpouseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpySpouseMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyStandardSettingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyStandardSettingMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpySupervisionCheckMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpySupervisionCheckMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpySupplierMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpySupplierMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyTaxArrearMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyTaxArrearMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyTaxLevelMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyTaxLevelMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyTaxationOffencesMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyTaxationOffencesMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyThreeYearAuditReportMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyThreeYearAuditReportMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyTrademarkMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyTrademarkMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyWarrandiceMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyWarrandiceMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyWebsiteMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyWebsiteMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyWholesaleRetailMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyWholesaleRetailMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyWinningMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyWinningMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyYearCheckMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyYearCheckMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyYearFixedAssetsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TCpyYearFixedAssetsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TMgmBlackNameListCheckMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TMgmBlackNameListCheckMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TMgmBlackNameListMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TMgmBlackNameListMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TMgmDefaultNameListCheckMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TMgmDefaultNameListCheckMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TMgmDefaultNameListMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TMgmDefaultNameListMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TMgmNameListMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TMgmNameListMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TMgmObjectionHandlingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TMgmObjectionHandlingMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TMgmSupplierBaseInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TMgmSupplierBaseInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TMgmSupplierSynthesisCheckMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TMgmSupplierSynthesisCheckMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TMgmSupplierSynthesisMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TMgmSupplierSynthesisMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TMgmSupplierSynthesisRatingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TMgmSupplierSynthesisRatingMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TPerContractMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TPerContractMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TRptReportDownloadRecordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TRptReportDownloadRecordMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TSysIndustrySortMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TSysIndustrySortMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TSysMaterialTpyeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TSysMaterialTpyeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TVcsCompanyEvaluateScoreMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TVcsCompanyEvaluateScoreMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supplier.iml" beforeDir="false" afterPath="$PROJECT_DIR$/supplier.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TPerContractExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TPerContractExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TRptReportDownloadRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TRptReportDownloadRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TRptReportDownloadRecordExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TRptReportDownloadRecordExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TSysIndustrySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TSysIndustrySort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TSysIndustrySortExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TSysIndustrySortExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TSysMaterialTpye.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TSysMaterialTpye.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TSysMaterialTpyeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TSysMaterialTpyeExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TVcsCompanyEvaluateScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TVcsCompanyEvaluateScore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TVcsCompanyEvaluateScoreExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TVcsCompanyEvaluateScoreExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TVcsCompanyEvaluateScoreWithBLOBs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TVcsCompanyEvaluateScoreWithBLOBs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyAbnormalOperationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyAfterSaleManagementMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyAnnualReportMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyArrearsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyAssetsLiabilitiesMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyAuthenticationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyBackPayRecordMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyBankCreditMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyBankFinanceMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyBankLoanMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyBankMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyBranchMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyBrandMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyCashFlowMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyCheckMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyContractPerformanceMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyCopyRightMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyCorporateAssetsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyCorporateWelfareMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyCourtAnnouncementMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyCreditGradeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyCustomerMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyDepartmentInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyDiscreditExecutorMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyElectricityHeatingGasWaterMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyEmployeeQualificationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyEmployeesStatisticsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyEnforcementMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyEnterpriseInfoChangeWarningMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyEnterpriseProfileMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyEnterprisePropertiesTreeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyEnvironmentalPenaltiesMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyEquityPledgeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyEstateFinancingMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyExecutionRecordMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyExecutivesMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyExternalBorrowingMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyExternalGuaranteeRecordMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyFinancialNoteMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyFinancialStatementMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyFixedAssetsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyFixedMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyFlangingRegulationAttachementMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyFlangingRegulationCheckMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyFlangingRegulationDownloadMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyFlangingRegulationReportMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyFlangingRegulationTreeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyForeignInvestMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyForeignInvestmentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyHealthAndSocialWorkMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyHistoryChangeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyHonorMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyHotelRestaurantsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyIcpMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyImportExportMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyIndustryBreakFaithRecordMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyInventoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyJudgmentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyLandinfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyLawAnnouncementMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyLegalCarMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyLegalCreditMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyLegalLiveMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyLegalMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyLegalRoomMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyLoanCardMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyMainFinancialRateMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyNewsPublicOpinionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyNonBankFinancingMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyOperateCondition2Mapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyOperateConditionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyOtherCreditorsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyOtherDebtMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyPartyBuildingMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyPatentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyPenaltyMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyPermanentInvestmentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyPermissionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyPermissionUpdateRecordMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyPollutionLicenseMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyProductsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyProfitLossMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyQualificationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyQualificationUpdateRecordMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyRealtyRentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyReceiveAccountMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyRecruitmentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyRegistrationRecordsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyRegulationAttachementMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyRegulationTreeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyRepairReportAttachementMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyScienceInnovationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyScientificResearchTechnicalServicesMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpySecuritiesMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpySeriousBlacklistMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpySeriousViolationOfLawMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyShareholdersCapitalMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyShareholdersConstituteMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyShortBorrowingMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpySocialCharitableMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpySoftwareCopyrightMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpySoftwareInformationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpySpouseMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyStandardSettingMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpySupervisionCheckMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpySupplierMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyTaxArrearMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyTaxLevelMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyTaxationOffencesMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyThreeYearAuditReportMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyTrademarkMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyWarrandiceMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyWebsiteMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyWholesaleRetailMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyWinningMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyYearCheckMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TCpyYearFixedAssetsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TFlowExecuteMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TFlowExecutePointMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TFlowExecuteStatusLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TFlowExecuteStatusMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TFlowModelMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TFlowPointOperatePersonnelMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TFlowStepDefineMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TMgmBlackNameListCheckMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TMgmBlackNameListMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TMgmDefaultNameListCheckMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TMgmDefaultNameListMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TMgmNameListMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TMgmObjectionHandlingMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TMgmSupplierBaseInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TMgmSupplierSynthesisCheckMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TMgmSupplierSynthesisMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TMgmSupplierSynthesisRatingMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TPerContractMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TRptReportDownloadRecordMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TSysIndustrySortMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TSysMaterialTpyeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/mapper/TVcsCompanyEvaluateScoreMapper.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -369,90 +614,6 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TSysIndustrySortMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TSysMaterialTpyeMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TVcsCompanyEvaluateScoreMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/contract/impl/PerContractImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/supplier/Supplier.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/supplier/imp/SupplierImp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#215#216#0" expanded="true" />
-                <element signature="e#239#240#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="1957" column="18" selection-start-line="1957" selection-start-column="18" selection-end-line="1957" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/huizhi/supplier/test/TestGenerate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="15" column="24" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="24" />
-              <folding>
-                <element signature="e#532#533#0" expanded="true" />
-                <element signature="e#597#598#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowGenerate.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -461,15 +622,77 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/impl/FlowGenerateImp.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowExecuteStatus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
-                <element signature="e#513#514#0" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowExecuteStatusLog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowExecutePoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TCpyYearCheckMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TCpyAbnormalOperation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TFlowExecute.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-899">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TFlowExecuteMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="66" column="67" selection-start-line="66" selection-start-column="67" selection-end-line="66" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowExecute.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="47" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -654,7 +877,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="supplier" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="constant" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="supplier" type="b2602c69:ProjectViewProjectNode" />
@@ -664,17 +887,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="supplier" type="462c0819:PsiDirectoryNode" />
               <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="supplier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="supplier" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="supplier" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="supplier" type="b2602c69:ProjectViewProjectNode" />
@@ -724,17 +936,6 @@
               <item name="supplier" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="supplier" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="supplier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="supplier" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="supplier" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="supplier" type="462c0819:PsiDirectoryNode" />
-              <item name="imp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="supplier" type="b2602c69:ProjectViewProjectNode" />
@@ -995,7 +1196,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19565000" />
+    <option name="totallyTimeSpent" value="19631000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1007,42 +1208,42 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="50" width="1280" height="662" extended-state="0" />
+    <frame x="48" y="23" width="1280" height="662" extended-state="0" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20873787" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22330096" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.28883496" side_tool="true" visible="true" weight="0.45614034" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7111651" visible="true" weight="0.45614034" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7111651" visible="true" weight="0.29473683" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49838188" weight="0.32982457" />
-      <window_info anchor="right" id="Maven" weight="0.32686085" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Mybatis datasource" side_tool="true" />
-      <window_info anchor="right" id="Database" visible="true" weight="0.08495145" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.28883496" side_tool="true" visible="true" weight="0.29473683" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32686085" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.08495145" />
+      <window_info anchor="right" id="Mybatis datasource" order="7" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1198,8 +1399,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TCpyYearCheckMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="105">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1212,8 +1413,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TFlowExecuteMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state relative-caret-position="282">
+          <caret line="66" column="67" selection-start-line="66" selection-start-column="67" selection-end-line="66" selection-end-column="67" />
         </state>
       </provider>
     </entry>

@@ -12,7 +12,7 @@ public class TCpyEmployeesStatistics {
      *
      * @mbg.generated
      */
-    private String id;
+    private Integer id;
 
     /**
      *
@@ -292,7 +292,7 @@ public class TCpyEmployeesStatistics {
      *
      * @mbg.generated
      */
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -304,7 +304,7 @@ public class TCpyEmployeesStatistics {
      *
      * @mbg.generated
      */
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -1177,7 +1177,7 @@ public class TCpyEmployeesStatistics {
      * @mbg.generated
      */
     public enum Column {
-        id("id", "id", "VARCHAR", false),
+        id("id", "id", "INTEGER", false),
         companyId("company_id", "companyId", "VARCHAR", false),
         employeesTotal("employees_total", "employeesTotal", "INTEGER", false),
         doctorAboveNumber("doctor_above_number", "doctorAboveNumber", "INTEGER", false),

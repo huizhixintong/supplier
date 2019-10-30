@@ -12,7 +12,7 @@ public class TCpyOperateCondition2 {
      *
      * @mbg.generated
      */
-    private String id;
+    private Integer id;
 
     /**
      *
@@ -193,7 +193,7 @@ public class TCpyOperateCondition2 {
      *
      * @mbg.generated
      */
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -205,7 +205,7 @@ public class TCpyOperateCondition2 {
      *
      * @mbg.generated
      */
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -781,7 +781,7 @@ public class TCpyOperateCondition2 {
      * @mbg.generated
      */
     public enum Column {
-        id("id", "id", "VARCHAR", false),
+        id("id", "id", "INTEGER", false),
         companyId("company_id", "companyId", "VARCHAR", false),
         mainBusiness("main_business", "mainBusiness", "VARCHAR", false),
         employeeNumber("employee_number", "employeeNumber", "INTEGER", false),

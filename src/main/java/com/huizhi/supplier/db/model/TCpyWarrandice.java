@@ -13,7 +13,7 @@ public class TCpyWarrandice {
      *
      * @mbg.generated
      */
-    private String id;
+    private Integer id;
 
     /**
      *
@@ -149,7 +149,7 @@ public class TCpyWarrandice {
      *
      * @mbg.generated
      */
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -161,7 +161,7 @@ public class TCpyWarrandice {
      *
      * @mbg.generated
      */
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -602,7 +602,7 @@ public class TCpyWarrandice {
      * @mbg.generated
      */
     public enum Column {
-        id("id", "id", "VARCHAR", false),
+        id("id", "id", "INTEGER", false),
         annualReportId("annual_report_id", "annualReportId", "VARCHAR", false),
         creditors("creditors", "creditors", "VARCHAR", false),
         typesPrincipalClaims("types_principal_claims", "typesPrincipalClaims", "VARCHAR", false),
