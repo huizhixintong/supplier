@@ -27,7 +27,7 @@ public class PerContractImpl implements PerContract {
             return ErrCode.ERR_PARAMETER_NULL;
         }
 
-        if ((ret = validBaseInfo(contract)) != ErrCode.ERR_SUCCESS){
+        if ((ret = validBaseInfo(contract)) != ErrCode.CONT_SUCCESS){
             return ret;
         }
 
@@ -77,6 +77,6 @@ public class PerContractImpl implements PerContract {
 
 
     private int validBaseInfo(TPerContract perContract){
-        return ErrCode.ERR_SUCCESS;
+        return ErrCode.CONT_SUCCESS;
     }
 }

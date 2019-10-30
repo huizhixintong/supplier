@@ -128,4 +128,7 @@ public interface TFlowStepDefineMapper {
      * @mbg.generated
      */
     int updateByPrimaryKey(TFlowStepDefine record);
+
+
+    TFlowStepDefine queryNextStepInfo(@Param("flowCode") String FlowCode, @Param("point") int point);
 }

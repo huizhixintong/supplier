@@ -465,4 +465,11 @@
     </if>
     limit 1
   </select>
+
+  <select id="queryNextStepInfo" parameterType="map" resultMap="BaseResultMap">
+    select
+        <include refid="Base_Column_List"/>
+    from t_flow_step_define
+    where flow_code = ${flowCode,jdbcType=VARCHAR}  and superior_point = ${point,jdbcType=INTEGER}
+  </select>
 </mapper>

@@ -8,4 +8,6 @@ public interface FlowExecutePoint {
     int delFlowEXecutePoint(int id);
     int delFlowExecutePoint(int pointId);
     int updateFlowExecutePoint(TFlowExecutePoint flowExecutePoint,int id);
+    boolean queryIsFullFlow(TFlowExecutePoint executePoint);
+    TFlowExecutePoint queryExecutePointInfo(String executeCode, String flowCode, int point);
 }

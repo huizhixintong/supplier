@@ -10,23 +10,26 @@ public class FlowGenerateImp implements FlowGenerate {
     @Override
     public String createFlowCode() {
 
-        String tmp =  getTimestamp() + getRandom();
-        System.out.println("tmp:" + tmp);
+        String tmp =  getTimestamp(6) + getRandom();
         return tmp;
     }
 
     @Override
     public String createFlowExecuteCode(String flowCode) {
-        return null;
+        return flowCode+getTimestamp(0) + getRandom();
     }
+
 
     private String getRandom(){
         return String.format("%04d",ThreadLocalRandom.current().nextInt(9999));
     }
 
-    private String getTimestamp(){
+    private String getTimestamp(int length){
         String timeStamp = String.valueOf(System.currentTimeMillis());
-        System.out.println("time:" + timeStamp);
-        return timeStamp.substring(timeStamp.length()-6,timeStamp.length());
+//        System.out.println("time:" + timeStamp);
+        if (length <=0){
+            length = timeStamp.length();
+        }
+        return timeStamp.substring(timeStamp.length()-length,timeStamp.length());
     }
 }
