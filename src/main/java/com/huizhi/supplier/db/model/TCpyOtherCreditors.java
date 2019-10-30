@@ -14,7 +14,7 @@ public class TCpyOtherCreditors {
      *
      * @mbg.generated
      */
-    private String id;
+    private Integer id;
 
     /**
      *
@@ -141,7 +141,7 @@ public class TCpyOtherCreditors {
      *
      * @mbg.generated
      */
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -153,7 +153,7 @@ public class TCpyOtherCreditors {
      *
      * @mbg.generated
      */
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -567,7 +567,7 @@ public class TCpyOtherCreditors {
      * @mbg.generated
      */
     public enum Column {
-        id("id", "id", "VARCHAR", false),
+        id("id", "id", "INTEGER", false),
         companyId("company_id", "companyId", "VARCHAR", false),
         debtorName("debtor_name", "debtorName", "VARCHAR", false),
         debtorMoney("debtor_money", "debtorMoney", "DECIMAL", false),

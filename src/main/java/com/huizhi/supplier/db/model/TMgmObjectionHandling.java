@@ -12,7 +12,7 @@ public class TMgmObjectionHandling {
      *
      * @mbg.generated
      */
-    private String id;
+    private Integer id;
 
     /**
      *
@@ -139,7 +139,7 @@ public class TMgmObjectionHandling {
      *
      * @mbg.generated
      */
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -151,7 +151,7 @@ public class TMgmObjectionHandling {
      *
      * @mbg.generated
      */
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -565,7 +565,7 @@ public class TMgmObjectionHandling {
      * @mbg.generated
      */
     public enum Column {
-        id("id", "id", "VARCHAR", false),
+        id("id", "id", "INTEGER", false),
         dissenter("dissenter", "dissenter", "CHAR", false),
         objectionTime("objection_time", "objectionTime", "TIMESTAMP", false),
         objectionDetails("objection_details", "objectionDetails", "VARCHAR", false),

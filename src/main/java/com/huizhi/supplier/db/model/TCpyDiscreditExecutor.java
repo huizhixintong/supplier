@@ -13,7 +13,7 @@ public class TCpyDiscreditExecutor {
      *
      * @mbg.generated
      */
-    private String id;
+    private Integer id;
 
     /**
      *
@@ -212,7 +212,7 @@ public class TCpyDiscreditExecutor {
      *
      * @mbg.generated
      */
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -224,7 +224,7 @@ public class TCpyDiscreditExecutor {
      *
      * @mbg.generated
      */
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -854,7 +854,7 @@ public class TCpyDiscreditExecutor {
      * @mbg.generated
      */
     public enum Column {
-        id("id", "id", "VARCHAR", false),
+        id("id", "id", "INTEGER", false),
         companyId("company_id", "companyId", "VARCHAR", false),
         executorName("executor_name", "executorName", "VARCHAR", false),
         identityNumber("identity_number", "identityNumber", "VARCHAR", false),

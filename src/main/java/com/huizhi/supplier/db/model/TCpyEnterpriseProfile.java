@@ -12,7 +12,7 @@ public class TCpyEnterpriseProfile {
      *
      * @mbg.generated
      */
-    private String id;
+    private Integer id;
 
     /**
      *
@@ -247,7 +247,7 @@ public class TCpyEnterpriseProfile {
      *
      * @mbg.generated
      */
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -259,7 +259,7 @@ public class TCpyEnterpriseProfile {
      *
      * @mbg.generated
      */
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -997,7 +997,7 @@ public class TCpyEnterpriseProfile {
      * @mbg.generated
      */
     public enum Column {
-        id("id", "id", "VARCHAR", false),
+        id("id", "id", "INTEGER", false),
         creditCode("credit_code", "creditCode", "VARCHAR", false),
         orgCode("org_code", "orgCode", "VARCHAR", false),
         registerCode("register_code", "registerCode", "VARCHAR", false),

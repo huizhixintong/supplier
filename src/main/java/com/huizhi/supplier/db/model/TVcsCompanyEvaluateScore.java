@@ -13,7 +13,7 @@ public class TVcsCompanyEvaluateScore {
      *
      * @mbg.generated
      */
-    private String id;
+    private Integer id;
 
     /**
      *
@@ -149,7 +149,7 @@ public class TVcsCompanyEvaluateScore {
      *
      * @mbg.generated
      */
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -161,7 +161,7 @@ public class TVcsCompanyEvaluateScore {
      *
      * @mbg.generated
      */
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -602,7 +602,7 @@ public class TVcsCompanyEvaluateScore {
      * @mbg.generated
      */
     public enum Column {
-        id("id", "id", "VARCHAR", false),
+        id("id", "id", "INTEGER", false),
         pId("p_id", "pId", "VARCHAR", false),
         rId("r_id", "rId", "VARCHAR", false),
         supplierId("supplier_id", "supplierId", "VARCHAR", false),

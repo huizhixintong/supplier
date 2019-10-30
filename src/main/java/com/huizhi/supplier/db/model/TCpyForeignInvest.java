@@ -13,7 +13,7 @@ public class TCpyForeignInvest {
      *
      * @mbg.generated
      */
-    private String id;
+    private Integer id;
 
     /**
      *
@@ -185,7 +185,7 @@ public class TCpyForeignInvest {
      *
      * @mbg.generated
      */
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -197,7 +197,7 @@ public class TCpyForeignInvest {
      *
      * @mbg.generated
      */
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -746,7 +746,7 @@ public class TCpyForeignInvest {
      * @mbg.generated
      */
     public enum Column {
-        id("id", "id", "VARCHAR", false),
+        id("id", "id", "INTEGER", false),
         companyId("company_id", "companyId", "VARCHAR", false),
         investCompanyName("invest_company_name", "investCompanyName", "VARCHAR", false),
         investType("invest_type", "investType", "VARCHAR", false),

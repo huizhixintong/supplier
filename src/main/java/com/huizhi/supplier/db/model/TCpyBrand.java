@@ -12,7 +12,7 @@ public class TCpyBrand {
      *
      * @mbg.generated
      */
-    private String id;
+    private Integer id;
 
     /**
      *
@@ -94,7 +94,7 @@ public class TCpyBrand {
      *
      * @mbg.generated
      */
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -106,7 +106,7 @@ public class TCpyBrand {
      *
      * @mbg.generated
      */
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -385,7 +385,7 @@ public class TCpyBrand {
      * @mbg.generated
      */
     public enum Column {
-        id("id", "id", "VARCHAR", false),
+        id("id", "id", "INTEGER", false),
         companyId("company_id", "companyId", "VARCHAR", false),
         brandName("brand_name", "brandName", "VARCHAR", false),
         brandPopularity("brand_popularity", "brandPopularity", "VARCHAR", false),

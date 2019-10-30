@@ -12,7 +12,7 @@ public class TCpyWholesaleRetail {
      *
      * @mbg.generated
      */
-    private String id;
+    private Integer id;
 
     /**
      *
@@ -130,7 +130,7 @@ public class TCpyWholesaleRetail {
      *
      * @mbg.generated
      */
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -142,7 +142,7 @@ public class TCpyWholesaleRetail {
      *
      * @mbg.generated
      */
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -529,7 +529,7 @@ public class TCpyWholesaleRetail {
      * @mbg.generated
      */
     public enum Column {
-        id("id", "id", "VARCHAR", false),
+        id("id", "id", "INTEGER", false),
         companyId("company_id", "companyId", "VARCHAR", false),
         year("year", "year", "CHAR", true),
         businessType("business_type", "businessType", "VARCHAR", false),

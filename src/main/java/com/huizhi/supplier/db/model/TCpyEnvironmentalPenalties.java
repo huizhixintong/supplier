@@ -13,7 +13,7 @@ public class TCpyEnvironmentalPenalties {
      *
      * @mbg.generated
      */
-    private String id;
+    private Integer id;
 
     /**
      *
@@ -149,7 +149,7 @@ public class TCpyEnvironmentalPenalties {
      *
      * @mbg.generated
      */
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -161,7 +161,7 @@ public class TCpyEnvironmentalPenalties {
      *
      * @mbg.generated
      */
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -602,7 +602,7 @@ public class TCpyEnvironmentalPenalties {
      * @mbg.generated
      */
     public enum Column {
-        id("id", "id", "VARCHAR", false),
+        id("id", "id", "INTEGER", false),
         companyId("company_id", "companyId", "VARCHAR", false),
         caseNo("case_no", "caseNo", "VARCHAR", false),
         illegalType("illegal_type", "illegalType", "VARCHAR", false),

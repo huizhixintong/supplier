@@ -12,7 +12,7 @@ public class TRptReportDownloadRecord {
      *
      * @mbg.generated
      */
-    private String id;
+    private Integer id;
 
     /**
      *
@@ -58,7 +58,7 @@ public class TRptReportDownloadRecord {
      *
      * @mbg.generated
      */
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -70,7 +70,7 @@ public class TRptReportDownloadRecord {
      *
      * @mbg.generated
      */
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -241,7 +241,7 @@ public class TRptReportDownloadRecord {
      * @mbg.generated
      */
     public enum Column {
-        id("id", "id", "VARCHAR", false),
+        id("id", "id", "INTEGER", false),
         companyId("company_id", "companyId", "VARCHAR", false),
         reportTemplateType("report_template_type", "reportTemplateType", "VARCHAR", false),
         downReportPerson("down_report_person", "downReportPerson", "VARCHAR", false),
