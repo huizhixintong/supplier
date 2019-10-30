@@ -1,7 +1,9 @@
 package com.huizhi.supplier.service.supplier.company.assetsliabilities;
 
+import com.huizhi.supplier.db.dao.CommonMapper;
 import com.huizhi.supplier.db.model.TCpyAssetsLiabilities;
 import com.huizhi.supplier.db.model.TCpyCashFlow;
+import com.huizhi.supplier.service.common.CommonService;
 
 import java.util.List;
 
@@ -12,17 +14,17 @@ import java.util.List;
  * @Version: 1.0
  * @create 2019/10/24 0024 15:58
  */
-public interface AssetsLiabilitiesService {
+public interface AssetsLiabilitiesService{
 
-    List<TCpyAssetsLiabilities> findByCompanyId(String companyId);
-
-    TCpyAssetsLiabilities findByCompanyIdAndYear(String companyId, String year);
-
-    TCpyAssetsLiabilities getById(String id);
-
-    int save(TCpyAssetsLiabilities assetsLiabilities);
-
-    int update(TCpyAssetsLiabilities assetsLiabilities);
+//    List<TCpyAssetsLiabilities> findByCompanyId(String companyId);
+//
+//    TCpyAssetsLiabilities findByCompanyIdAndYear(String companyId, String year);
+//
+//    TCpyAssetsLiabilities getById(String id);
+//
+//    int save(TCpyAssetsLiabilities assetsLiabilities);
+//
+//    int update(TCpyAssetsLiabilities assetsLiabilities);
 
 
 }

@@ -12,7 +12,7 @@ import java.util.List;
  * @Version: 1.0
  * @create 2019/10/24 0024 15:52
  */
-public interface CashFlowService {
+public interface CashFlowService<D,T> {
 
     List<TCpyCashFlow> findByCompanyId(String companyId);
 

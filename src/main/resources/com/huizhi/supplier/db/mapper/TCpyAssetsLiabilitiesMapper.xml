@@ -272,6 +272,9 @@
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
+
+
+
   <insert id="insert" parameterType="com.huizhi.supplier.db.model.TCpyAssetsLiabilities">
     <!--
       WARNING - @mbg.generated
@@ -349,6 +352,10 @@
       #{createPerson,jdbcType=VARCHAR}, #{createTime,jdbcType=TIMESTAMP}, #{modifyPerson,jdbcType=VARCHAR}, 
       #{modifyTime,jdbcType=TIMESTAMP}, #{dataResource,jdbcType=VARCHAR})
   </insert>
+
+
+
+
   <insert id="insertSelective" parameterType="com.huizhi.supplier.db.model.TCpyAssetsLiabilities">
     <!--
       WARNING - @mbg.generated
@@ -843,6 +850,9 @@
       </if>
     </trim>
   </insert>
+
+
+
   <select id="countByExample" parameterType="com.huizhi.supplier.db.model.TCpyAssetsLiabilitiesExample" resultType="java.lang.Long">
     <!--
       WARNING - @mbg.generated
@@ -1587,7 +1597,9 @@
 
     </select>
   <select id="selectByCompanyIdAndYear" resultMap="BaseResultMap">
-    select  * from t_cpy_assets_liabilities where company_id = #{companyId,jdbcType=VARCHAR}
+    select  * from t_cpy_assets_liabilities where
+
+     company_id = #{companyId,jdbcType=VARCHAR}
     AND `year` = #{year,jdbcType=CHAR}
 
   </select>
