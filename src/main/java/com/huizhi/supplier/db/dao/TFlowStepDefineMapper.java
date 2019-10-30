@@ -1,9 +1,12 @@
 package com.huizhi.supplier.db.dao;
 
+import com.huizhi.supplier.db.annotation.MybatisUserInfo;
 import com.huizhi.supplier.db.model.TFlowStepDefine;
 import com.huizhi.supplier.db.model.TFlowStepDefineExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
+
+@MybatisUserInfo
 
 public interface TFlowStepDefineMapper {
     /**
