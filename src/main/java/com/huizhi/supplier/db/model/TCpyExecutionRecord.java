@@ -12,7 +12,7 @@ public class TCpyExecutionRecord {
      *
      * @mbg.generated
      */
-    private String id;
+    private Integer id;
 
     /**
      *
@@ -148,7 +148,7 @@ public class TCpyExecutionRecord {
      *
      * @mbg.generated
      */
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -160,7 +160,7 @@ public class TCpyExecutionRecord {
      *
      * @mbg.generated
      */
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -601,7 +601,7 @@ public class TCpyExecutionRecord {
      * @mbg.generated
      */
     public enum Column {
-        id("id", "id", "VARCHAR", false),
+        id("id", "id", "INTEGER", false),
         companyId("company_id", "companyId", "VARCHAR", false),
         executiveCourt("executive_court", "executiveCourt", "VARCHAR", false),
         executiveSubject("executive_subject", "executiveSubject", "VARCHAR", false),

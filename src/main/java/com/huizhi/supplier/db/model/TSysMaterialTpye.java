@@ -12,7 +12,7 @@ public class TSysMaterialTpye {
      *
      * @mbg.generated
      */
-    private String id;
+    private Integer id;
 
     /**
      *
@@ -112,7 +112,7 @@ public class TSysMaterialTpye {
      *
      * @mbg.generated
      */
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -124,7 +124,7 @@ public class TSysMaterialTpye {
      *
      * @mbg.generated
      */
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -457,7 +457,7 @@ public class TSysMaterialTpye {
      * @mbg.generated
      */
     public enum Column {
-        id("id", "id", "VARCHAR", false),
+        id("id", "id", "INTEGER", false),
         parentId("parent_id", "parentId", "VARCHAR", false),
         parentIds("parent_ids", "parentIds", "VARCHAR", false),
         name("name", "name", "VARCHAR", true),

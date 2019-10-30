@@ -234,7 +234,7 @@ public class TVcsCompanyEvaluateScoreWithBLOBs extends TVcsCompanyEvaluateScore 
      * @mbg.generated
      */
     public enum Column {
-        id("id", "id", "VARCHAR", false),
+        id("id", "id", "INTEGER", false),
         pId("p_id", "pId", "VARCHAR", false),
         rId("r_id", "rId", "VARCHAR", false),
         supplierId("supplier_id", "supplierId", "VARCHAR", false),

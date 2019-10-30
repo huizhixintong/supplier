@@ -13,7 +13,7 @@ public class TPerContract {
      *
      * @mbg.generated
      */
-    private String id;
+    private Integer id;
 
     /**
      *
@@ -212,7 +212,7 @@ public class TPerContract {
      *
      * @mbg.generated
      */
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -224,7 +224,7 @@ public class TPerContract {
      *
      * @mbg.generated
      */
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -854,7 +854,7 @@ public class TPerContract {
      * @mbg.generated
      */
     public enum Column {
-        id("id", "id", "VARCHAR", false),
+        id("id", "id", "INTEGER", false),
         name("name", "name", "VARCHAR", true),
         code("code", "code", "VARCHAR", false),
         payTime("pay_time", "payTime", "DATE", false),

@@ -12,7 +12,7 @@ public class TCpyAuthentication {
      *
      * @mbg.generated
      */
-    private String id;
+    private Integer id;
 
     /**
      *
@@ -157,7 +157,7 @@ public class TCpyAuthentication {
      *
      * @mbg.generated
      */
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -169,7 +169,7 @@ public class TCpyAuthentication {
      *
      * @mbg.generated
      */
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -637,7 +637,7 @@ public class TCpyAuthentication {
      * @mbg.generated
      */
     public enum Column {
-        id("id", "id", "VARCHAR", false),
+        id("id", "id", "INTEGER", false),
         companyId("company_id", "companyId", "VARCHAR", false),
         authenticationName("authentication_name", "authenticationName", "VARCHAR", false),
         certificateNo("certificate_no", "certificateNo", "VARCHAR", false),

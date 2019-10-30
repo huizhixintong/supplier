@@ -12,7 +12,7 @@ public class TCpyFlangingRegulationAttachement {
      *
      * @mbg.generated
      */
-    private String id;
+    private Integer id;
 
     /**
      *
@@ -94,7 +94,7 @@ public class TCpyFlangingRegulationAttachement {
      *
      * @mbg.generated
      */
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -106,7 +106,7 @@ public class TCpyFlangingRegulationAttachement {
      *
      * @mbg.generated
      */
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -385,7 +385,7 @@ public class TCpyFlangingRegulationAttachement {
      * @mbg.generated
      */
     public enum Column {
-        id("id", "id", "VARCHAR", false),
+        id("id", "id", "INTEGER", false),
         companyId("company_id", "companyId", "VARCHAR", false),
         regulationId("regulation_id", "regulationId", "VARCHAR", false),
         attachementName("attachement_name", "attachementName", "VARCHAR", false),

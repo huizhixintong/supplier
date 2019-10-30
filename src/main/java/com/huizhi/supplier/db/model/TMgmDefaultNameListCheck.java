@@ -12,7 +12,7 @@ public class TMgmDefaultNameListCheck {
      *
      * @mbg.generated
      */
-    private String id;
+    private Integer id;
 
     /**
      *
@@ -67,7 +67,7 @@ public class TMgmDefaultNameListCheck {
      *
      * @mbg.generated
      */
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -79,7 +79,7 @@ public class TMgmDefaultNameListCheck {
      *
      * @mbg.generated
      */
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -277,7 +277,7 @@ public class TMgmDefaultNameListCheck {
      * @mbg.generated
      */
     public enum Column {
-        id("id", "id", "VARCHAR", false),
+        id("id", "id", "INTEGER", false),
         defaulId("defaul_id", "defaulId", "VARCHAR", false),
         checkUserId("check_user_id", "checkUserId", "VARCHAR", false),
         auditByReason("audit_by_reason", "auditByReason", "VARCHAR", false),

@@ -13,7 +13,7 @@ public class TCpyHonor {
      *
      * @mbg.generated
      */
-    private String id;
+    private Integer id;
 
     /**
      *
@@ -140,7 +140,7 @@ public class TCpyHonor {
      *
      * @mbg.generated
      */
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -152,7 +152,7 @@ public class TCpyHonor {
      *
      * @mbg.generated
      */
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -566,7 +566,7 @@ public class TCpyHonor {
      * @mbg.generated
      */
     public enum Column {
-        id("id", "id", "VARCHAR", false),
+        id("id", "id", "INTEGER", false),
         companyId("company_id", "companyId", "VARCHAR", false),
         honoraryCertificateType("honorary_certificate_type", "honoraryCertificateType", "VARCHAR", false),
         honoraryCertificateName("honorary_certificate_name", "honoraryCertificateName", "VARCHAR", false),

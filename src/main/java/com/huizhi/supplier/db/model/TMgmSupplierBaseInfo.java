@@ -13,7 +13,7 @@ public class TMgmSupplierBaseInfo {
      *
      * @mbg.generated
      */
-    private String id;
+    private Integer id;
 
     /**
      *
@@ -320,7 +320,7 @@ public class TMgmSupplierBaseInfo {
      *
      * @mbg.generated
      */
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -332,7 +332,7 @@ public class TMgmSupplierBaseInfo {
      *
      * @mbg.generated
      */
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -1286,7 +1286,7 @@ public class TMgmSupplierBaseInfo {
      * @mbg.generated
      */
     public enum Column {
-        id("id", "id", "VARCHAR", false),
+        id("id", "id", "INTEGER", false),
         companyName("company_name", "companyName", "VARCHAR", false),
         companyAbbreviation("company_abbreviation", "companyAbbreviation", "VARCHAR", false),
         englishName("english_name", "englishName", "VARCHAR", false),

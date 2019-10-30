@@ -18,11 +18,11 @@ public interface CommonMapper<T> {
 
     int updateByPrimaryKey(T record);
 
-    T selectByPrimaryKey(String id);
+    T selectByPrimaryKey(Integer id);
 
-    List<T> selectByCompanyId(@Param("companyId") String companyId);
+    List<T> selectByCompanyId(@Param("companyId") Integer companyId);
 
-    T selectByCompanyIdAndYear(@Param("companyId") String companyId, @Param("year") String year);
+    T selectByCompanyIdAndYear(@Param("companyId") Integer companyId, @Param("year") String year);
 
     int updateByCompanyIdAndYear(T t);
 }

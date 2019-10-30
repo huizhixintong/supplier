@@ -13,7 +13,7 @@ public class TCpyBankCredit {
      *
      * @mbg.generated
      */
-    private String id;
+    private Integer id;
 
     /**
      *
@@ -113,7 +113,7 @@ public class TCpyBankCredit {
      *
      * @mbg.generated
      */
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -125,7 +125,7 @@ public class TCpyBankCredit {
      *
      * @mbg.generated
      */
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -458,7 +458,7 @@ public class TCpyBankCredit {
      * @mbg.generated
      */
     public enum Column {
-        id("id", "id", "VARCHAR", false),
+        id("id", "id", "INTEGER", false),
         companyId("company_id", "companyId", "VARCHAR", false),
         reportGenTime("report_gen_time", "reportGenTime", "DATE", false),
         financingCreditNum("financing_credit_num", "financingCreditNum", "INTEGER", false),
