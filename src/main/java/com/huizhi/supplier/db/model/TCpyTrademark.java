@@ -22,7 +22,7 @@ public class TCpyTrademark {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -191,7 +191,7 @@ public class TCpyTrademark {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -203,7 +203,7 @@ public class TCpyTrademark {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -675,7 +675,7 @@ public class TCpyTrademark {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         trademarkInfo("trademark_info", "trademarkInfo", "VARCHAR", false),
         trademarkPath("trademark_path", "trademarkPath", "VARCHAR", false),
         trademarkName("trademark_name", "trademarkName", "VARCHAR", false),

@@ -22,7 +22,7 @@ public class TCpyJudgment {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -191,7 +191,7 @@ public class TCpyJudgment {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -203,7 +203,7 @@ public class TCpyJudgment {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -675,7 +675,7 @@ public class TCpyJudgment {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         title("title", "title", "VARCHAR", false),
         causeAction("cause_action", "causeAction", "VARCHAR", false),
         litigationStatus("litigation_status", "litigationStatus", "VARCHAR", false),

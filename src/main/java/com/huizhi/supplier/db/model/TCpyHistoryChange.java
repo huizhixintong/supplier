@@ -21,7 +21,7 @@ public class TCpyHistoryChange {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -136,7 +136,7 @@ public class TCpyHistoryChange {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -148,7 +148,7 @@ public class TCpyHistoryChange {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -458,7 +458,7 @@ public class TCpyHistoryChange {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         changeItems("change_Items", "changeItems", "VARCHAR", false),
         beforeChange("before_change", "beforeChange", "VARCHAR", false),
         afterChange("after_change", "afterChange", "VARCHAR", false),

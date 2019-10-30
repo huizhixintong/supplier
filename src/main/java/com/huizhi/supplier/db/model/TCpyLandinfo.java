@@ -23,7 +23,7 @@ public class TCpyLandinfo {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -372,7 +372,7 @@ public class TCpyLandinfo {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -384,7 +384,7 @@ public class TCpyLandinfo {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -1396,7 +1396,7 @@ public class TCpyLandinfo {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         parcelIdentification("parcel_identification", "parcelIdentification", "VARCHAR", false),
         electronicSurveillanceNumber("electronic_surveillance_number", "electronicSurveillanceNumber", "VARCHAR", false),
         originalLandUseRights("original_land_use_rights", "originalLandUseRights", "VARCHAR", false),

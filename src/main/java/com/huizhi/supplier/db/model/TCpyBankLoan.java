@@ -22,7 +22,7 @@ public class TCpyBankLoan {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -164,7 +164,7 @@ public class TCpyBankLoan {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -176,7 +176,7 @@ public class TCpyBankLoan {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -567,7 +567,7 @@ public class TCpyBankLoan {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         bankCreditGrade("bank_credit_grade", "bankCreditGrade", "VARCHAR", false),
         overdueAccountNum("overdue_account_num", "overdueAccountNum", "VARCHAR", false),
         overdueAmount("overdue_amount", "overdueAmount", "DECIMAL", false),

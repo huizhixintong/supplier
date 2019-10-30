@@ -21,7 +21,7 @@ public class TCpyAbnormalOperation {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -154,7 +154,7 @@ public class TCpyAbnormalOperation {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -166,7 +166,7 @@ public class TCpyAbnormalOperation {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -530,7 +530,7 @@ public class TCpyAbnormalOperation {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         operatingAnomalies("operating_anomalies", "operatingAnomalies", "VARCHAR", false),
         dateInclusion("date_inclusion", "dateInclusion", "TIMESTAMP", false),
         decisionIn("decision_in", "decisionIn", "VARCHAR", false),

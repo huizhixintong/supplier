@@ -23,7 +23,7 @@ public class TCpyShareholdersConstitute {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -228,7 +228,7 @@ public class TCpyShareholdersConstitute {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -240,7 +240,7 @@ public class TCpyShareholdersConstitute {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -820,7 +820,7 @@ public class TCpyShareholdersConstitute {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         shareholdersName("shareholders_name", "shareholdersName", "VARCHAR", false),
         shareholdersType("shareholders_type", "shareholdersType", "VARCHAR", false),
         certificateType("certificate_type", "certificateType", "VARCHAR", false),

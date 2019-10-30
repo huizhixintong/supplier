@@ -21,7 +21,7 @@ public class TCpyWholesaleRetail {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -154,7 +154,7 @@ public class TCpyWholesaleRetail {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -166,7 +166,7 @@ public class TCpyWholesaleRetail {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -530,7 +530,7 @@ public class TCpyWholesaleRetail {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         year("year", "year", "CHAR", true),
         businessType("business_type", "businessType", "VARCHAR", false),
         brandLibraryNumber("brand_library_number", "brandLibraryNumber", "INTEGER", false),

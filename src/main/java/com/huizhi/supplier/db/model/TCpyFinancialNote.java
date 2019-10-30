@@ -22,7 +22,7 @@ public class TCpyFinancialNote {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -119,7 +119,7 @@ public class TCpyFinancialNote {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -131,7 +131,7 @@ public class TCpyFinancialNote {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -387,7 +387,7 @@ public class TCpyFinancialNote {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         interestPaid("interest_paid", "interestPaid", "DECIMAL", false),
         date("date", "date", "VARCHAR", true),
         createPerson("create_person", "createPerson", "VARCHAR", false),

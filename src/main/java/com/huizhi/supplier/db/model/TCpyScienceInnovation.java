@@ -22,7 +22,7 @@ public class TCpyScienceInnovation {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -155,7 +155,7 @@ public class TCpyScienceInnovation {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -167,7 +167,7 @@ public class TCpyScienceInnovation {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -531,7 +531,7 @@ public class TCpyScienceInnovation {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         academyName("academy_name", "academyName", "VARCHAR", false),
         academyContent("academy_content", "academyContent", "VARCHAR", false),
         scientificResearchProjectName("scientific_research_project_name", "scientificResearchProjectName", "VARCHAR", false),

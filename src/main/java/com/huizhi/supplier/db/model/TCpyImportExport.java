@@ -22,7 +22,7 @@ public class TCpyImportExport {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -245,7 +245,7 @@ public class TCpyImportExport {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -257,7 +257,7 @@ public class TCpyImportExport {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -891,7 +891,7 @@ public class TCpyImportExport {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         managementIdentification("management_identification", "managementIdentification", "VARCHAR", false),
         companyCode("company_code", "companyCode", "VARCHAR", false),
         credentialsCertificateDate("credentials_certificate_date", "credentialsCertificateDate", "DATE", false),

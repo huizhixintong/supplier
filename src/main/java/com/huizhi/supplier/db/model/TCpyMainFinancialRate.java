@@ -22,7 +22,7 @@ public class TCpyMainFinancialRate {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -299,7 +299,7 @@ public class TCpyMainFinancialRate {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -311,7 +311,7 @@ public class TCpyMainFinancialRate {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -1107,7 +1107,7 @@ public class TCpyMainFinancialRate {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         year("year", "year", "VARCHAR", true),
         ratioLiabilities("ratio_liabilities", "ratioLiabilities", "DECIMAL", false),
         quickRatio("quick_ratio", "quickRatio", "DECIMAL", false),

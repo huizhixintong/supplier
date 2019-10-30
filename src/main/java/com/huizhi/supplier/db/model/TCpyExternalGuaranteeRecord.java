@@ -23,7 +23,7 @@ public class TCpyExternalGuaranteeRecord {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -210,7 +210,7 @@ public class TCpyExternalGuaranteeRecord {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -222,7 +222,7 @@ public class TCpyExternalGuaranteeRecord {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -748,7 +748,7 @@ public class TCpyExternalGuaranteeRecord {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         guarantorName("guarantor_name", "guarantorName", "VARCHAR", false),
         paymentMethod("payment_method", "paymentMethod", "VARCHAR", false),
         currentBalance("current_balance", "currentBalance", "DECIMAL", false),

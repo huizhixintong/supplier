@@ -22,7 +22,7 @@ public class TCpyPatent {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -227,7 +227,7 @@ public class TCpyPatent {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -239,7 +239,7 @@ public class TCpyPatent {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -819,7 +819,7 @@ public class TCpyPatent {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         patentName("patent_name", "patentName", "VARCHAR", false),
         patentType("patent_type", "patentType", "VARCHAR", false),
         patentNo("patent_no", "patentNo", "VARCHAR", false),

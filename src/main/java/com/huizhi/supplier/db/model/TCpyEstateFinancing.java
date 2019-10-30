@@ -22,7 +22,7 @@ public class TCpyEstateFinancing {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -155,7 +155,7 @@ public class TCpyEstateFinancing {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -167,7 +167,7 @@ public class TCpyEstateFinancing {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -531,7 +531,7 @@ public class TCpyEstateFinancing {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         registerNo("register_no", "registerNo", "VARCHAR", false),
         registerDate("register_date", "registerDate", "TIMESTAMP", false),
         registerOffice("register_office", "registerOffice", "VARCHAR", false),

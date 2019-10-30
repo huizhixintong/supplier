@@ -23,7 +23,7 @@ public class TCpyTaxArrear {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -174,7 +174,7 @@ public class TCpyTaxArrear {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -186,7 +186,7 @@ public class TCpyTaxArrear {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -604,7 +604,7 @@ public class TCpyTaxArrear {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         mainTaxOrg("main_tax_org", "mainTaxOrg", "VARCHAR", false),
         taxArrears("tax_arrears", "taxArrears", "VARCHAR", false),
         currentTaxBalance("current_tax_balance", "currentTaxBalance", "DECIMAL", false),

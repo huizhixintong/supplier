@@ -22,7 +22,7 @@ public class TCpyEquityPledge {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -200,7 +200,7 @@ public class TCpyEquityPledge {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -212,7 +212,7 @@ public class TCpyEquityPledge {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -711,7 +711,7 @@ public class TCpyEquityPledge {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         pledgor("pledgor", "pledgor", "VARCHAR", false),
         qualityTarget("quality_target", "qualityTarget", "VARCHAR", false),
         remarks("remarks", "remarks", "VARCHAR", false),

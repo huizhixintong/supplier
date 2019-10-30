@@ -21,7 +21,7 @@ public class TCpyCourtAnnouncement {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -190,7 +190,7 @@ public class TCpyCourtAnnouncement {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -202,7 +202,7 @@ public class TCpyCourtAnnouncement {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -674,7 +674,7 @@ public class TCpyCourtAnnouncement {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         plaintiff("plaintiff", "plaintiff", "VARCHAR", false),
         defendant("defendant", "defendant", "VARCHAR", false),
         party("party", "party", "VARCHAR", false),

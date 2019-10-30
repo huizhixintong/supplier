@@ -22,7 +22,7 @@ public class TCpyLegalCredit {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -128,7 +128,7 @@ public class TCpyLegalCredit {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -140,7 +140,7 @@ public class TCpyLegalCredit {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -423,7 +423,7 @@ public class TCpyLegalCredit {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         violatedNumber("violated_number", "violatedNumber", "INTEGER", false),
         violatedMoney("violated_money", "violatedMoney", "DECIMAL", false),
         legalCredit("legal_credit", "legalCredit", "VARCHAR", false),

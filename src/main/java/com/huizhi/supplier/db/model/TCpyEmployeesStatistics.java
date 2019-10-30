@@ -21,7 +21,7 @@ public class TCpyEmployeesStatistics {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -316,7 +316,7 @@ public class TCpyEmployeesStatistics {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -328,7 +328,7 @@ public class TCpyEmployeesStatistics {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -1178,7 +1178,7 @@ public class TCpyEmployeesStatistics {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         employeesTotal("employees_total", "employeesTotal", "INTEGER", false),
         doctorAboveNumber("doctor_above_number", "doctorAboveNumber", "INTEGER", false),
         masterNumber("master_number", "masterNumber", "INTEGER", false),

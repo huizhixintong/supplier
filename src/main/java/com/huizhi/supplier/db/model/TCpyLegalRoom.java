@@ -23,7 +23,7 @@ public class TCpyLegalRoom {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -174,7 +174,7 @@ public class TCpyLegalRoom {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -186,7 +186,7 @@ public class TCpyLegalRoom {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -604,7 +604,7 @@ public class TCpyLegalRoom {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         rNo("r_no", "rNo", "VARCHAR", false),
         rAddress("r_address", "rAddress", "VARCHAR", false),
         rArea("r_area", "rArea", "VARCHAR", false),

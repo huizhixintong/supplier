@@ -21,7 +21,7 @@ public class TCpySpouse {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -145,7 +145,7 @@ public class TCpySpouse {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -157,7 +157,7 @@ public class TCpySpouse {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -494,7 +494,7 @@ public class TCpySpouse {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         spouseName("spouse_name", "spouseName", "VARCHAR", false),
         spouseCertificateType("spouse_certificate_type", "spouseCertificateType", "VARCHAR", false),
         spouseCertificateNumber("spouse_certificate_number", "spouseCertificateNumber", "VARCHAR", false),

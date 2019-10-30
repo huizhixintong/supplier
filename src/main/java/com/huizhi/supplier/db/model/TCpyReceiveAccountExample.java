@@ -400,7 +400,7 @@ public class TCpyReceiveAccountExample {
             return (Criteria) this;
         }
 
-        public Criteria andCompanyIdEqualTo(String value) {
+        public Criteria andCompanyIdEqualTo(Integer value) {
             addCriterion("company_id =", value, "companyId");
             return (Criteria) this;
         }
@@ -416,7 +416,7 @@ public class TCpyReceiveAccountExample {
             return (Criteria) this;
         }
 
-        public Criteria andCompanyIdNotEqualTo(String value) {
+        public Criteria andCompanyIdNotEqualTo(Integer value) {
             addCriterion("company_id <>", value, "companyId");
             return (Criteria) this;
         }
@@ -432,7 +432,7 @@ public class TCpyReceiveAccountExample {
             return (Criteria) this;
         }
 
-        public Criteria andCompanyIdGreaterThan(String value) {
+        public Criteria andCompanyIdGreaterThan(Integer value) {
             addCriterion("company_id >", value, "companyId");
             return (Criteria) this;
         }
@@ -448,7 +448,7 @@ public class TCpyReceiveAccountExample {
             return (Criteria) this;
         }
 
-        public Criteria andCompanyIdGreaterThanOrEqualTo(String value) {
+        public Criteria andCompanyIdGreaterThanOrEqualTo(Integer value) {
             addCriterion("company_id >=", value, "companyId");
             return (Criteria) this;
         }
@@ -464,7 +464,7 @@ public class TCpyReceiveAccountExample {
             return (Criteria) this;
         }
 
-        public Criteria andCompanyIdLessThan(String value) {
+        public Criteria andCompanyIdLessThan(Integer value) {
             addCriterion("company_id <", value, "companyId");
             return (Criteria) this;
         }
@@ -480,7 +480,7 @@ public class TCpyReceiveAccountExample {
             return (Criteria) this;
         }
 
-        public Criteria andCompanyIdLessThanOrEqualTo(String value) {
+        public Criteria andCompanyIdLessThanOrEqualTo(Integer value) {
             addCriterion("company_id <=", value, "companyId");
             return (Criteria) this;
         }
@@ -496,32 +496,22 @@ public class TCpyReceiveAccountExample {
             return (Criteria) this;
         }
 
-        public Criteria andCompanyIdLike(String value) {
-            addCriterion("company_id like", value, "companyId");
-            return (Criteria) this;
-        }
-
-        public Criteria andCompanyIdNotLike(String value) {
-            addCriterion("company_id not like", value, "companyId");
-            return (Criteria) this;
-        }
-
-        public Criteria andCompanyIdIn(List<String> values) {
+        public Criteria andCompanyIdIn(List<Integer> values) {
             addCriterion("company_id in", values, "companyId");
             return (Criteria) this;
         }
 
-        public Criteria andCompanyIdNotIn(List<String> values) {
+        public Criteria andCompanyIdNotIn(List<Integer> values) {
             addCriterion("company_id not in", values, "companyId");
             return (Criteria) this;
         }
 
-        public Criteria andCompanyIdBetween(String value1, String value2) {
+        public Criteria andCompanyIdBetween(Integer value1, Integer value2) {
             addCriterion("company_id between", value1, value2, "companyId");
             return (Criteria) this;
         }
 
-        public Criteria andCompanyIdNotBetween(String value1, String value2) {
+        public Criteria andCompanyIdNotBetween(Integer value1, Integer value2) {
             addCriterion("company_id not between", value1, value2, "companyId");
             return (Criteria) this;
         }
