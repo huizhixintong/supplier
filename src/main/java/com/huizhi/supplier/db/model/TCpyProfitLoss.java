@@ -22,7 +22,7 @@ public class TCpyProfitLoss {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -488,7 +488,7 @@ public class TCpyProfitLoss {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -500,7 +500,7 @@ public class TCpyProfitLoss {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -1863,7 +1863,7 @@ public class TCpyProfitLoss {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         year("year", "year", "CHAR", true),
         operatingIncome("operating_income", "operatingIncome", "DECIMAL", false),
         operatingCost("operating_cost", "operatingCost", "DECIMAL", false),

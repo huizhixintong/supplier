@@ -22,7 +22,7 @@ public class TCpyEmployeeQualification {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -191,7 +191,7 @@ public class TCpyEmployeeQualification {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -203,7 +203,7 @@ public class TCpyEmployeeQualification {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -675,7 +675,7 @@ public class TCpyEmployeeQualification {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         employeeName("employee_name", "employeeName", "VARCHAR", false),
         qualificationName("qualification_name", "qualificationName", "VARCHAR", false),
         qualificationNo("qualification_no", "qualificationNo", "VARCHAR", false),

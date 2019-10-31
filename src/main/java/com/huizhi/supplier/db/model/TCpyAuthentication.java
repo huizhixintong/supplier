@@ -21,7 +21,7 @@ public class TCpyAuthentication {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -181,7 +181,7 @@ public class TCpyAuthentication {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -193,7 +193,7 @@ public class TCpyAuthentication {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -638,7 +638,7 @@ public class TCpyAuthentication {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         authenticationName("authentication_name", "authenticationName", "VARCHAR", false),
         certificateNo("certificate_no", "certificateNo", "VARCHAR", false),
         certificateOrg("certificate_org", "certificateOrg", "VARCHAR", false),

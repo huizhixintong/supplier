@@ -22,7 +22,7 @@ public class TCpyInventory {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -182,7 +182,7 @@ public class TCpyInventory {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -194,7 +194,7 @@ public class TCpyInventory {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -639,7 +639,7 @@ public class TCpyInventory {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         haveSalesgoodsLegalpersonProperty("have_salesGoods_legalPerson_property", "haveSalesgoodsLegalpersonProperty", "INTEGER", false),
         producegoodsLegalpersonProperty("produceGoods_legalPerson_property", "producegoodsLegalpersonProperty", "INTEGER", false),
         consumablegoodsLegalpersonProperty("consumableGoods_legalPerson_property", "consumablegoodsLegalpersonProperty", "INTEGER", false),

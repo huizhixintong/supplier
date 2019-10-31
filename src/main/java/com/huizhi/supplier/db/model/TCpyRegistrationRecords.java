@@ -23,7 +23,7 @@ public class TCpyRegistrationRecords {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -408,7 +408,7 @@ public class TCpyRegistrationRecords {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -420,7 +420,7 @@ public class TCpyRegistrationRecords {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -1540,7 +1540,7 @@ public class TCpyRegistrationRecords {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         englishName("english_name", "englishName", "VARCHAR", false),
         nameUsed("name_used", "nameUsed", "VARCHAR", false),
         registeredCapital("registered_capital", "registeredCapital", "DECIMAL", false),

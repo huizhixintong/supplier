@@ -21,7 +21,7 @@ public class TCpyHotelRestaurants {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -127,7 +127,7 @@ public class TCpyHotelRestaurants {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -139,7 +139,7 @@ public class TCpyHotelRestaurants {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -422,7 +422,7 @@ public class TCpyHotelRestaurants {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         particularYear("particular_year", "particularYear", "VARCHAR", false),
         fixedAssetsDeliveryRate("fixed_assets_delivery_rate", "fixedAssetsDeliveryRate", "VARCHAR", false),
         projectCompletionUtilizationRate("project_completion_utilization_rate", "projectCompletionUtilizationRate", "CHAR", false),

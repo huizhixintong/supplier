@@ -21,7 +21,7 @@ public class TCpySecurities {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -127,7 +127,7 @@ public class TCpySecurities {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -139,7 +139,7 @@ public class TCpySecurities {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -422,7 +422,7 @@ public class TCpySecurities {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         companyTag("company_tag", "companyTag", "VARCHAR", false),
         securitiesCode("securities_code", "securitiesCode", "VARCHAR", false),
         listedAddr("listed_addr", "listedAddr", "VARCHAR", false),

@@ -23,7 +23,7 @@ public class TCpyWinning {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -147,7 +147,7 @@ public class TCpyWinning {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -159,7 +159,7 @@ public class TCpyWinning {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -496,7 +496,7 @@ public class TCpyWinning {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         winBidProjectName("win_bid_project_name", "winBidProjectName", "VARCHAR", false),
         winBidCode("win_bid_code", "winBidCode", "VARCHAR", false),
         purchaseWay("purchase_way", "purchaseWay", "VARCHAR", false),

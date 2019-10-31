@@ -22,7 +22,7 @@ public class TCpyCreditGrade {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -137,7 +137,7 @@ public class TCpyCreditGrade {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -149,7 +149,7 @@ public class TCpyCreditGrade {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -459,7 +459,7 @@ public class TCpyCreditGrade {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         creditRatingScale("credit_rating_scale", "creditRatingScale", "VARCHAR", false),
         creditRatingAgencies("credit_rating_agencies", "creditRatingAgencies", "VARCHAR", false),
         creditRatingDate("credit_rating_date", "creditRatingDate", "DATE", false),

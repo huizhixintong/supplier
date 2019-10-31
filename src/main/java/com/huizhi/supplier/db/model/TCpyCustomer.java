@@ -21,7 +21,7 @@ public class TCpyCustomer {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -136,7 +136,7 @@ public class TCpyCustomer {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -148,7 +148,7 @@ public class TCpyCustomer {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -458,7 +458,7 @@ public class TCpyCustomer {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         customerName("customer_name", "customerName", "VARCHAR", false),
         customerCreditCode("customer_credit_code", "customerCreditCode", "VARCHAR", false),
         customerOrgCode("customer_org_code", "customerOrgCode", "VARCHAR", false),

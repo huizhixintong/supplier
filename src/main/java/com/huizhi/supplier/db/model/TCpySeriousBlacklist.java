@@ -22,7 +22,7 @@ public class TCpySeriousBlacklist {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -146,7 +146,7 @@ public class TCpySeriousBlacklist {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -158,7 +158,7 @@ public class TCpySeriousBlacklist {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -495,7 +495,7 @@ public class TCpySeriousBlacklist {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         identificationUnit("identification_unit", "identificationUnit", "VARCHAR", false),
         dishonestyBasis("dishonesty_basis", "dishonestyBasis", "VARCHAR", false),
         mainDishonestyAct("main_dishonesty_act", "mainDishonestyAct", "VARCHAR", false),

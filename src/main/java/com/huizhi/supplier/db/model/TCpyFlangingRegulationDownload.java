@@ -21,7 +21,7 @@ public class TCpyFlangingRegulationDownload {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -82,7 +82,7 @@ public class TCpyFlangingRegulationDownload {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -94,7 +94,7 @@ public class TCpyFlangingRegulationDownload {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -242,7 +242,7 @@ public class TCpyFlangingRegulationDownload {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         flangingRegulationReportId("flanging_regulation_report_id", "flangingRegulationReportId", "VARCHAR", false),
         downReportPerson("down_report_person", "downReportPerson", "VARCHAR", false),
         downTime("down_time", "downTime", "TIMESTAMP", false);

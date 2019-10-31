@@ -23,7 +23,7 @@ public class TCpyExternalBorrowing {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -147,7 +147,7 @@ public class TCpyExternalBorrowing {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -159,7 +159,7 @@ public class TCpyExternalBorrowing {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -496,7 +496,7 @@ public class TCpyExternalBorrowing {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         borrowerOrganizationName("borrower_organization_name", "borrowerOrganizationName", "VARCHAR", false),
         provideLoanDate("provide_loan_date", "provideLoanDate", "DATE", false),
         provideLoanMaturityDate("provide_loan_maturity_date", "provideLoanMaturityDate", "DATE", false),

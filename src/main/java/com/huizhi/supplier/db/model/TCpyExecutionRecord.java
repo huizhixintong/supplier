@@ -21,7 +21,7 @@ public class TCpyExecutionRecord {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -172,7 +172,7 @@ public class TCpyExecutionRecord {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -184,7 +184,7 @@ public class TCpyExecutionRecord {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -602,7 +602,7 @@ public class TCpyExecutionRecord {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         executiveCourt("executive_court", "executiveCourt", "VARCHAR", false),
         executiveSubject("executive_subject", "executiveSubject", "VARCHAR", false),
         bePerformedName("be_performed_name", "bePerformedName", "VARCHAR", false),

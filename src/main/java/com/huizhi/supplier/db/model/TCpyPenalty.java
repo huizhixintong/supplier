@@ -23,7 +23,7 @@ public class TCpyPenalty {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -264,7 +264,7 @@ public class TCpyPenalty {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -276,7 +276,7 @@ public class TCpyPenalty {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -964,7 +964,7 @@ public class TCpyPenalty {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         illegalName("illegal_name", "illegalName", "VARCHAR", false),
         punishmentOrgan("punishment_organ", "punishmentOrgan", "VARCHAR", false),
         penaltyInstruments("penalty_instruments", "penaltyInstruments", "VARCHAR", false),

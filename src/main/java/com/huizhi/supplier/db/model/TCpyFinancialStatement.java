@@ -21,7 +21,7 @@ public class TCpyFinancialStatement {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -145,7 +145,7 @@ public class TCpyFinancialStatement {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -157,7 +157,7 @@ public class TCpyFinancialStatement {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -494,7 +494,7 @@ public class TCpyFinancialStatement {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         year("year", "year", "VARCHAR", true),
         financialAudit("financial_audit", "financialAudit", "VARCHAR", false),
         auditCompaniesName("audit_companies_name", "auditCompaniesName", "VARCHAR", false),

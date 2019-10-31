@@ -52,9 +52,9 @@
         </javaTypeResolver>
 
         <javaModelGenerator targetPackage="com.huizhi.supplier.db.model" targetProject="src/main/java"/>
-        <sqlMapGenerator targetPackage="com.huizhi.supplier.db.mapper" targetProject="src/main/resources"/>
-        <javaClientGenerator type="XMLMAPPER" targetPackage="com.huizhi.supplier.db.dao"
-                             targetProject="src/main/java"/>
+        <sqlMapGenerator targetPackage="com.huizhi.supplier.db.dao" targetProject="src/main/resources"/>
+<!--        <javaClientGenerator type="XMLMAPPER" targetPackage="com.huizhi.supplier.db.dao"-->
+<!--                             targetProject="src/main/java"/>-->
         <!--表名-->
         <!--<table tableName="t_cpy_abnormal_operation">-->
             <!--<generatedKey column="id" sqlStatement="MySql" identity="true"/>-->

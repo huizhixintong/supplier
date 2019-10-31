@@ -22,7 +22,7 @@ public class TCpyYearFixedAssets {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -173,7 +173,7 @@ public class TCpyYearFixedAssets {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -185,7 +185,7 @@ public class TCpyYearFixedAssets {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -603,7 +603,7 @@ public class TCpyYearFixedAssets {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         year("year", "year", "VARCHAR", true),
         totalAssetsAmount("total_assets_amount", "totalAssetsAmount", "DECIMAL", false),
         flowAssetsAmount("flow_assets_amount", "flowAssetsAmount", "DECIMAL", false),

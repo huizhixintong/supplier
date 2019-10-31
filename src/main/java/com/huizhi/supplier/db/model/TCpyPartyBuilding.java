@@ -21,7 +21,7 @@ public class TCpyPartyBuilding {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -145,7 +145,7 @@ public class TCpyPartyBuilding {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -157,7 +157,7 @@ public class TCpyPartyBuilding {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -494,7 +494,7 @@ public class TCpyPartyBuilding {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         isbuildPartyCommittee("isbuild_party_committee", "isbuildPartyCommittee", "INTEGER", false),
         partyMemberNumber("party_member_number", "partyMemberNumber", "INTEGER", false),
         isbuildYouthCorpsCommittee("isbuild_youth_corps_committee", "isbuildYouthCorpsCommittee", "INTEGER", false),

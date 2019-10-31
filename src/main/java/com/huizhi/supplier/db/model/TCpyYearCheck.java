@@ -22,7 +22,7 @@ public class TCpyYearCheck {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -146,7 +146,7 @@ public class TCpyYearCheck {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -158,7 +158,7 @@ public class TCpyYearCheck {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -495,7 +495,7 @@ public class TCpyYearCheck {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         checkItemsName("check_items_name", "checkItemsName", "VARCHAR", false),
         checkYear("check_year", "checkYear", "VARCHAR", false),
         checkResults("check_results", "checkResults", "VARCHAR", false),
