@@ -23,7 +23,7 @@ public class TCpyBankFinance {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -273,7 +273,7 @@ public class TCpyBankFinance {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -285,7 +285,7 @@ public class TCpyBankFinance {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -1000,7 +1000,7 @@ public class TCpyBankFinance {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         financingLogo("financing_logo", "financingLogo", "VARCHAR", false),
         bankCode("bank_code", "bankCode", "VARCHAR", false),
         financingPurpose("financing_purpose", "financingPurpose", "VARCHAR", false),

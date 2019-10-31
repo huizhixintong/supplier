@@ -22,7 +22,7 @@ public class TCpyNewsPublicOpinion {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -182,7 +182,7 @@ public class TCpyNewsPublicOpinion {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -194,7 +194,7 @@ public class TCpyNewsPublicOpinion {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -639,7 +639,7 @@ public class TCpyNewsPublicOpinion {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         companyName("company_name", "companyName", "VARCHAR", false),
         newsTitle("news_title", "newsTitle", "VARCHAR", false),
         resource("resource", "resource", "VARCHAR", true),

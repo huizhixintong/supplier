@@ -23,7 +23,7 @@ public class TCpySocialCharitable {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -165,7 +165,7 @@ public class TCpySocialCharitable {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -177,7 +177,7 @@ public class TCpySocialCharitable {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -568,7 +568,7 @@ public class TCpySocialCharitable {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         donation("donation", "donation", "DECIMAL", false),
         subsidized("subsidized", "subsidized", "VARCHAR", false),
         publicWelfareMatters("public_welfare_matters", "publicWelfareMatters", "VARCHAR", false),

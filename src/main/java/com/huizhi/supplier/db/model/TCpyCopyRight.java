@@ -22,7 +22,7 @@ public class TCpyCopyRight {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -218,7 +218,7 @@ public class TCpyCopyRight {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -230,7 +230,7 @@ public class TCpyCopyRight {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -783,7 +783,7 @@ public class TCpyCopyRight {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         workName("work_name", "workName", "VARCHAR", false),
         workOwner("work_owner", "workOwner", "VARCHAR", false),
         announcementType("announcement_type", "announcementType", "VARCHAR", false),

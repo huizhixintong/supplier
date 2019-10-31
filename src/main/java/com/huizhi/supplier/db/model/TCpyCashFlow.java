@@ -22,7 +22,7 @@ public class TCpyCashFlow {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -452,7 +452,7 @@ public class TCpyCashFlow {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -464,7 +464,7 @@ public class TCpyCashFlow {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -1719,7 +1719,7 @@ public class TCpyCashFlow {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         year("year", "year", "CHAR", true),
         businessActivitiesCash("business_activities_cash", "businessActivitiesCash", "DECIMAL", false),
         cashReceivedSales("cash_received_sales", "cashReceivedSales", "DECIMAL", false),

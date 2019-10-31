@@ -22,7 +22,7 @@ public class TCpySoftwareCopyright {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -182,7 +182,7 @@ public class TCpySoftwareCopyright {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -194,7 +194,7 @@ public class TCpySoftwareCopyright {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -639,7 +639,7 @@ public class TCpySoftwareCopyright {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         softwareFullName("software_full_name", "softwareFullName", "VARCHAR", false),
         softwareShortName("software_short_name", "softwareShortName", "VARCHAR", false),
         workOwner("work_owner", "workOwner", "VARCHAR", false),

@@ -22,7 +22,7 @@ public class TCpyReceiveAccount {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -182,7 +182,7 @@ public class TCpyReceiveAccount {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -194,7 +194,7 @@ public class TCpyReceiveAccount {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -639,7 +639,7 @@ public class TCpyReceiveAccount {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         year("year", "year", "VARCHAR", true),
         oneReceivables("one_receivables", "oneReceivables", "DECIMAL", false),
         oneTwoReceivables("one_two_receivables", "oneTwoReceivables", "DECIMAL", false),

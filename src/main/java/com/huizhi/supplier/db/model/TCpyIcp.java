@@ -21,7 +21,7 @@ public class TCpyIcp {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -181,7 +181,7 @@ public class TCpyIcp {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -193,7 +193,7 @@ public class TCpyIcp {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -638,7 +638,7 @@ public class TCpyIcp {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         sponsorName("sponsor_name", "sponsorName", "VARCHAR", false),
         responsiblePerson("responsible_person", "responsiblePerson", "VARCHAR", false),
         organizerProperties("organizer_properties", "organizerProperties", "VARCHAR", false),

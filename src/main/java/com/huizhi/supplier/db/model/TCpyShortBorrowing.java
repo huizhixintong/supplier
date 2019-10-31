@@ -22,7 +22,7 @@ public class TCpyShortBorrowing {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -146,7 +146,7 @@ public class TCpyShortBorrowing {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -158,7 +158,7 @@ public class TCpyShortBorrowing {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -495,7 +495,7 @@ public class TCpyShortBorrowing {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         lenders("lenders", "lenders", "VARCHAR", false),
         loanPaymentDate("loan_payment_date", "loanPaymentDate", "DATE", false),
         loanMaturityDate("loan_maturity_date", "loanMaturityDate", "DATE", false),

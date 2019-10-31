@@ -21,7 +21,7 @@ public class TCpyTaxLevel {
      *
      * @mbg.generated
      */
-    private String companyId;
+    private Integer companyId;
 
     /**
      *
@@ -154,7 +154,7 @@ public class TCpyTaxLevel {
      *
      * @mbg.generated
      */
-    public String getCompanyId() {
+    public Integer getCompanyId() {
         return companyId;
     }
 
@@ -166,7 +166,7 @@ public class TCpyTaxLevel {
      *
      * @mbg.generated
      */
-    public void setCompanyId(String companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
 
@@ -530,7 +530,7 @@ public class TCpyTaxLevel {
      */
     public enum Column {
         id("id", "id", "INTEGER", false),
-        companyId("company_id", "companyId", "VARCHAR", false),
+        companyId("company_id", "companyId", "INTEGER", false),
         mainTaxOrg("main_tax_org", "mainTaxOrg", "VARCHAR", false),
         taxGrade("tax_grade", "taxGrade", "VARCHAR", false),
         ratingOrg("rating_org", "ratingOrg", "VARCHAR", false),

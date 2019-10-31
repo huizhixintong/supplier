@@ -1,5 +1,6 @@
 package com.huizhi.supplier.service.flow.impl;
 
+import com.huizhi.supplier.constant.ErrCode;
 import com.huizhi.supplier.db.dao.TFlowExecuteMapper;
 import com.huizhi.supplier.db.model.TFlowExecute;
 import com.huizhi.supplier.service.flow.FlowExecute;
@@ -17,13 +18,15 @@ public class FlowExecuteImp implements FlowExecute {
 
     @Override
     public int addFlowExecute(TFlowExecute flowExecute) {
-
-        return 0;
+        if (flowExecute == null){
+            return ErrCode.ERR_FLOW_PARAMETER_NULL;
+        }
+        return tFlowExecuteMapper.insert(flowExecute);
     }
 
     @Override
-    public int updateFlowExecute(TFlowExecute flowExecute, int id) {
-        return 0;
+    public int updateFlowExecute(TFlowExecute flowExecute) {
+        return tFlowExecuteMapper.updateByPrimaryKeySelective(flowExecute);
     }
 
     @Override
