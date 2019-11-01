@@ -36,7 +36,7 @@ public class DefaultDaoConfig extends DaoConfigBase {
     private String url;
 
     public DefaultDaoConfig() {
-        super("classpath:/com/huizhi/supplier/db/mapper/*Mapper.xml");
+        super("classpath:/com/huizhi/supplier/db/dao/*Mapper.xml");
     }
 
     @Override

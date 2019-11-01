@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.huizhi.supplier.db.mapper.TFlowExecutePointMapper">
+<mapper namespace="com.huizhi.supplier.db.dao.TFlowExecutePointMapper">
   <resultMap id="BaseResultMap" type="com.huizhi.supplier.db.model.TFlowExecutePoint">
     <!--
       WARNING - @mbg.generated
@@ -386,5 +386,10 @@
       order by ${example.orderByClause}
     </if>
     limit 1
+  </select>
+  <select id = "queryIncompleteFlow" parameterType="com.huizhi.supplier.db.model.TFlowExecutePoint" resultType="int">
+    select count(*) from t_flow_execute_point
+    where execute_code = #{executeCode,jdbcType=VARCHAR} and flow_code = ${flowCode,jdbcType=VARCHAR}
+    and point_id in (0,1);
   </select>
 </mapper>

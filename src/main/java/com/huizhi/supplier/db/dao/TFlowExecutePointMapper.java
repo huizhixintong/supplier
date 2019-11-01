@@ -128,4 +128,6 @@ public interface TFlowExecutePointMapper {
      * @mbg.generated
      */
     int updateByPrimaryKey(TFlowExecutePoint record);
+
+    int queryIncompleteFlow(TFlowExecutePoint executePoint);
 }

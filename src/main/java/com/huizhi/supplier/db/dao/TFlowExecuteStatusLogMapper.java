@@ -1,6 +1,7 @@
 package com.huizhi.supplier.db.dao;
 
 import com.huizhi.supplier.db.annotation.MybatisUserInfo;
+import com.huizhi.supplier.db.model.TFlowExecutePoint;
 import com.huizhi.supplier.db.model.TFlowExecuteStatusLog;
 import com.huizhi.supplier.db.model.TFlowExecuteStatusLogExample;
 import org.apache.ibatis.annotations.Param;
@@ -128,4 +129,6 @@ public interface TFlowExecuteStatusLogMapper {
      * @mbg.generated
      */
     int updateByPrimaryKey(TFlowExecuteStatusLog record);
+
+    TFlowExecuteStatusLog queryStatusLog(TFlowExecutePoint executePoint);
 }

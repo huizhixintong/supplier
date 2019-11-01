@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.huizhi.supplier.db.mapper.TCpyForeignInvestmentMapper">
+<mapper namespace="com.huizhi.supplier.db.dao.TCpyForeignInvestmentMapper">
   <resultMap id="BaseResultMap" type="com.huizhi.supplier.db.model.TCpyForeignInvestment">
     <!--
       WARNING - @mbg.generated

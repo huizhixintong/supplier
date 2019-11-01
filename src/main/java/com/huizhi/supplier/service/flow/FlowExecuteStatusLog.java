@@ -7,7 +7,6 @@ public interface FlowExecuteStatusLog {
 
     int addExecuteStatusLog(TFlowExecuteStatusLog statusLog);
     int delExecuteStatusLog(long id);
-    int updateExecuteStatusLog(TFlowExecuteStatusLog statusLog, long id);
     int updateStatusLog(TFlowExecuteStatusLog statusLog);
     TFlowExecuteStatusLog queryExecuteStatusLog(TFlowExecutePoint executePoint);
 }

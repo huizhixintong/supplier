@@ -11,6 +11,10 @@ public class Constants {
     public final static int CONT_NOTIFY_TYPE_MAIL = 1;
     public final static int CONT_NOTIFY_TYPE_SMS = 0;
 
+    public final static int CONT_POINT_CLASS_START = 0;
+    public final static int CONT_POINT_CLASS_MID = 1;
+    public final static int CONT_POINT_CLASS_END = 2;
+
     /*操作类型 0 初始化 1 提交 2 驳回 3 审核通过 4 拒绝 */
     public final static int CONT_FLOW_STATUS_DEFUALT = 0;
     public final static int CONT_FLOW_STATUS_WAIT = 1;
@@ -19,6 +23,10 @@ public class Constants {
     public final static int CONT_FLOW_STATUS_PASS = 4;
     public final static int CONT_FLOW_STATUS_REFUSE = 5;
     public final static int CONT_FLOW_STATUS_FINISH = 6;
+
+
+
+
 
     public final static String CONT_FLOW_STATUS_DEFUALT_MSG = "流程未开始";
     public final static String CONT_FLOW_STATUS_COMMIT_MSG = "已经提交";

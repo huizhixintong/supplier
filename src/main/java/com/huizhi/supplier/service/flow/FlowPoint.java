@@ -5,5 +5,5 @@ import com.huizhi.supplier.db.model.TFlowPointOperatePersonnel;
 public interface FlowPoint {
     int addFlowPoint(TFlowPointOperatePersonnel operatePersonnel);
     int delFlowPoint(int id);
-    int updateFlowPoint(TFlowPointOperatePersonnel operatePersonnel, int id);
+    int updateFlowPoint(TFlowPointOperatePersonnel operatePersonnel);
 }

@@ -84,7 +84,7 @@ public class FlowStartImp implements FlowStart {
     }
 
     private int verifyIncompleteFlow(TFlowExecutePoint executePoint){
-        if (flowExecutePoint.queryIsFullFlow(executePoint) == true){
+        if (flowExecutePoint.queryIncompleteFlow(executePoint) == true){
             return ErrCode.CONT_SUCCESS;
         }else {
             return ErrCode.ERR_FLOW_INCOMPLETE;
@@ -174,7 +174,7 @@ public class FlowStartImp implements FlowStart {
 
 
     private int resetFlowPoint(TFlowExecutePoint executePoint){
-        return flowExecuteStatus.updateFlowPoint(executePoint.getExecuteCode(),executePoint.getFlowCode());
+        return flowExecuteStatus.updateFlowPoint(executePoint.getExecuteCode(),executePoint.getFlowCode(),Constants.CONT_EXECUTE_POINT_START);
     }
 
 

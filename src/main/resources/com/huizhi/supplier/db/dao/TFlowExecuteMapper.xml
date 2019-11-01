@@ -311,15 +311,15 @@
     -->
     update t_flow_execute
     <set>
-      <if test="executeCode != null">
-        execute_code = #{executeCode,jdbcType=VARCHAR},
-      </if>
+<!--      <if test="executeCode != null">-->
+<!--        execute_code = #{executeCode,jdbcType=VARCHAR},-->
+<!--      </if>-->
       <if test="executeName != null">
         execute_name = #{executeName,jdbcType=VARCHAR},
       </if>
-      <if test="flowCode != null">
-        flow_code = #{flowCode,jdbcType=VARCHAR},
-      </if>
+<!--      <if test="flowCode != null">-->
+<!--        flow_code = #{flowCode,jdbcType=VARCHAR},-->
+<!--      </if>-->
       <if test="contCode != null">
         cont_code = #{contCode,jdbcType=VARCHAR},
       </if>

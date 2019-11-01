@@ -13,7 +13,7 @@ import javax.annotation.Resource;
 public class FlowModelImp implements FlowModel {
 
     @Resource
-    private TFlowModelMapper flowModelMapper;
+    private TFlowModelMapper tFlowModelMapper;
 
     @Override
     public int addModel(TFlowModel model) {
@@ -25,17 +25,23 @@ public class FlowModelImp implements FlowModel {
             return ErrCode.ERR_FLOW_PARAMETER_NULL;
         }
 
-        return flowModelMapper.insert(model);
+        return tFlowModelMapper.insert(model);
 
     }
 
     @Override
-    public int updateModel(TFlowModel model, int id) {
-        return 0;
+    public int updateModel(TFlowModel model) {
+
+        return tFlowModelMapper.updateByPrimaryKeySelective(model);
     }
 
     @Override
     public int deleteModel(int id) {
         return 0;
+    }
+
+    @Override
+    public TFlowModel queryFlowCode(String flowCode) {
+        return tFlowModelMapper.queryRecordByFlowCode(flowCode);
     }
 }

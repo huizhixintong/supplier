@@ -15,6 +15,8 @@ public class ErrCode {
     public final static int ERR_FLOW_NEXT_POINT = 1000009;
     public final static int ERR_FLOW_NOT_EXITS = 1000010;
     public final static int ERR_FLOW_EXITS = 1000011;
+    public final static int ERR_FAILED = 1000012;
+    public final static int ERR_POINT_CLASS_UNKNOWN = 1000013;
 
 
     private final static String ERR_SUCCESS_MSG = "成功";
@@ -26,6 +28,8 @@ public class ErrCode {
     private final static String ERR_FLOW_POINT_NOT_EXITS_MSG = "节点流程不存在";
     private final static String ERR_FLOW_POINT_FINISHED_MSG = "节点流程已经完成";
     private final static String ERR_FLOW_POINT_UNFINISHED_MSG = "节点流程未完成";
+    private final static String ERR_FAILED_MSG = "数据更新失败，请排查";
+    private final static String ERR_POINT_CLASS_UNKNOWN_MSG = "节点分类错误！";
 
 
     public static String getErrMsg(int code){
@@ -46,6 +50,8 @@ public class ErrCode {
                 return ERR_FLOW_POINT_FINISHED_MSG;
             case ERR_FLOW_POINT_UNFINISHED:
                 return ERR_FLOW_POINT_UNFINISHED_MSG;
+            case ERR_POINT_CLASS_UNKNOWN:
+                return ERR_POINT_CLASS_UNKNOWN_MSG;
             default:
                 return ERR_DEFAULT_MSG;
         }

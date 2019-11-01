@@ -128,4 +128,7 @@ public interface TFlowModelMapper {
      * @mbg.generated
      */
     int updateByPrimaryKey(TFlowModel record);
+
+
+    TFlowModel queryRecordByFlowCode(@Param("flowCode") String flowCode);
 }

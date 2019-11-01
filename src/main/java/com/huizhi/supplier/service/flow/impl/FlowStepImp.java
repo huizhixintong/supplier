@@ -15,16 +15,16 @@ import javax.annotation.Resource;
 public class FlowStepImp implements FlowStep {
 
     @Resource
-    private TFlowStepDefineMapper flowStepDefineMapper;
+    private TFlowStepDefineMapper tFlowStepDefineMapper;
 
     @Override
     public int addStep(TFlowStepDefine stepDefine) {
-        return 0;
+        return tFlowStepDefineMapper.insert(stepDefine);
     }
 
     @Override
-    public int updateStep(TFlowStepDefine stepDefine, int id) {
-        return 0;
+    public int updateStep(TFlowStepDefine stepDefine) {
+        return tFlowStepDefineMapper.updateByPrimaryKeySelective(stepDefine);
     }
 
     @Override
@@ -34,7 +34,7 @@ public class FlowStepImp implements FlowStep {
 
     @Override
     public TFlowStepDefine queryStepInfo(String flowCode, int pointId) {
-        return null;
+        return tFlowStepDefineMapper.queryStepInfo(flowCode,pointId);
     }
 
     @Override
@@ -43,6 +43,6 @@ public class FlowStepImp implements FlowStep {
             return null;
         }
 
-        return flowStepDefineMapper.queryNextStepInfo(executePoint.getFlowCode(),executePoint.getPointId());
+        return tFlowStepDefineMapper.queryNextStepInfo(executePoint.getFlowCode(),executePoint.getPointId());
     }
 }

@@ -1,12 +1,18 @@
 package com.huizhi.supplier.service.flow.impl;
 
+import com.huizhi.supplier.db.dao.TNextvalMapper;
 import com.huizhi.supplier.service.flow.FlowGenerate;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
 import java.util.concurrent.ThreadLocalRandom;
 
 @Service("flowGenerate")
 public class FlowGenerateImp implements FlowGenerate {
+
+    @Resource
+    private TNextvalMapper tNextvalMapper;
+
     @Override
     public String createFlowCode() {
 
@@ -17,6 +23,11 @@ public class FlowGenerateImp implements FlowGenerate {
     @Override
     public String createFlowExecuteCode(String flowCode) {
         return flowCode+getTimestamp(0) + getRandom();
+    }
+
+    @Override
+    public int createPointId() {
+        return tNextvalMapper.insert(null);
     }
 
 
