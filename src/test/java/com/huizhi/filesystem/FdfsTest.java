@@ -1,6 +1,9 @@
 package com.huizhi.filesystem;
 
 import com.huizhi.supplier.SupplierApplication;
+import com.huizhi.supplier.constant.Constants;
+import com.huizhi.supplier.db.model.TFileInfo;
+import com.huizhi.supplier.service.filesystem.FilesystemService;
 import com.huizhi.supplier.util.FastdfsClientUtil;
 import org.apache.commons.io.IOUtils;
 import org.junit.Test;
@@ -32,6 +35,10 @@ public class FdfsTest {
 
     private FastdfsClientUtil fastdfsClientUtil;
 
+    @Autowired
+    private FilesystemService filesystemService;
+
+
     @Test
     public void testUpload() throws Exception {
 
@@ -51,6 +58,32 @@ public class FdfsTest {
         }
 
 
+
+    }
+
+    @Test
+    public void testService() throws IOException {
+
+        File file = new File("D:\\123.jpg");
+
+        FileInputStream input = new FileInputStream(file);
+
+        MultipartFile multipartFile = new MockMultipartFile("file", file.getName(), "text/plain", IOUtils.toByteArray(input));
+
+        String upload = fastdfsClientUtil.upload(multipartFile);
+
+        System.out.println(upload);
+
+        TFileInfo fileInfo = new TFileInfo();
+
+        fileInfo.setFileUrl(upload);
+        fileInfo.setCompanyId(1);
+        fileInfo.setDataResource(Constants.HANDMADE);
+        fileInfo.setFileName("测试图片");
+
+        int i = filesystemService.uploadFile(fileInfo);
+
+        System.out.println(i);
 
     }
 }

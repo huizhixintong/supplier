@@ -8,10 +8,7 @@ import com.huizhi.supplier.db.model.TCpyAssetsLiabilities;
 import com.huizhi.supplier.service.common.CommonService;
 import com.huizhi.supplier.service.supplier.company.assetsliabilities.AssetsLiabilitiesService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -24,6 +21,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping(value = "/company/ass/")
+@CrossOrigin
 public class AssetsLiabilitiesController {
 
     @Autowired
@@ -35,7 +33,7 @@ public class AssetsLiabilitiesController {
 
 
     @RequestMapping(value = "get/list")
-    public List<TCpyAssetsLiabilities> getByCompanyId(String companyId){
+    public List<TCpyAssetsLiabilities> getByCompanyId(Integer companyId){
 
         return commonService.findByCompanyId(companyId);
 

@@ -1,5 +1,6 @@
 package com.huizhi.supplier.service.filesystem;
 
+import com.huizhi.supplier.db.model.TFileInfo;
 import org.springframework.web.multipart.MultipartFile;
 
 /**
@@ -14,7 +15,7 @@ public interface FilesystemService {
 
     String findFileUrl(Integer companyId);
 
-    String uploadFile(Integer companyId, MultipartFile multipartFile);
+    int uploadFile(TFileInfo fileInfo);
 
 
 }

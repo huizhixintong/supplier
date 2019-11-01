@@ -70,14 +70,14 @@ public class ProfitLossServiceImpl implements ProfitLossService {
             return ret;
         }
 
-        /*查询供应商信息是否存在*/
-        if ((ret = supplier.querySupplierById(profitLoss.getCompanyId())) != 1){
-            return ret;
-        }
-        /*查询当前利润表信息是否在存*/
-        if (getById(profitLoss.getId()) != null){
-            return update(profitLoss);
-        }
+//        /*查询供应商信息是否存在*/
+//        if ((ret = supplier.querySupplierById(profitLoss.getCompanyId())) != 1){
+//            return ret;
+//        }
+//        /*查询当前利润表信息是否在存*/
+//        if (getById(profitLoss.getId()) != null){
+//            return update(profitLoss);
+//        }
 
         return tCpyProfitLossMapper.insertSelective(profitLoss);
     }

@@ -21,12 +21,12 @@ public abstract class CommonService<D extends CommonMapper<T>,T> {
     @Autowired
     private D d;
 
-    public T findById(String id){
+    public T findById(Integer id){
 
         return d.selectByPrimaryKey(id);
     }
 
-    public List<T> findByCompanyId(String companyId) {
+    public List<T> findByCompanyId(Integer companyId) {
 
         if(StringUtils.isEmpty(companyId)){
             return null;
@@ -37,12 +37,12 @@ public abstract class CommonService<D extends CommonMapper<T>,T> {
     }
 
 
-    public T findByCompanyIdAndYear(String companyId, String year) {
+    public T findByCompanyIdAndYear(Integer companyId, String year) {
         return d.selectByCompanyIdAndYear(companyId,year);
     }
 
 
-    public T getById(String id) {
+    public T getById(Integer id) {
 
         return d.selectByPrimaryKey(id);
     }

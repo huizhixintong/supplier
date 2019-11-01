@@ -1,5 +1,7 @@
 package com.huizhi.supplier.service.filesystem.impl;
 
+import com.huizhi.supplier.db.dao.TFileInfoMapper;
+import com.huizhi.supplier.db.model.TFileInfo;
 import com.huizhi.supplier.service.filesystem.FilesystemService;
 import com.huizhi.supplier.util.FastdfsClientUtil;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,6 +9,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 import org.springframework.web.multipart.MultipartFile;
 
+import javax.naming.ldap.PagedResultsControl;
 import java.io.IOException;
 
 /**
@@ -19,8 +22,9 @@ import java.io.IOException;
 @Service
 public class FilesystemServiceImpl implements FilesystemService {
 
+
     @Autowired
-    private FastdfsClientUtil fastdfsClientUtil;
+    private TFileInfoMapper fileInfoMapper;
 
     @Override
     public String findFileUrl(Integer companyId) {
@@ -28,20 +32,9 @@ public class FilesystemServiceImpl implements FilesystemService {
     }
 
     @Override
-    public String uploadFile(Integer companyId, MultipartFile multipartFile) {
+    public int uploadFile(TFileInfo fileInfo) {
 
-        try {
-
-            String upload = fastdfsClientUtil.upload(multipartFile);
-
-
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-
-        return null;
+        return fileInfoMapper.insert(fileInfo);
     }
 }
 

@@ -14,18 +14,18 @@ import java.util.List;
  */
 public interface CashFlowService<D,T> {
 
-    List<TCpyCashFlow> findByCompanyId(String companyId);
-
-
-    TCpyCashFlow findByCompanyIdAndYear(String companyId, String year);
-
-    TCpyCashFlow getById(String id);
-
-
-
-    int save(TCpyCashFlow cashFlow);
-
-    int update(TCpyCashFlow cashFlow);
+//    List<TCpyCashFlow> findByCompanyId(String companyId);
+//
+//
+//    TCpyCashFlow findByCompanyIdAndYear(String companyId, String year);
+//
+//    TCpyCashFlow getById(String id);
+//
+//
+//
+//    int save(TCpyCashFlow cashFlow);
+//
+//    int update(TCpyCashFlow cashFlow);
 
 
 }

@@ -24,18 +24,18 @@ public class CashFlowController {
     private CommonService<TCpyCashFlowMapper, TCpyCashFlow> commonServiceImpl;
 
     @RequestMapping(value = "/get/list")
-    public List<TCpyCashFlow> getByCompanyId(String companyId){
+    public List<TCpyCashFlow> getByCompanyId(Integer companyId){
         return commonServiceImpl.findByCompanyId(companyId);
 
     }
 
     @RequestMapping(value = "/get/{id}")
-    public TCpyCashFlow getById(@PathVariable("id") String id){
+    public TCpyCashFlow getById(@PathVariable("id") Integer id){
         return commonServiceImpl.findById(id);
     }
 
     @RequestMapping("/get/one")
-    public TCpyCashFlow getByCompanyIdAndYear(String companyId,String year){
+    public TCpyCashFlow getByCompanyIdAndYear(Integer companyId,String year){
         return commonServiceImpl.findByCompanyIdAndYear(companyId,year);
     }
 
