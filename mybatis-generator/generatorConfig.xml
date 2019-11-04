@@ -53,8 +53,8 @@
 
         <javaModelGenerator targetPackage="com.huizhi.supplier.db.model" targetProject="src/main/java"/>
         <sqlMapGenerator targetPackage="com.huizhi.supplier.db.dao" targetProject="src/main/resources"/>
-<!--        <javaClientGenerator type="XMLMAPPER" targetPackage="com.huizhi.supplier.db.dao"-->
-<!--                             targetProject="src/main/java"/>-->
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.huizhi.supplier.db.dao"
+                             targetProject="src/main/java"/>
         <!--表名-->
 <!--        <table tableName="t_cpy_abnormal_operation">-->
 <!--            <generatedKey column="id" sqlStatement="MySql" identity="true"/>-->
@@ -465,9 +465,9 @@
 <!--        <table tableName="t_flow_execute_status">-->
 <!--            <generatedKey column="id" sqlStatement="MySql" identity="true"/>-->
 <!--        </table>-->
-        <table tableName="t_flow_execute_status_log">
-            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
-        </table>
+<!--        <table tableName="t_flow_execute_status_log">-->
+<!--            <generatedKey column="id" sqlStatement="MySql" identity="true"/>-->
+<!--        </table>-->
 <!--        <table tableName="t_flow_model">-->
 <!--            <generatedKey column="id" sqlStatement="MySql" identity="true"/>-->
 <!--        </table>-->
@@ -480,5 +480,20 @@
 <!--        <table tableName="t_nextval">-->
 <!--            <generatedKey column="id" sqlStatement="MySql" identity="true"/>-->
 <!--        </table>-->
+        <table tableName="t_per_eval_info">
+            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+        </table>
+        <table tableName="t_per_eval_result">
+            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+        </table>
+        <table tableName="t_per_subject_detail_info">
+            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+        </table>
+        <table tableName="t_per_subject_info">
+            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+        </table>
+        <table tableName="t_per_subject_title_info">
+            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+        </table>
     </context>
 </generatorConfiguration>
