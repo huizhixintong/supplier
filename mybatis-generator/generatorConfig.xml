@@ -456,18 +456,18 @@
 <!--            <generatedKey column="id" sqlStatement="MySql" identity="true"/>-->
 <!--        </table>-->
 
-<!--        <table tableName="t_flow_execute">-->
-<!--            <generatedKey column="id" sqlStatement="MySql" identity="true"/>-->
-<!--        </table>-->
+        <table tableName="t_flow_execute">
+            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+        </table>
 <!--        <table tableName="t_flow_execute_point">-->
 <!--            <generatedKey column="id" sqlStatement="MySql" identity="true"/>-->
 <!--        </table>-->
-<!--        <table tableName="t_flow_execute_status">-->
-<!--            <generatedKey column="id" sqlStatement="MySql" identity="true"/>-->
-<!--        </table>-->
-<!--        <table tableName="t_flow_execute_status_log">-->
-<!--            <generatedKey column="id" sqlStatement="MySql" identity="true"/>-->
-<!--        </table>-->
+        <table tableName="t_flow_execute_status">
+            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+        </table>
+        <table tableName="t_flow_execute_status_log">
+            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+        </table>
 <!--        <table tableName="t_flow_model">-->
 <!--            <generatedKey column="id" sqlStatement="MySql" identity="true"/>-->
 <!--        </table>-->
@@ -480,20 +480,20 @@
 <!--        <table tableName="t_nextval">-->
 <!--            <generatedKey column="id" sqlStatement="MySql" identity="true"/>-->
 <!--        </table>-->
-        <table tableName="t_per_eval_info">
-            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
-        </table>
-        <table tableName="t_per_eval_result">
-            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
-        </table>
-        <table tableName="t_per_subject_detail_info">
-            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
-        </table>
-        <table tableName="t_per_subject_info">
-            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
-        </table>
-        <table tableName="t_per_subject_title_info">
-            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
-        </table>
+<!--        <table tableName="t_per_eval_info">-->
+<!--            <generatedKey column="id" sqlStatement="MySql" identity="true"/>-->
+<!--        </table>-->
+<!--        <table tableName="t_per_eval_result">-->
+<!--            <generatedKey column="id" sqlStatement="MySql" identity="true"/>-->
+<!--        </table>-->
+<!--        <table tableName="t_per_subject_detail_info">-->
+<!--            <generatedKey column="id" sqlStatement="MySql" identity="true"/>-->
+<!--        </table>-->
+<!--        <table tableName="t_per_subject_info">-->
+<!--            <generatedKey column="id" sqlStatement="MySql" identity="true"/>-->
+<!--        </table>-->
+<!--        <table tableName="t_per_subject_title_info">-->
+<!--            <generatedKey column="id" sqlStatement="MySql" identity="true"/>-->
+<!--        </table>-->
     </context>
 </generatorConfiguration>

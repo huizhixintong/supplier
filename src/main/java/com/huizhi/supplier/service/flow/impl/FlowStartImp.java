@@ -16,7 +16,7 @@ import javax.annotation.Resource;
 public class FlowStartImp implements FlowStart {
 
     @Resource
-    private FlowExecuteStatus flowExecuteStatus;
+    private FlowExecutePath flowExecuteStatus;
 
     @Resource
     private FlowExecuteStatusLog flowExecuteStatusLog;
@@ -29,30 +29,30 @@ public class FlowStartImp implements FlowStart {
 
 
     @Override
-    public int stepFlow(TFlowExecutePoint executePoint,int act) {
+    public int stepFlow(TFlowExecutePath executePath,int act) {
         int iRet = -1;
         /*中间审核*/
 
-        if ((iRet = midFlow(executePoint,act)) != ErrCode.CONT_SUCCESS){
+        if ((iRet = midFlow(executePath,act)) != ErrCode.CONT_SUCCESS){
             return iRet;
         }
         /*流程结束*/
-        return endFlow(executePoint);
+        return endFlow(executePath);
     }
 
-    public int startFlow(TFlowExecutePoint executePoint){
+    public int startFlow(TFlowExecutePoint executePoint, String relationId){
         int iRet = -1;
         if (executePoint.getPointId() != Constants.CONT_EXECUTE_POINT_START){
             return ErrCode.CONT_SUCCESS;
         }
 
         /*验证流程有效性*/
-        if ((iRet = validFlow(executePoint)) != ErrCode.CONT_SUCCESS){
+        if ((iRet = validFlow(executePoint,relationId)) != ErrCode.CONT_SUCCESS){
             return iRet;
         }
 
         /*初始化流程状态*/
-        if (initFlowPointStatus(executePoint) != Constants.CONT_RECORDER_EXITS){
+        if (initFlowPointStatus(executePoint,relationId) != Constants.CONT_RECORDER_EXITS){
             log.error("初始化审核流程失败!",executePoint);
         }
 
@@ -68,15 +68,20 @@ public class FlowStartImp implements FlowStart {
     }
 
 
-    private int validFlow(TFlowExecutePoint executePoint){
+    private int validFlow(TFlowExecutePoint executePoint,String relationId){
+
         int iRet = -1;
+        if (StringUtils.isEmpty(relationId)){
+            return ErrCode.ERR_FLOW_RELATION_NULL;
+        }
+
         /*验证新创建的流程是否完整理*/
         if ((iRet = verifyIncompleteFlow(executePoint)) != ErrCode.CONT_SUCCESS){
             return iRet;
         }
 
         /*验证流程是否已经开始*/
-        if ((iRet = validStartFlow(executePoint)) != ErrCode.ERR_FLOW_EXITS){
+        if ((iRet = validStartFlow(executePoint,relationId)) != ErrCode.ERR_FLOW_EXITS){
             return iRet;
         }
 
@@ -117,29 +122,29 @@ public class FlowStartImp implements FlowStart {
         return ErrCode.CONT_SUCCESS;
     }
 
-    private int midFlow(TFlowExecutePoint executePoint, int act){
+    private int midFlow(TFlowExecutePath executePath, int act){
         int iRet;
 
-        if (executePoint.getPointId() == Constants.CONT_EXECUTE_POINT_END){
+        if (executePath.getPointId() == Constants.CONT_EXECUTE_POINT_END){
             return ErrCode.CONT_SUCCESS;
         }
 
         /*验证当前流程是否已经执行完毕*/
-        if ((iRet = validMidFlow(executePoint)) != ErrCode.ERR_FLOW_POINT_UNFINISHED){
+        if ((iRet = validMidFlow(executePath)) != ErrCode.ERR_FLOW_POINT_UNFINISHED){
             return iRet;
         }
 
         /*审批动作:1 更新流程节点 2 更新日志， 3 初始化下一步流程日志*/
-        if ((iRet = updateFlowStatusLog(executePoint,act)) != ErrCode.CONT_SUCCESS){
+        if ((iRet = updateFlowStatusLog(executePath,act)) != ErrCode.CONT_SUCCESS){
             return iRet;
         }
 
         /*如果流程被驳回，返回流程第二步*/
-        if ((iRet = nextAct(executePoint,act)) != ErrCode.CONT_SUCCESS){
+        if ((iRet = nextAct(executePath,act)) != ErrCode.CONT_SUCCESS){
             return iRet;
         }
 
-        TFlowExecutePoint nextPoint = getNextFlowPoint(executePoint);
+        TFlowExecutePoint nextPoint = getNextFlowPoint(executePath);
         if (!StringUtils.isEmpty(nextPoint)){
             return ErrCode.ERR_FLOW_NEXT_POINT;
         }
@@ -202,32 +207,32 @@ public class FlowStartImp implements FlowStart {
 
     }
 
-    private int validStartFlow(TFlowExecutePoint executePoint){
-        if (flowExecuteStatus.queryExecuteStatus(executePoint) == Constants.CONT_RECORDER_EXITS){
+    private int validStartFlow(TFlowExecutePoint executePoint,String relationId){
+        if (flowExecuteStatus.queryExecuteStatus(executePoint, relationId) == Constants.CONT_RECORDER_EXITS){
             return ErrCode.ERR_FLOW_EXITS;
         }else {
             return ErrCode.ERR_FLOW_NOT_EXITS;
         }
     }
 
-    private int validMidFlow(TFlowExecutePoint executePoint){
-        TFlowExecuteStatusLog statusLog = flowExecuteStatusLog.queryExecuteStatusLog(executePoint);
+    private int validMidFlow(TFlowExecutePath executePath){
+        TFlowExecuteStatusLog statusLog = flowExecuteStatusLog.queryExecuteStatusLog(executePath);
         if (statusLog == null){
             return ErrCode.ERR_FLOW_POINT_NOT_EXITS;
         }
 
         if (Integer.valueOf(statusLog.getOperateType()) != Constants.CONT_FLOW_STATUS_DEFUALT){
-            log.info(ErrCode.getErrMsg(ErrCode.ERR_FLOW_POINT_FINISHED),executePoint);
+            log.info(ErrCode.getErrMsg(ErrCode.ERR_FLOW_POINT_FINISHED),executePath);
             return ErrCode.ERR_FLOW_POINT_FINISHED;
         }
 
         return ErrCode.ERR_FLOW_POINT_UNFINISHED;
     }
 
-    private int initFlowPointStatus(TFlowExecutePoint executePoint){
+    private int initFlowPointStatus(TFlowExecutePoint executePoint, String relationId){
         /*插入流程数据*/
 
-        return flowExecuteStatus.addFlowExecuteStatus(getExecuteStatus((executePoint)));
+        return flowExecuteStatus.addFlowExecuteStatus(getExecuteStatus(executePoint,relationId));
     }
 
 
@@ -235,11 +240,12 @@ public class FlowStartImp implements FlowStart {
         return initFlowPointStatusLog(executePoint,Constants.CONT_FLOW_STATUS_DEFUALT);
     }
 
-    private TFlowExecuteStatus getExecuteStatus(TFlowExecutePoint executePoint){
-        TFlowExecuteStatus status = new TFlowExecuteStatus();
+    private TFlowExecutePath getExecuteStatus(TFlowExecutePoint executePoint, String relationId){
+        TFlowExecutePath status = new TFlowExecutePath();
         status.setExecuteCode(executePoint.getExecuteCode());
         status.setFlowCode(executePoint.getFlowCode());
         status.setPointId(executePoint.getPointId());
+        status.setReleationId(relationId);
         return status;
     }
 

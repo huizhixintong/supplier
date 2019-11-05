@@ -3,8 +3,9 @@ package com.huizhi.supplier.db.dao;
 import com.huizhi.supplier.db.model.TPerSubjectInfo;
 import com.huizhi.supplier.db.model.TPerSubjectInfoExample;
 import com.huizhi.supplier.db.model.TPerSubjectInfoKey;
-import java.util.List;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface TPerSubjectInfoMapper {
     /**
@@ -126,4 +127,6 @@ public interface TPerSubjectInfoMapper {
      * @mbg.generated
      */
     int updateByPrimaryKey(TPerSubjectInfo record);
+
+    TPerSubjectInfo querySubjectInfo(@Param("code") String code);
 }
