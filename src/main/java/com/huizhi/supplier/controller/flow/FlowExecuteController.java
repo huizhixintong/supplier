@@ -34,11 +34,10 @@ public class FlowExecuteController {
     @Resource
     private FlowStep flowStep;
 
+
     @Resource
     private FlowExecutePoint flowExecutePoint;
 
-    @Resource
-    private FlowStart flowStart;
 
     @Resource
     private FlowExecutePath flowExecutePath;
@@ -109,36 +108,6 @@ public class FlowExecuteController {
         return returnRecordUpdate(iRet, point,"数据更新成功");
     }
 
-    @ResponseBody
-    @RequestMapping("/start")
-    public Object startFlow(HttpServletRequest request,
-                            @RequestParam("exeuteCode") String executeCode,
-                            @RequestParam("flowCode") String flowCode,
-                            @RequestParam("relationId") String relationId){
-        TFlowExecutePoint point = flowExecutePoint.queryExecutePointInfo(executeCode,flowCode,Constants.CONT_EXECUTE_POINT_START);
-        if (point == null){
-            return RespUtil.getResponse(ErrCode.ERR_FLOW_NOT_EXITS);
-        }
-        int iRet = flowStart.startFlow(point,relationId);
-        return returnRecordUpdate(iRet,point,"流程已经开始");
-    }
-
-    @ResponseBody
-    @RequestMapping("/examine")
-    public Object examineFlow(HttpServletRequest request,
-                            @RequestBody() String requestBody){
-        int iRet = -1;
-        TFlowExecuteStatusLog statusLog = JSON.parseObject(requestBody,TFlowExecuteStatusLog.class);
-        TFlowExecutePath point = getFlowExecutePath(statusLog,request.getHeader("username"),statusLog.getFlowId());
-        if (point == null){
-            return RespUtil.getResponse(ErrCode.ERR_FLOW_POINT_NOT_EXITS,requestBody);
-        }
-
-        iRet = flowStart.stepFlow(point,Integer.parseInt(statusLog.getOperateType()));
-
-        return returnRecordUpdate(iRet,statusLog,"审核日志插入成功");
-    }
-
     private int getFlowExecutePath(TFlowExecutePoint point, String userName){
         if (StringUtils.isEmpty(point) || StringUtils.isEmpty(point.getFlowCode())){
             return ErrCode.ERR_FLOW_PARAMETER_NULL;
@@ -153,6 +122,9 @@ public class FlowExecuteController {
 
         return ErrCode.CONT_SUCCESS;
     }
+
+
+
 
     private TFlowExecutePath getFlowExecutePath(TFlowExecuteStatusLog statusLog, String userName, int flowId){
         statusLog.setCreateUser(userName);

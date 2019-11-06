@@ -129,7 +129,6 @@ public interface TFlowStepDefineMapper {
      */
     int updateByPrimaryKey(TFlowStepDefine record);
 
-
     TFlowStepDefine queryNextStepInfo(@Param("flowCode") String FlowCode, @Param("point") int point);
 
     TFlowStepDefine queryStepInfo(@Param("flowCode") String flowCode, @Param("pointId") int pointId);

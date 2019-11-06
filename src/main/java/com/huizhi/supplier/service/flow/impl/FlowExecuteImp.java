@@ -8,6 +8,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 @Slf4j
 @Service("flowExecute")
@@ -32,5 +33,10 @@ public class FlowExecuteImp implements FlowExecute {
     @Override
     public int delFlowExecute(int id) {
         return 0;
+    }
+
+    @Override
+    public List<TFlowExecute> queryExecuteList() {
+        return tFlowExecuteMapper.queryExecute();
     }
 }

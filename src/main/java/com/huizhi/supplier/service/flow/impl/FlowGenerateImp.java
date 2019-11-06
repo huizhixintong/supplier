@@ -1,6 +1,7 @@
 package com.huizhi.supplier.service.flow.impl;
 
 import com.huizhi.supplier.db.dao.TNextvalMapper;
+import com.huizhi.supplier.db.model.TNextval;
 import com.huizhi.supplier.service.flow.FlowGenerate;
 import org.springframework.stereotype.Service;
 
@@ -27,7 +28,10 @@ public class FlowGenerateImp implements FlowGenerate {
 
     @Override
     public int createPointId() {
-        return tNextvalMapper.insert(null);
+        TNextval record = new TNextval();
+
+        tNextvalMapper.insertSelective(record);
+        return record.getId();
     }
 
 

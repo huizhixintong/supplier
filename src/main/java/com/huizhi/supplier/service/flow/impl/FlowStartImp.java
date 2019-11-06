@@ -55,8 +55,22 @@ public class FlowStartImp implements FlowStart {
 
         /*初始化流程状态*/
         TFlowExecutePoint nextPoint = getNextFlowPoint(executePoint);
+
+        /*第一步流程提交，直接完成*/
         if ((flowId=initFlowPointPath(nextPoint,relationId)) <=0){
             log.error("初始化审核流程失败!",executePoint);
+        }
+
+        /*初始化流程日志*/
+        if (initFlowPointStatusLog(nextPoint,Constants.CONT_FLOW_STATUS_COMMIT,flowId) != Constants.CONT_RECORDER_EXITS){
+            log.error("初始化审核流程日志失败！",executePoint);
+        }
+
+        /*获取提交后的流程*/
+        nextPoint = getNextFlowPoint(nextPoint);
+        TFlowExecutePath nextPath = getExecutePath(nextPoint,relationId);
+        if ((iRet = updateFlowPoint(nextPath)) != ErrCode.CONT_SUCCESS){
+            return iRet;
         }
 
         /*初始化流程日志*/
@@ -272,7 +286,6 @@ public class FlowStartImp implements FlowStart {
 
     private int initFlowPointPath(TFlowExecutePoint executePoint, String relationId){
         /*插入流程数据*/
-
         return flowExecutePath.addFlowExecutePath(getExecutePath(executePoint,relationId));
     }
 

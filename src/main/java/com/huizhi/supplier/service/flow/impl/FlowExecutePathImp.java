@@ -16,8 +16,9 @@ public class FlowExecutePathImp implements FlowExecutePath {
     private TFlowExecutePathMapper tFlowExecutePathMapper;
 
     @Override
-    public int addFlowExecutePath(TFlowExecutePath flowExecuteStatus) {
-        return tFlowExecutePathMapper.insertSelective(flowExecuteStatus);
+    public int addFlowExecutePath(TFlowExecutePath flowExecutePath) {
+        tFlowExecutePathMapper.insertSelective(flowExecutePath);
+        return  flowExecutePath.getId();
     }
 
     @Override

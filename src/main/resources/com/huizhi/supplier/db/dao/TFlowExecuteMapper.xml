@@ -370,4 +370,10 @@
     </if>
     limit 1
   </select>
+
+  <select id="queryExecute">
+    select
+        <include refid="Base_Column_List"/>
+    from t_flow_execute
+  </select>
 </mapper>
