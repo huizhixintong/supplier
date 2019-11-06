@@ -5,5 +5,5 @@ import com.huizhi.supplier.db.model.TPerEvalResult;
 public interface PerEvalResult {
     int addEvalResult(TPerEvalResult result);
     int editEvalResult(TPerEvalResult result);
-    int queryEvalResult(String contCode);
+    TPerEvalResult queryEvalResult(String contCode);
 }

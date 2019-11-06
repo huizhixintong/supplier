@@ -128,4 +128,6 @@ public interface TPerSubjectDetailInfoMapper {
      * @mbg.generated
      */
     int updateByPrimaryKey(TPerSubjectDetailInfo record);
+
+    List<TPerSubjectDetailInfo> queryTitleDetail(String titleCode);
 }

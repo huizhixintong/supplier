@@ -40,9 +40,10 @@ public class FlowController {
     @RequestMapping("/model/add")
     public Object addFlowMode(HttpServletRequest request,
                               @RequestParam("name") String flowName,
-                              @RequestParam("status") int status){
+                              @RequestParam("status") int status,
+                              @RequestParam("flowType") int flowType){
         int iRet = -1;
-        TFlowModel model = getModel(flowName,status,request.getHeader("userName"));
+        TFlowModel model = getModel(flowName,status,request.getHeader("userName"),(short)flowType);
         if ((iRet = flowModel.addModel(model))== Constants.CONT_RECORDER_EXITS){
             log.info("数据插入成功",model);
             return RespUtil.getResponse(ErrCode.CONT_SUCCESS);
@@ -58,10 +59,11 @@ public class FlowController {
                                @RequestParam("name") String flowName,
                                @RequestParam("code") String flowcode,
                                @RequestParam("id") int id,
-                               @RequestParam("status") int status){
+                               @RequestParam("status") int status,
+                               @RequestParam("flowType") short flowType){
 
         int iRet = -1;
-        TFlowModel model = getModel(flowcode,flowName,status,request.getHeader("userName"),id);
+        TFlowModel model = getModel(flowcode,flowName,status,request.getHeader("userName"),id,flowType);
         if ((iRet = flowModel.updateModel(model))== Constants.CONT_RECORDER_EXITS){
             log.info("数据更新成功",model);
             return RespUtil.getResponse(ErrCode.CONT_SUCCESS);
@@ -162,18 +164,19 @@ public class FlowController {
     }
 
 
-    private TFlowModel getModel(String name, int status, String userName){
+    private TFlowModel getModel(String name, int status, String userName,short flowType){
         String flowCode = flowGenerate.createFlowCode();
-        return getModel(flowCode,name,status,userName,0);
+        return getModel(flowCode,name,status,userName,0,flowType);
     }
 
-    private TFlowModel getModel(String code,String name, int status, String userName,int id){
+    private TFlowModel getModel(String code,String name, int status, String userName,int id, short flowType){
         TFlowModel model = new TFlowModel();
         model.setFlowCode(code);
         model.setFlowName(name);
         model.setFlowStatus(""+status);
         model.setCreateDate(LocalDateTime.now());
         model.setCreateUser(userName);
+        model.setFlowType(flowType);
         if (id>0) {
             model.setId(id);
         }

@@ -387,4 +387,11 @@
     </if>
     limit 1
   </select>
+
+  <select id="queryTitleDetail" parameterType="string" resultMap="BaseResultMap">
+    select
+        <include refid="Base_Column_List"/>
+    from t_per_subject_detail_info
+    where title_code = ${titleCode,jdbcType=VARCHAR}
+  </select>
 </mapper>

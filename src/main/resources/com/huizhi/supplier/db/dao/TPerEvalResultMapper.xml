@@ -340,4 +340,11 @@
     </if>
     limit 1
   </select>
+
+  <select id="queryEvalResult" parameterType="string" resultMap="BaseResultMap">
+    select
+        <include refid="Base_Column_List"></include>
+    from t_per_eval_result
+    where cont_code = ${contCode,jdbcType=VARCHAR}
+  </select>
 </mapper>

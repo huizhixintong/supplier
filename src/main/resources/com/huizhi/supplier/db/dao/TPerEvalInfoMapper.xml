@@ -387,4 +387,10 @@
     </if>
     limit 1
   </select>
+  <select id="queryEval" parameterType="string" resultMap="BaseResultMap">
+    select
+        <include refid="Base_Column_List"/>
+    from t_per_eval_info
+    where cont_code = ${contCode,jdbcType=VARCHAR}
+  </select>
 </mapper>

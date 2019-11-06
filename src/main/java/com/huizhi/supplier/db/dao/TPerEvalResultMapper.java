@@ -128,4 +128,7 @@ public interface TPerEvalResultMapper {
      * @mbg.generated
      */
     int updateByPrimaryKey(TPerEvalResult record);
+
+    TPerEvalResult queryEvalResult(String contCode);
+
 }

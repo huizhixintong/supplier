@@ -129,6 +129,6 @@ public interface TFlowModelMapper {
      */
     int updateByPrimaryKey(TFlowModel record);
 
-
     TFlowModel queryRecordByFlowCode(@Param("flowCode") String flowCode);
+
 }

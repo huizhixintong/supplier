@@ -128,4 +128,7 @@ public interface TPerEvalInfoMapper {
      * @mbg.generated
      */
     int updateByPrimaryKey(TPerEvalInfo record);
+
+    List<TPerEvalInfo> queryEval(String contCode);
+
 }
