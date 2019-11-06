@@ -2,1055 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51b07348-b80c-4b28-ab74-2448b0d28b59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/performance/imp/PerSubjectImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-generator/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-generator/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/constant/ErrCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/constant/ErrCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TFlowExecuteMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TFlowExecuteMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TFlowExecuteStatusLogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TFlowExecuteStatusLogMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TFlowExecuteStatusMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TFlowExecutePathMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TPerSubjectInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TPerSubjectInfoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TFlowExecute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TFlowExecute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TFlowExecuteExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TFlowExecuteExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TFlowExecuteStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TFlowExecutePath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TFlowExecuteStatusExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TFlowExecuteStatusExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TFlowExecuteStatusLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TFlowExecuteStatusLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TFlowExecuteStatusLogExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TFlowExecuteStatusLogExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowExecuteStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowExecutePath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowStart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/impl/FlowExecuteStatusImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/impl/FlowExecutePathImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/constant/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/constant/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/controller/flow/FlowExecuteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/controller/flow/FlowExecuteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TFlowExecutePathMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TFlowExecutePathMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowExecutePath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowExecutePath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowExecuteStatusLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowExecuteStatusLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/impl/FlowExecutePathImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/impl/FlowExecutePathImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/impl/FlowExecuteStatusLogImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/impl/FlowExecuteStatusLogImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/impl/FlowStartImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/impl/FlowStartImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/performance/PerSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/performance/PerSubject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TFlowExecuteMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TFlowExecuteMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TFlowExecuteStatusLogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TFlowExecuteStatusLogMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TFlowExecuteStatusMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TFlowExecutePathMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TPerSubjectInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TPerSubjectInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/huizhi/supplier/test/TestGenerate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/huizhi/supplier/test/TestGenerate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/SupplierApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/constant/Constants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/constant/ErrCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/controller/contract/ContractController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/controller/flow/FlowController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/controller/flow/FlowExecuteController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/DaoConfigBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/DefaultDaoConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyAbnormalOperationMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyArrearsMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyAssetsLiabilitiesMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyBankCreditMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyBankFinanceMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyBranchMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyBrandMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyCashFlowMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyCheckMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyContractPerformanceMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyCopyRightMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyCorporateWelfareMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyCourtAnnouncementMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyCreditGradeMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyCustomerMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyDepartmentInfoMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyDiscreditExecutorMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyElectricityHeatingGasWaterMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyEmployeeQualificationMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyEmployeesStatisticsMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyEnterpriseInfoChangeWarningMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyEnterpriseProfileMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyEnterprisePropertiesTreeMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyEnvironmentalPenaltiesMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyEquityPledgeMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyEstateFinancingMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyExecutionRecordMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyExecutivesMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyExternalBorrowingMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyExternalGuaranteeRecordMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyFinancialNoteMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyFinancialStatementMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyFixedAssetsMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyFixedMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyFlangingRegulationAttachementMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyFlangingRegulationCheckMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyFlangingRegulationReportMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyFlangingRegulationTreeMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyForeignInvestMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyForeignInvestmentMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyHealthAndSocialWorkMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyHonorMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyHotelRestaurantsMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyIcpMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyIndustryBreakFaithRecordMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyJudgmentMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyLandinfoMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyLawAnnouncementMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyLegalCarMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyLegalCreditMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyLegalLiveMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyLegalMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyLegalRoomMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyLoanCardMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyMainFinancialRateMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyNewsPublicOpinionMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyNonBankFinancingMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyOperateCondition2Mapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyOperateConditionMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyOtherCreditorsMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyPartyBuildingMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyPatentMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyPenaltyMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyPermanentInvestmentMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyPermissionMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyPermissionUpdateRecordMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyPollutionLicenseMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyProductsMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyProfitLossMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyQualificationMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyQualificationUpdateRecordMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyRealtyRentMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyReceiveAccountMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyRecruitmentMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyRegistrationRecordsMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyRegulationAttachementMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyRegulationTreeMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyRepairReportAttachementMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyScienceInnovationMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyScientificResearchTechnicalServicesMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpySecuritiesMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpySeriousViolationOfLawMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyShareholdersCapitalMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyShareholdersConstituteMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyShortBorrowingMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpySocialCharitableMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpySoftwareCopyrightMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpySoftwareInformationMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpySpouseMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyStandardSettingMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpySupervisionCheckMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpySupplierMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyTaxArrearMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyTaxLevelMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyTaxationOffencesMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyThreeYearAuditReportMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyTrademarkMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyWarrandiceMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyWholesaleRetailMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyWinningMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyYearCheckMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TCpyYearFixedAssetsMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TFlowExecuteMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TFlowExecuteMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TFlowExecuteMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TFlowExecutePointMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TFlowExecuteStatusLogMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TFlowExecuteStatusLogMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TFlowExecuteStatusLogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TFlowExecuteStatusLogMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TFlowExecuteStatusMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TFlowExecuteStatusMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TFlowExecuteStatusMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TFlowModelMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TFlowPointOperatePersonnelMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TFlowStepDefineMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TMgmBlackNameListCheckMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TMgmBlackNameListMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TMgmNameListMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TMgmObjectionHandlingMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TMgmSupplierBaseInfoMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TMgmSupplierSynthesisCheckMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TMgmSupplierSynthesisMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TMgmSupplierSynthesisRatingMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TNextvalMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TPerContractMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TRptReportDownloadRecordMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TSysIndustrySortMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TVcsCompanyEvaluateScoreMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyAbnormalOperation$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyAbnormalOperation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyAbnormalOperationExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyAbnormalOperationExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyAbnormalOperationExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyAbnormalOperationExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyAbnormalOperationExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyAbnormalOperationExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyAbnormalOperationExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyArrears$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyArrears.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyArrearsExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyArrearsExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyArrearsExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyArrearsExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyArrearsExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyArrearsExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyArrearsExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyAssetsLiabilities$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyAssetsLiabilities.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyAssetsLiabilitiesExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyAssetsLiabilitiesExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyAssetsLiabilitiesExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyAssetsLiabilitiesExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyAssetsLiabilitiesExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyAssetsLiabilitiesExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyAssetsLiabilitiesExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBankCredit$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBankCredit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBankCreditExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBankCreditExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBankCreditExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBankCreditExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBankCreditExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBankCreditExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBankCreditExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBankFinance$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBankFinance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBankFinanceExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBankFinanceExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBankFinanceExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBankFinanceExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBankFinanceExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBankFinanceExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBankFinanceExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBranch$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBranch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBranchExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBranchExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBranchExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBranchExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBranchExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBranchExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBranchExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBrand$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBrand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBrandExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBrandExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBrandExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBrandExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBrandExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBrandExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyBrandExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCashFlow$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCashFlow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCashFlowExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCashFlowExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCashFlowExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCashFlowExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCashFlowExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCashFlowExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCashFlowExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCheckExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCheckExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCheckExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCheckExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCheckExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCheckExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCheckExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyContractPerformance$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyContractPerformance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyContractPerformanceExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyContractPerformanceExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyContractPerformanceExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyContractPerformanceExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyContractPerformanceExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyContractPerformanceExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyContractPerformanceExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCopyRight$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCopyRight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCopyRightExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCopyRightExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCopyRightExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCopyRightExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCopyRightExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCopyRightExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCopyRightExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCourtAnnouncement$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCourtAnnouncement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCourtAnnouncementExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCourtAnnouncementExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCourtAnnouncementExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCourtAnnouncementExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCourtAnnouncementExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCourtAnnouncementExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCourtAnnouncementExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCreditGrade$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCreditGrade.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCreditGradeExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCreditGradeExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCreditGradeExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCreditGradeExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCreditGradeExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCreditGradeExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCreditGradeExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCustomer$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCustomer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCustomerExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCustomerExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCustomerExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCustomerExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCustomerExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCustomerExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyCustomerExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyDepartmentInfo$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyDepartmentInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyDepartmentInfoExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyDepartmentInfoExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyDepartmentInfoExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyDepartmentInfoExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyDepartmentInfoExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyDepartmentInfoExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyDepartmentInfoExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyDiscreditExecutor$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyDiscreditExecutor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyDiscreditExecutorExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyDiscreditExecutorExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyDiscreditExecutorExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyDiscreditExecutorExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyDiscreditExecutorExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyDiscreditExecutorExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyDiscreditExecutorExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyElectricityHeatingGasWater$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyElectricityHeatingGasWater.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyElectricityHeatingGasWaterExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyElectricityHeatingGasWaterExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyElectricityHeatingGasWaterExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyElectricityHeatingGasWaterExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyElectricityHeatingGasWaterExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyElectricityHeatingGasWaterExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyElectricityHeatingGasWaterExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEmployeeQualificationExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEmployeeQualificationExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEmployeeQualificationExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEmployeeQualificationExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEmployeeQualificationExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEmployeeQualificationExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEmployeeQualificationExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEmployeesStatistics$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEmployeesStatistics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEmployeesStatisticsExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEmployeesStatisticsExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEmployeesStatisticsExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEmployeesStatisticsExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEmployeesStatisticsExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEmployeesStatisticsExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEmployeesStatisticsExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEnterpriseInfoChangeWarning$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEnterpriseInfoChangeWarning.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEnterpriseInfoChangeWarningExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEnterpriseInfoChangeWarningExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEnterpriseInfoChangeWarningExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEnterpriseInfoChangeWarningExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEnterpriseInfoChangeWarningExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEnterpriseInfoChangeWarningExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEnterpriseInfoChangeWarningExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEnterprisePropertiesTree$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEnterprisePropertiesTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEnterprisePropertiesTreeExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEnterprisePropertiesTreeExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEnterprisePropertiesTreeExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEnterprisePropertiesTreeExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEnterprisePropertiesTreeExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEnterprisePropertiesTreeExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEnterprisePropertiesTreeExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEquityPledge$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEquityPledge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEquityPledgeExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEquityPledgeExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEquityPledgeExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEquityPledgeExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEquityPledgeExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEquityPledgeExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEquityPledgeExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEstateFinancing$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEstateFinancing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEstateFinancingExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEstateFinancingExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEstateFinancingExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEstateFinancingExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEstateFinancingExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEstateFinancingExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyEstateFinancingExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyExecutionRecord$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyExecutionRecord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyExecutionRecordExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyExecutionRecordExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyExecutionRecordExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyExecutionRecordExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyExecutionRecordExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyExecutionRecordExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyExecutionRecordExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyExternalBorrowing$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyExternalBorrowing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyExternalBorrowingExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyExternalBorrowingExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyExternalBorrowingExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyExternalBorrowingExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyExternalBorrowingExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyExternalBorrowingExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyExternalBorrowingExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyExternalGuaranteeRecordExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyExternalGuaranteeRecordExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyExternalGuaranteeRecordExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyExternalGuaranteeRecordExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyExternalGuaranteeRecordExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyExternalGuaranteeRecordExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyExternalGuaranteeRecordExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFinancialStatement$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFinancialStatement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFinancialStatementExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFinancialStatementExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFinancialStatementExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFinancialStatementExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFinancialStatementExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFinancialStatementExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFinancialStatementExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFixedAssets$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFixedAssets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFixedAssetsExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFixedAssetsExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFixedAssetsExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFixedAssetsExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFixedAssetsExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFixedAssetsExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFixedAssetsExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFlangingRegulationAttachement$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFlangingRegulationAttachement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFlangingRegulationAttachementExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFlangingRegulationAttachementExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFlangingRegulationAttachementExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFlangingRegulationAttachementExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFlangingRegulationAttachementExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFlangingRegulationAttachementExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFlangingRegulationAttachementExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFlangingRegulationCheckExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFlangingRegulationCheckExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFlangingRegulationCheckExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFlangingRegulationCheckExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFlangingRegulationCheckExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFlangingRegulationCheckExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFlangingRegulationCheckExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFlangingRegulationReport$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFlangingRegulationReport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFlangingRegulationReportExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFlangingRegulationReportExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFlangingRegulationReportExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFlangingRegulationReportExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFlangingRegulationReportExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFlangingRegulationReportExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFlangingRegulationReportExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFlangingRegulationTreeExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFlangingRegulationTreeExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFlangingRegulationTreeExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFlangingRegulationTreeExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFlangingRegulationTreeExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFlangingRegulationTreeExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyFlangingRegulationTreeExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyForeignInvestExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyForeignInvestExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyForeignInvestExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyForeignInvestExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyForeignInvestExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyForeignInvestExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyForeignInvestExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyHealthAndSocialWork$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyHealthAndSocialWork.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyHealthAndSocialWorkExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyHealthAndSocialWorkExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyHealthAndSocialWorkExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyHealthAndSocialWorkExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyHealthAndSocialWorkExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyHealthAndSocialWorkExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyHealthAndSocialWorkExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyHonor$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyHonor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyHonorExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyHonorExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyHonorExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyHonorExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyHonorExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyHonorExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyHonorExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyHotelRestaurants$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyHotelRestaurants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyHotelRestaurantsExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyHotelRestaurantsExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyHotelRestaurantsExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyHotelRestaurantsExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyHotelRestaurantsExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyHotelRestaurantsExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyHotelRestaurantsExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLandinfo$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLandinfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLandinfoExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLandinfoExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLandinfoExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLandinfoExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLandinfoExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLandinfoExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLandinfoExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLawAnnouncement$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLawAnnouncement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLawAnnouncementExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLawAnnouncementExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLawAnnouncementExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLawAnnouncementExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLawAnnouncementExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLawAnnouncementExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLawAnnouncementExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLegal$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLegal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLegalCar$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLegalCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLegalCarExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLegalCarExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLegalCarExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLegalCarExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLegalCarExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLegalCarExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLegalCarExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLegalExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLegalExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLegalExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLegalExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLegalExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLegalExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLegalExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLegalLiveExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLegalLiveExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLegalLiveExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLegalLiveExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLegalLiveExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLegalLiveExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLegalLiveExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLegalRoom$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLegalRoom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLegalRoomExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLegalRoomExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLegalRoomExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLegalRoomExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLegalRoomExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLegalRoomExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyLegalRoomExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyMainFinancialRateExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyMainFinancialRateExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyMainFinancialRateExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyMainFinancialRateExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyMainFinancialRateExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyMainFinancialRateExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyMainFinancialRateExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyNewsPublicOpinion$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyNewsPublicOpinion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyNewsPublicOpinionExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyNewsPublicOpinionExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyNewsPublicOpinionExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyNewsPublicOpinionExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyNewsPublicOpinionExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyNewsPublicOpinionExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyNewsPublicOpinionExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyOperateCondition$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyOperateCondition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyOperateConditionExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyOperateConditionExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyOperateConditionExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyOperateConditionExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyOperateConditionExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyOperateConditionExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyOperateConditionExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyOtherCreditors$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyOtherCreditors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyOtherCreditorsExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyOtherCreditorsExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyOtherCreditorsExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyOtherCreditorsExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyOtherCreditorsExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyOtherCreditorsExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyOtherCreditorsExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPartyBuilding$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPartyBuilding.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPartyBuildingExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPartyBuildingExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPartyBuildingExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPartyBuildingExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPartyBuildingExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPartyBuildingExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPartyBuildingExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPatentExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPatentExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPatentExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPatentExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPatentExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPatentExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPatentExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPenalty$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPenalty.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPenaltyExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPenaltyExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPenaltyExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPenaltyExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPenaltyExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPenaltyExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPenaltyExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPermanentInvestment$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPermanentInvestment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPermanentInvestmentExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPermanentInvestmentExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPermanentInvestmentExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPermanentInvestmentExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPermanentInvestmentExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPermanentInvestmentExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPermanentInvestmentExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPermissionExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPermissionExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPermissionExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPermissionExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPermissionExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPermissionExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPermissionExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPollutionLicense$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPollutionLicense.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPollutionLicenseExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPollutionLicenseExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPollutionLicenseExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPollutionLicenseExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPollutionLicenseExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPollutionLicenseExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyPollutionLicenseExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyProfitLoss$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyProfitLoss.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyProfitLossExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyProfitLossExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyProfitLossExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyProfitLossExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyProfitLossExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyProfitLossExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyProfitLossExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyQualificationExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyQualificationExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyQualificationExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyQualificationExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyQualificationExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyQualificationExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyQualificationExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyQualificationUpdateRecord$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyQualificationUpdateRecord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyQualificationUpdateRecordExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyQualificationUpdateRecordExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyQualificationUpdateRecordExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyQualificationUpdateRecordExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyQualificationUpdateRecordExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyQualificationUpdateRecordExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyQualificationUpdateRecordExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRealtyRentExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRealtyRentExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRealtyRentExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRealtyRentExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRealtyRentExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRealtyRentExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRealtyRentExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRecruitment$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRecruitment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRecruitmentExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRecruitmentExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRecruitmentExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRecruitmentExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRecruitmentExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRecruitmentExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRecruitmentExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRegistrationRecords$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRegistrationRecords.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRegistrationRecordsExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRegistrationRecordsExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRegistrationRecordsExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRegistrationRecordsExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRegistrationRecordsExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRegistrationRecordsExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRegistrationRecordsExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRegulationAttachementExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRegulationAttachementExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRegulationAttachementExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRegulationAttachementExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRegulationAttachementExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRegulationAttachementExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRegulationAttachementExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRegulationTree$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRegulationTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRegulationTreeExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRegulationTreeExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRegulationTreeExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRegulationTreeExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRegulationTreeExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRegulationTreeExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRegulationTreeExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRepairReportAttachement$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRepairReportAttachement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRepairReportAttachementExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRepairReportAttachementExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRepairReportAttachementExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRepairReportAttachementExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRepairReportAttachementExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRepairReportAttachementExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyRepairReportAttachementExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyScienceInnovation$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyScienceInnovation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyScienceInnovationExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyScienceInnovationExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyScienceInnovationExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyScienceInnovationExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyScienceInnovationExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyScienceInnovationExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyScienceInnovationExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyScientificResearchTechnicalServices$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyScientificResearchTechnicalServices.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyScientificResearchTechnicalServicesExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyScientificResearchTechnicalServicesExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyScientificResearchTechnicalServicesExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyScientificResearchTechnicalServicesExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyScientificResearchTechnicalServicesExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyScientificResearchTechnicalServicesExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyScientificResearchTechnicalServicesExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySecurities$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySecurities.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySecuritiesExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySecuritiesExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySecuritiesExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySecuritiesExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySecuritiesExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySecuritiesExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySecuritiesExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySeriousViolationOfLaw$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySeriousViolationOfLaw.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySeriousViolationOfLawExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySeriousViolationOfLawExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySeriousViolationOfLawExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySeriousViolationOfLawExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySeriousViolationOfLawExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySeriousViolationOfLawExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySeriousViolationOfLawExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyShareholdersCapital$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyShareholdersCapital.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyShareholdersCapitalExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyShareholdersCapitalExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyShareholdersCapitalExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyShareholdersCapitalExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyShareholdersCapitalExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyShareholdersCapitalExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyShareholdersCapitalExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyShareholdersConstitute$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyShareholdersConstitute.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyShareholdersConstituteExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyShareholdersConstituteExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyShareholdersConstituteExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyShareholdersConstituteExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyShareholdersConstituteExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyShareholdersConstituteExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyShareholdersConstituteExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyShortBorrowingExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyShortBorrowingExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyShortBorrowingExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyShortBorrowingExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyShortBorrowingExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyShortBorrowingExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyShortBorrowingExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySocialCharitable$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySocialCharitable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySocialCharitableExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySocialCharitableExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySocialCharitableExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySocialCharitableExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySocialCharitableExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySocialCharitableExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySocialCharitableExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySoftwareCopyright$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySoftwareCopyright.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySoftwareCopyrightExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySoftwareCopyrightExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySoftwareCopyrightExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySoftwareCopyrightExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySoftwareCopyrightExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySoftwareCopyrightExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySoftwareCopyrightExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySoftwareInformationExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySoftwareInformationExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySoftwareInformationExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySoftwareInformationExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySoftwareInformationExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySoftwareInformationExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySoftwareInformationExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySpouseExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySpouseExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySpouseExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySpouseExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySpouseExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySpouseExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySpouseExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyStandardSetting$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyStandardSetting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyStandardSettingExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyStandardSettingExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyStandardSettingExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyStandardSettingExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyStandardSettingExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyStandardSettingExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyStandardSettingExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySupervisionCheck$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySupervisionCheck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySupervisionCheckExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySupervisionCheckExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySupervisionCheckExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySupervisionCheckExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySupervisionCheckExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySupervisionCheckExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySupervisionCheckExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySupplier$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySupplier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySupplierExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySupplierExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySupplierExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySupplierExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySupplierExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySupplierExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpySupplierExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTaxArrear$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTaxArrear.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTaxArrearExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTaxArrearExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTaxArrearExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTaxArrearExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTaxArrearExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTaxArrearExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTaxArrearExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTaxLevel$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTaxLevel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTaxLevelExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTaxLevelExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTaxLevelExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTaxLevelExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTaxLevelExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTaxLevelExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTaxLevelExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTaxationOffences$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTaxationOffences.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTaxationOffencesExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTaxationOffencesExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTaxationOffencesExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTaxationOffencesExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTaxationOffencesExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTaxationOffencesExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTaxationOffencesExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyThreeYearAuditReport$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyThreeYearAuditReport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyThreeYearAuditReportExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyThreeYearAuditReportExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyThreeYearAuditReportExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyThreeYearAuditReportExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyThreeYearAuditReportExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyThreeYearAuditReportExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyThreeYearAuditReportExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTrademark$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTrademark.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTrademarkExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTrademarkExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTrademarkExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTrademarkExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTrademarkExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTrademarkExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyTrademarkExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyWarrandice$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyWarrandice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyWarrandiceExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyWarrandiceExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyWarrandiceExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyWarrandiceExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyWarrandiceExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyWarrandiceExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyWarrandiceExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyWholesaleRetail$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyWholesaleRetail.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyWholesaleRetailExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyWholesaleRetailExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyWholesaleRetailExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyWholesaleRetailExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyWholesaleRetailExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyWholesaleRetailExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyWholesaleRetailExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyWinningExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyWinningExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyWinningExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyWinningExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyWinningExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyWinningExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyWinningExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyYearCheck$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyYearCheck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyYearCheckExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyYearCheckExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyYearCheckExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyYearCheckExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyYearCheckExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyYearCheckExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyYearCheckExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyYearFixedAssets$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyYearFixedAssets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyYearFixedAssetsExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyYearFixedAssetsExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyYearFixedAssetsExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyYearFixedAssetsExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyYearFixedAssetsExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyYearFixedAssetsExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TCpyYearFixedAssetsExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecute$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecute.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecuteExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecuteExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecuteExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecuteExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecuteExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecuteExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecuteExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecutePointExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecutePointExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecutePointExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecutePointExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecutePointExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecutePointExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecutePointExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecutePointStatus$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecutePointStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecutePointStatusExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecutePointStatusExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecutePointStatusExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecutePointStatusExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecutePointStatusExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecutePointStatusExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecutePointStatusExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecuteStatus$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecuteStatus$Column.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecuteStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecuteStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TFlowExecutePathMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TFlowExecutePathMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/dao/TFlowExecuteStatusMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecuteStatus$Column.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecuteStatus.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecuteStatusExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecuteStatusExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecuteStatusExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecuteStatusExample$Criterion.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecuteStatusExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecuteStatusExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecuteStatusLog$Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecuteStatusLog$Column.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecuteStatusLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecuteStatusLog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecuteStatusLogExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecuteStatusLogExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecuteStatusLogExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecuteStatusLogExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecuteStatusLogExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowExecuteStatusLogExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowModel$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowModelExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowModelExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowModelExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowModelExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowModelExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowModelExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowModelExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowPointOperatePersonnelExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowPointOperatePersonnelExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowPointOperatePersonnelExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowPointOperatePersonnelExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowPointOperatePersonnelExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowPointOperatePersonnelExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowPointOperatePersonnelExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowStepDefine$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowStepDefine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowStepDefineExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowStepDefineExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowStepDefineExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowStepDefineExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowStepDefineExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowStepDefineExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TFlowStepDefineExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmBlackNameListExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmBlackNameListExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmBlackNameListExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmBlackNameListExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmBlackNameListExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmBlackNameListExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmBlackNameListExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmNameList$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmNameList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmNameListExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmNameListExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmNameListExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmNameListExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmNameListExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmNameListExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmNameListExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmObjectionHandling$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmObjectionHandling.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmObjectionHandlingExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmObjectionHandlingExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmObjectionHandlingExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmObjectionHandlingExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmObjectionHandlingExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmObjectionHandlingExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmObjectionHandlingExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmSupplierBaseInfo$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmSupplierBaseInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmSupplierBaseInfoExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmSupplierBaseInfoExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmSupplierBaseInfoExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmSupplierBaseInfoExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmSupplierBaseInfoExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmSupplierBaseInfoExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmSupplierBaseInfoExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmSupplierSynthesisRating$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmSupplierSynthesisRating.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmSupplierSynthesisRatingExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmSupplierSynthesisRatingExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmSupplierSynthesisRatingExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmSupplierSynthesisRatingExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmSupplierSynthesisRatingExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmSupplierSynthesisRatingExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TMgmSupplierSynthesisRatingExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TNextvalExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TNextvalExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TNextvalExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TNextvalExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TNextvalExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TNextvalExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TNextvalExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TPerContractExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TPerContractExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TPerContractExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TPerContractExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TPerContractExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TPerContractExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TPerContractExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TRptReportDownloadRecord$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TRptReportDownloadRecord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TRptReportDownloadRecordExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TRptReportDownloadRecordExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TRptReportDownloadRecordExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TRptReportDownloadRecordExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TRptReportDownloadRecordExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TRptReportDownloadRecordExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TRptReportDownloadRecordExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TVcsCompanyEvaluateScoreExample$Criteria$ICriteriaAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TVcsCompanyEvaluateScoreExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TVcsCompanyEvaluateScoreExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TVcsCompanyEvaluateScoreExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TVcsCompanyEvaluateScoreExample$ICriteriaWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TVcsCompanyEvaluateScoreExample$IExampleWhen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TVcsCompanyEvaluateScoreExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TVcsCompanyEvaluateScoreWithBLOBs$Column.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/db/model/TVcsCompanyEvaluateScoreWithBLOBs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/model/BaseResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/model/FlowPrivilege$ParsePrivilege.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/model/FlowPrivilege.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/model/NotifyInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/service/contract/impl/PerContractImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/service/flow/FlowExecute.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/service/flow/FlowExecutePoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/service/flow/FlowExecuteStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/service/flow/FlowGenerate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/service/flow/FlowModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/service/flow/FlowPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/service/flow/FlowStart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/service/flow/FlowStep.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/service/flow/impl/FlowExecuteImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/service/flow/impl/FlowExecutePointImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/service/flow/impl/FlowExecuteStatusImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/service/flow/impl/FlowGenerateImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/service/flow/impl/FlowModelImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/service/flow/impl/FlowPointImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/service/flow/impl/FlowStartImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/service/flow/impl/FlowStepImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/service/supplier/Supplier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/service/supplier/imp/SupplierImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/util/RespUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/huizhi/supplier/test/TestGenerate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/service/flow/FlowExecuteStatusLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/service/flow/FlowExecuteStatusLog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/service/flow/impl/FlowExecuteStatusLogImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huizhi/supplier/service/flow/impl/FlowExecuteStatusLogImpl.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -1106,58 +74,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowExecutePath.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/impl/FlowExecutePathImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="46" column="30" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TFlowExecutePathMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="130" column="23" selection-start-line="130" selection-start-column="8" selection-end-line="130" selection-end-column="23" />
+            <state relative-caret-position="123">
+              <caret line="46" column="44" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/impl/FlowStartImp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="217" column="57" selection-start-line="217" selection-start-column="57" selection-end-line="217" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/controller/flow/FlowExecuteController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="129" column="25" selection-start-line="129" selection-start-column="25" selection-end-line="129" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowStart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="54" lean-forward="true" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+            <state relative-caret-position="183">
+              <caret line="135" column="8" selection-start-line="135" selection-start-column="8" selection-end-line="135" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1168,17 +97,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/constant/ErrCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="57" column="50" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
+            <state relative-caret-position="106">
+              <caret line="9" column="52" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TFlowExecutePoint.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowStart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-678">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="90">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TFlowExecutePathMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="134" column="20" selection-start-line="134" selection-start-column="20" selection-end-line="134" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -1186,8 +127,45 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TFlowExecutePathMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="904">
-              <caret line="390" column="10" selection-start-line="390" selection-start-column="10" selection-end-line="390" selection-end-column="10" />
+            <state relative-caret-position="174">
+              <caret line="406" column="10" selection-start-line="406" selection-start-column="10" selection-end-line="406" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/impl/FlowStartImp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="205" column="46" selection-start-line="205" selection-start-column="31" selection-end-line="205" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#9694#9695#0" expanded="true" />
+                <element signature="e#9716#9717#0" expanded="true" />
+                <element signature="e#9760#9761#0" expanded="true" />
+                <element signature="e#9782#9783#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/constant/Constants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="21" column="51" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowExecutePath.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1195,7 +173,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TFlowExecutePath.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="-887">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
@@ -1218,6 +196,10 @@
       <find>TFlowStepDefineMapper</find>
       <find>TFlowExecuteStatusLogMapper</find>
       <find>TFlowExecuteMapper</find>
+      <find>queryExecutePointInfo</find>
+      <find>initFlowPointStatusLog</find>
+      <find>getSe</find>
+      <find>reset</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -1227,12 +209,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/DefaultDaoConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/impl/FlowExecuteStatusLogImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TFlowExecuteStatusLogMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TFlowExecuteStatusLogMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TFlowExecuteMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/util/RespUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/constant/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowGenerate.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/impl/FlowGenerateImp.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TFlowStepDefineMapper.xml" />
@@ -1245,9 +225,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TFlowExecuteMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/impl/FlowModelImp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TFlowExecute.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TFlowExecutePoint.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TFlowModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/controller/flow/FlowExecuteController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TNextvalMapper.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/huizhi/supplier/test/TestGenerate.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/model/FlowPrivilege.java" />
@@ -1267,10 +245,18 @@
         <option value="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TFlowExecuteStatusMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowExecuteStatus.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TFlowExecuteStatusMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TFlowExecutePathMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/impl/FlowExecutePathImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TFlowExecutePoint.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowStart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TFlowExecutePath.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowExecuteStatusLog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/impl/FlowExecuteStatusLogImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/constant/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/impl/FlowStartImp.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TFlowExecutePathMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowExecutePath.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/impl/FlowExecutePathImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TFlowExecutePathMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/huizhi/supplier/controller/flow/FlowExecuteController.java" />
       </list>
     </option>
   </component>
@@ -1338,6 +324,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="supplier" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="supplier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="supplier" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="supplier" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="flow" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="supplier" type="b2602c69:ProjectViewProjectNode" />
@@ -1426,21 +422,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="supplier" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="supplier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="supplier" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="supplier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="supplier" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="supplier" type="b2602c69:ProjectViewProjectNode" />
@@ -1643,7 +624,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572521089070</updated>
-      <workItem from="1572521091328" duration="34799000" />
+      <workItem from="1572521091328" duration="44262000" />
     </task>
     <servers />
   </component>
@@ -1680,7 +661,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34799000" />
+    <option name="totallyTimeSpent" value="44262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="717" extended-state="0" />
@@ -1726,20 +707,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TNextvalMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="146" column="10" selection-start-line="146" selection-start-column="10" selection-end-line="146" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowGenerate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/impl/FlowGenerateImp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -1840,31 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowStep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/impl/FlowStepImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
-          <folding>
-            <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/impl/FlowExecutePointImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="39" column="63" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TFlowExecutePointMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
@@ -1876,24 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="389" column="10" selection-start-line="389" selection-start-column="10" selection-end-line="389" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowExecutePoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TFlowExecuteStatusLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="252" column="43" selection-start-line="252" selection-start-column="30" selection-end-line="252" selection-end-column="43" />
-          <folding>
-            <element signature="e#7071#7072#0" expanded="true" />
-            <element signature="e#7115#7116#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1912,13 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
           <caret line="95" column="33" selection-start-line="95" selection-start-column="19" selection-end-line="95" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/constant/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="34" column="58" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -2049,69 +966,91 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/impl/FlowStepImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding>
+            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TFlowExecuteStatusLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-82">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/impl/FlowExecutePointImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="39" column="43" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="43" />
+          <folding>
+            <element signature="e#1417#1418#0" expanded="true" />
+            <element signature="e#1444#1445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowExecuteStatusLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowExecutePoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/impl/FlowExecuteStatusLogImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="36" column="68" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TFlowExecutePoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-678">
+        <state relative-caret-position="-493">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/constant/ErrCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="57" column="50" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TFlowExecutePath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowExecutePath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TFlowExecutePathMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="130" column="23" selection-start-line="130" selection-start-column="8" selection-end-line="130" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TFlowExecutePathMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="904">
-          <caret line="390" column="10" selection-start-line="390" selection-start-column="10" selection-end-line="390" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/impl/FlowExecutePathImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="46" column="30" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowStart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="54" lean-forward="true" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/controller/flow/FlowExecuteController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/model/TFlowExecutePath.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="129" column="25" selection-start-line="129" selection-start-column="25" selection-end-line="129" selection-end-column="25" />
+        <state relative-caret-position="-887">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/constant/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="21" column="51" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2120,8 +1059,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/impl/FlowStartImp.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="205" column="46" selection-start-line="205" selection-start-column="31" selection-end-line="205" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#9694#9695#0" expanded="true" />
+            <element signature="e#9716#9717#0" expanded="true" />
+            <element signature="e#9760#9761#0" expanded="true" />
+            <element signature="e#9782#9783#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/FlowExecutePath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/huizhi/supplier/db/dao/TFlowExecutePathMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="406" column="10" selection-start-line="406" selection-start-column="10" selection-end-line="406" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/db/dao/TFlowExecutePathMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="134" column="20" selection-start-line="134" selection-start-column="20" selection-end-line="134" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/service/flow/impl/FlowExecutePathImp.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
-          <caret line="217" column="57" selection-start-line="217" selection-start-column="57" selection-end-line="217" selection-end-column="57" />
+          <caret line="46" column="44" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/constant/ErrCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="9" column="52" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huizhi/supplier/controller/flow/FlowExecuteController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="135" column="8" selection-start-line="135" selection-start-column="8" selection-end-line="135" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

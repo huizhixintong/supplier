@@ -131,4 +131,7 @@ public interface TFlowExecutePathMapper {
     int updateFlowPoint(TFlowExecutePath executePoint);
 
     int queryExecuteStatus(TFlowExecutePath executePoint);
+
+    TFlowExecutePath queryExecutePath(@Param("flowId") int flowId, @Param("executeCode") String executeCode, @Param("flowCode") String flowCode);
+
 }

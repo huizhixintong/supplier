@@ -4,12 +4,12 @@ import com.alibaba.fastjson.JSON;
 import com.huizhi.supplier.constant.Constants;
 import com.huizhi.supplier.constant.ErrCode;
 import com.huizhi.supplier.db.model.TFlowExecute;
+import com.huizhi.supplier.db.model.TFlowExecutePath;
 import com.huizhi.supplier.db.model.TFlowExecutePoint;
 import com.huizhi.supplier.db.model.TFlowExecuteStatusLog;
 import com.huizhi.supplier.service.flow.*;
 import com.huizhi.supplier.util.RespUtil;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.BeanUtils;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 
@@ -39,6 +39,9 @@ public class FlowExecuteController {
 
     @Resource
     private FlowStart flowStart;
+
+    @Resource
+    private FlowExecutePath flowExecutePath;
 
     @ResponseBody
     @RequestMapping("/add")
@@ -83,7 +86,7 @@ public class FlowExecuteController {
                                        @RequestBody() String requestBody){
         int iRet = -1;
         TFlowExecutePoint point = JSON.parseObject(requestBody,TFlowExecutePoint.class);
-        if ((iRet = getFlowExecutePoint(point,request.getHeader("username"))) != ErrCode.CONT_SUCCESS){
+        if ((iRet = getFlowExecutePath(point,request.getHeader("username"))) != ErrCode.CONT_SUCCESS){
             return RespUtil.getResponse(iRet);
         }
 
@@ -98,7 +101,7 @@ public class FlowExecuteController {
                                        @RequestBody() String requestBody){
         int iRet = -1;
         TFlowExecutePoint point = JSON.parseObject(requestBody,TFlowExecutePoint.class);
-        if ((iRet = getFlowExecutePoint(point,request.getHeader("username"))) != ErrCode.CONT_SUCCESS){
+        if ((iRet = getFlowExecutePath(point,request.getHeader("username"))) != ErrCode.CONT_SUCCESS){
             return RespUtil.getResponse(iRet);
         }
 
@@ -110,12 +113,13 @@ public class FlowExecuteController {
     @RequestMapping("/start")
     public Object startFlow(HttpServletRequest request,
                             @RequestParam("exeuteCode") String executeCode,
-                            @RequestParam("flowCode") String flowCode){
+                            @RequestParam("flowCode") String flowCode,
+                            @RequestParam("relationId") String relationId){
         TFlowExecutePoint point = flowExecutePoint.queryExecutePointInfo(executeCode,flowCode,Constants.CONT_EXECUTE_POINT_START);
         if (point == null){
             return RespUtil.getResponse(ErrCode.ERR_FLOW_NOT_EXITS);
         }
-        int iRet = flowStart.startFlow(point);
+        int iRet = flowStart.startFlow(point,relationId);
         return returnRecordUpdate(iRet,point,"流程已经开始");
     }
 
@@ -125,14 +129,17 @@ public class FlowExecuteController {
                             @RequestBody() String requestBody){
         int iRet = -1;
         TFlowExecuteStatusLog statusLog = JSON.parseObject(requestBody,TFlowExecuteStatusLog.class);
-        TFlowExecutePoint point = getFlowExecutePoint(statusLog,request.getHeader("username"));
+        TFlowExecutePath point = getFlowExecutePath(statusLog,request.getHeader("username"),statusLog.getFlowId());
+        if (point == null){
+            return RespUtil.getResponse(ErrCode.ERR_FLOW_POINT_NOT_EXITS,requestBody);
+        }
 
         iRet = flowStart.stepFlow(point,Integer.parseInt(statusLog.getOperateType()));
 
         return returnRecordUpdate(iRet,statusLog,"审核日志插入成功");
     }
 
-    private int getFlowExecutePoint(TFlowExecutePoint point, String userName){
+    private int getFlowExecutePath(TFlowExecutePoint point, String userName){
         if (StringUtils.isEmpty(point) || StringUtils.isEmpty(point.getFlowCode())){
             return ErrCode.ERR_FLOW_PARAMETER_NULL;
         }
@@ -147,13 +154,11 @@ public class FlowExecuteController {
         return ErrCode.CONT_SUCCESS;
     }
 
-    private TFlowExecutePoint getFlowExecutePoint(TFlowExecuteStatusLog statusLog, String userName){
+    private TFlowExecutePath getFlowExecutePath(TFlowExecuteStatusLog statusLog, String userName, int flowId){
         statusLog.setCreateUser(userName);
         statusLog.setCreateDate(LocalDateTime.now());
+        return flowExecutePath.queryExecutePath(flowId,statusLog.getExecuteCode(),statusLog.getFlowCode());
 
-        TFlowExecutePoint point = new TFlowExecutePoint();
-        BeanUtils.copyProperties(statusLog,point);
-        return point;
     }
 
     private int getFlowExecute(TFlowExecute execute, String userName){

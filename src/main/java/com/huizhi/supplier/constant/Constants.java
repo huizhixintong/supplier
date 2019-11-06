@@ -43,7 +43,7 @@ public class Constants {
             case CONT_FLOW_STATUS_COMMIT:
                 return CONT_FLOW_STATUS_COMMIT_MSG;
             case CONT_FLOW_STATUS_REJECT:
-                return CONT_FLOW_STATUS_REFUSE_MSG;
+                return CONT_FLOW_STATUS_REJECT_MSG;
             case CONT_FLOW_STATUS_PASS:
                 return CONT_FLOW_STATUS_PASS_MSG;
             case CONT_FLOW_STATUS_REFUSE:

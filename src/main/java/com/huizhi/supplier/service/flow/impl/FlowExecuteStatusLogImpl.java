@@ -1,7 +1,7 @@
 package com.huizhi.supplier.service.flow.impl;
 
 import com.huizhi.supplier.db.dao.TFlowExecuteStatusLogMapper;
-import com.huizhi.supplier.db.model.TFlowExecutePoint;
+import com.huizhi.supplier.db.model.TFlowExecutePath;
 import com.huizhi.supplier.db.model.TFlowExecuteStatusLog;
 import com.huizhi.supplier.service.flow.FlowExecuteStatusLog;
 import lombok.extern.slf4j.Slf4j;
@@ -34,7 +34,7 @@ public class FlowExecuteStatusLogImpl implements FlowExecuteStatusLog {
     }
 
     @Override
-    public TFlowExecuteStatusLog queryExecuteStatusLog(TFlowExecutePoint executePoint) {
+    public TFlowExecuteStatusLog queryExecuteStatusLog(TFlowExecutePath executePath) {
 //        return tFlowExecuteStatusLogMapper.queryStatusLog(executePoint);
         return null;
     }

@@ -403,4 +403,12 @@
     where execute_code = ${executeCode,jdbcType=VARCHAR}  and flow_code = ${flowCode,jdbcType=VARCHAR}
     and point_id = ${pointId,jdbcType=INTEGER} and relation_id = ${relationId,jdbcType=VARCHAR}
   </select>
+
+  <select id="queryExecutePath" parameterType="map" resultMap="BaseResultMap">
+    select
+        <include refid="Base_Column_List"></include>
+    from t_flow_execute_path
+    where id = ${flowId,jdbcType=INTEGER} and execute_code = ${executeCode,jdbcType=VARCHAR}
+    and flow_code = ${flowCode,jdbcType=VARCHAR}
+  </select>
 </mapper>
