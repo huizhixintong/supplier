@@ -5,8 +5,9 @@
 #        '[/**]':
 #          allowedOrigins: "docs.spring.io"
 #          allowedMethods: - GET
-server:
-  port: 8080
+
+#server:
+#  port: 8090
 
 
 logging:

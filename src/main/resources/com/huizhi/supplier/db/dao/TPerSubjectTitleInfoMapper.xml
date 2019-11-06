@@ -356,4 +356,10 @@
     </if>
     limit 1
   </select>
+  <select id="querySubjectTitle" resultType="string" resultMap="BaseResultMap">
+    select
+        <include refid="Base_Column_List"></include>
+    from t_per_subject_title_info
+    where per_dynamic_eval_code = ${code,jdbcType=VARCHAR}
+  </select>
 </mapper>

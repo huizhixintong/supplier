@@ -3,9 +3,13 @@ package com.huizhi.supplier.service.performance.imp;
 import com.huizhi.supplier.db.dao.TPerSubjectInfoMapper;
 import com.huizhi.supplier.db.model.TPerSubjectInfo;
 import com.huizhi.supplier.service.performance.PerSubject;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 
+@Slf4j
+@Service("perSubject")
 public class PerSubjectImp implements PerSubject {
 
     @Resource
@@ -28,8 +32,7 @@ public class PerSubjectImp implements PerSubject {
 
     @Override
     public TPerSubjectInfo querySubjectInfo(String code) {
-        tPerSubjectInfoMapper.querySubjectInfo(code);
-        return null;
+        return tPerSubjectInfoMapper.querySubjectInfo(code);
     }
 
 }
