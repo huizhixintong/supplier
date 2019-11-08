@@ -7,6 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 @Slf4j
 @Service("perSubject")
@@ -31,7 +32,7 @@ public class PerSubjectImp implements PerSubject {
     }
 
     @Override
-    public TPerSubjectInfo querySubjectInfo(String code) {
+    public List<TPerSubjectInfo> querySubjectInfo(String code) {
         return tPerSubjectInfoMapper.querySubjectInfo(code);
     }
 

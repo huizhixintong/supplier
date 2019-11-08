@@ -4,12 +4,15 @@ import com.alibaba.fastjson.JSON;
 import com.huizhi.supplier.db.model.*;
 import com.huizhi.supplier.model.FlowPrivilege;
 import com.huizhi.supplier.service.flow.*;
+import com.huizhi.supplier.service.performance.PerGenerate;
+import com.huizhi.supplier.service.performance.Subject;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import javax.annotation.Resource;
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 @RunWith(SpringRunner.class)
@@ -30,6 +33,12 @@ public class TestGenerate {
 
     @Resource
     private FlowExecute flowExecute;
+
+    @Resource
+    private Subject subject;
+
+    @Resource
+    private PerGenerate perGenerate;
 
     @Test
     public void TestGenerate(){
@@ -169,4 +178,40 @@ public class TestGenerate {
         flowExecutePoint.addFlowExecutePoint(point);
     }
 
+    @Test
+    public void TestSubjectAdd(){
+        TPerSubjectInfo subjectInfo = new TPerSubjectInfo();
+        subjectInfo.setCreateDate(LocalDateTime.now());
+        subjectInfo.setPerDynamicEvalCode(perGenerate.createSubjectCode());
+        subjectInfo.setCode("10");
+        subjectInfo.setPerDynamicEvalName("物资供应商履约动态评价标准");
+
+        subject.addSubject(subjectInfo);
+    }
+
+    @Test
+    public void TestSubjectTitleAdd(){
+        BigDecimal weight = new BigDecimal("0.4");
+        TPerSubjectTitleInfo titleInfo = new TPerSubjectTitleInfo();
+        titleInfo.setTitleCode(perGenerate.createTitleCode());
+        titleInfo.setCreateDate(LocalDateTime.now());
+        titleInfo.setTitleName("质量");
+        titleInfo.setPerDynamicEvalCode("2680347023");
+        titleInfo.setWeight(weight);
+
+        subject.addTitle(titleInfo);
+    }
+
+    @Test
+    public void TestSubjectContentAdd(){
+        BigDecimal scope = new BigDecimal("50");
+        TPerSubjectDetailInfo detailInfo = new TPerSubjectDetailInfo();
+        detailInfo.setContentCode("C");
+        detailInfo.setContent("c.主要技术指标合格，发生轻微质量问题，及时处理，或不清楚情况");
+        detailInfo.setCreateDate(LocalDateTime.now());
+        detailInfo.setScope(scope);
+        detailInfo.setTitleCode("38412029403");
+        detailInfo.setScopeName("一般");
+        subject.addContent(detailInfo);
+    }
 }

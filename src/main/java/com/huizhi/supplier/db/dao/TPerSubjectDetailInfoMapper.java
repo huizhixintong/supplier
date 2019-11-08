@@ -130,4 +130,6 @@ public interface TPerSubjectDetailInfoMapper {
     int updateByPrimaryKey(TPerSubjectDetailInfo record);
 
     List<TPerSubjectDetailInfo> queryTitleDetail(String titleCode);
+
+    List<TPerSubjectDetailInfo> queryAllTitleDetail();
 }

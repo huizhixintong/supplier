@@ -361,7 +361,8 @@
     select
         <include refid="Base_Column_List"></include>
     from t_per_subject_info
-    where per_dynamic_eval_code = ${code,jdbcType=VARCHAR}
+    where code = ${code,jdbcType=VARCHAR}
 
   </select>
+
 </mapper>

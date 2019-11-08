@@ -4,6 +4,7 @@ import com.huizhi.supplier.db.annotation.MybatisUserInfo;
 import com.huizhi.supplier.db.model.TPerSubjectInfo;
 import com.huizhi.supplier.db.model.TPerSubjectInfoExample;
 import com.huizhi.supplier.db.model.TPerSubjectInfoKey;
+import com.huizhi.supplier.db.model.TPerSubjectTitleInfo;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
@@ -130,5 +131,7 @@ public interface TPerSubjectInfoMapper {
      */
     int updateByPrimaryKey(TPerSubjectInfo record);
 
-    TPerSubjectInfo querySubjectInfo(@Param("code") String code);
+    List<TPerSubjectInfo> querySubjectInfo(@Param("code") String code);
+
+
 }

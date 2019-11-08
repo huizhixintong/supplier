@@ -136,6 +136,7 @@ public class TPerSubjectTitleInfoKey {
         titleCode("title_code", "titleCode", "VARCHAR", false),
         perDynamicEvalCode("per_dynamic_eval_code", "perDynamicEvalCode", "VARCHAR", false),
         titleName("title_name", "titleName", "VARCHAR", false),
+        weight("weight", "weight", "DECIMAL", false),
         createDate("create_date", "createDate", "TIMESTAMP", false);
 
         /**

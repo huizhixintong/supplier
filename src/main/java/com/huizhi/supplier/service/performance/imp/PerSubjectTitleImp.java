@@ -30,4 +30,9 @@ public class PerSubjectTitleImp implements PerSubjectTitle {
     public List<TPerSubjectTitleInfo> querySubjectTitle(String code) {
         return tPerSubjectTitleInfoMapper.querySubjectTitle(code);
     }
+
+    @Override
+    public List<TPerSubjectTitleInfo> queryAllSubjectTitle() {
+        return tPerSubjectTitleInfoMapper.queryAllSubjectTitle();
+    }
 }

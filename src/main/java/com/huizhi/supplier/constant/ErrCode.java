@@ -18,6 +18,7 @@ public class ErrCode {
     public final static int ERR_FAILED = 1000012;
     public final static int ERR_POINT_CLASS_UNKNOWN = 1000013;
     public final static int ERR_FLOW_RELATION_NULL = 1000014;
+    public final static int ERR_BODY_PARSE_FAILED = 1000015;
 
 
     private final static String ERR_SUCCESS_MSG = "成功";
@@ -32,6 +33,7 @@ public class ErrCode {
     private final static String ERR_FAILED_MSG = "数据更新失败，请排查";
     private final static String ERR_POINT_CLASS_UNKNOWN_MSG = "节点分类错误！";
     private final static String ERR_FLOW_RELATION_NULL_MSG = "流程发起时，关联ID为NULL";
+    private final static String ERR_BODY_PARSE_FAILED_MSG= "请求参数解析错误";
 
 
     public static String getErrMsg(int code){
@@ -56,6 +58,8 @@ public class ErrCode {
                 return ERR_POINT_CLASS_UNKNOWN_MSG;
             case ERR_FLOW_RELATION_NULL:
                 return ERR_FLOW_RELATION_NULL_MSG;
+            case ERR_BODY_PARSE_FAILED:
+                return ERR_BODY_PARSE_FAILED_MSG;
             default:
                 return ERR_DEFAULT_MSG;
         }

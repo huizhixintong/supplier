@@ -8,4 +8,5 @@ public interface PerSubjectTitleDetail {
     int addTitleDetail(TPerSubjectDetailInfo info);
     int editTitleDetail(TPerSubjectDetailInfo info);
     List<TPerSubjectDetailInfo> queryTitleDetail(String code);
+    List<TPerSubjectDetailInfo> queryTitleDetail();
 }

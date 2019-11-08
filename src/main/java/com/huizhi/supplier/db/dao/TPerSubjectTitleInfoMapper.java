@@ -130,5 +130,9 @@ public interface TPerSubjectTitleInfoMapper {
      */
     int updateByPrimaryKey(TPerSubjectTitleInfo record);
 
+    List<TPerSubjectTitleInfo> queryAllSubjectTitle();
+
     List<TPerSubjectTitleInfo> querySubjectTitle(@Param("code") String code);
+
+
 }
